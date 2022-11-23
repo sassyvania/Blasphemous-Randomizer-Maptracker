@@ -35,7 +35,3 @@ Vertical Item Tracker
   Evening out the locations so they don't look all wobbly
   
   Auto-tracking? (I have no idea where to even start with this right now, feel free to give me a push in the right direction, or if you want to collab on it, let me know!)
-
-## License
-
-Feel free to use this template without credit for all your PopTracker packs!
