@@ -1,0 +1,552 @@
+[  
+  
+  {
+    "name": "free",
+    "type": "consumable",
+    "img": "images/items/baljd.png",
+    "max_quantity": 1,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "open"
+  },  
+{
+    "name": "Blood Perpetuated in Sand",
+    "type": "toggle",
+    "img": "images/items/relic_blood.png",
+    "codes": "blood"
+  },
+  {
+    "name": "Three Gnarled Tongues",
+    "type": "toggle",
+    "img": "images/items/relic_tongues.png",
+    "codes": "tongues"
+  },
+  {
+    "name": "Linen Cloth",
+    "type": "toggle",
+    "img": "images/items/fountain_cloth.png",
+    "codes": "fountain_cloth"
+  },
+  {
+    "name": "Linen of the Golden Thread",
+    "type": "toggle",
+    "img": "images/items/relic_linen.png",
+    "codes": "linen"
+  },
+  {
+    "name": "Nail Uprooted from Dirt",
+    "type": "toggle",
+    "img": "images/items/relic_nail.png",
+    "codes": "nail"
+  },
+  {
+    "name": "Silvered Lung of Dolphos",
+    "type": "toggle",
+    "img": "images/items/relic_lung.png",
+    "codes": "lung"
+  },
+  {
+    "name": "Severed Hand",
+    "type": "toggle",
+    "img": "images/items/fountain_hand.png",
+    "codes": "fountain_hand"
+  },
+  {
+    "name": "The Three Holy Wounds",
+    "type": "consumable",
+    "img": "images/items/three_wounds.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "wounds"
+  },
+  {
+    "name": "Tentudia's Remains",
+    "type": "consumable",
+    "img": "images/items/tentudia.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "tentudia"
+  },
+  {
+    "name": "Archcathedral Elevator Masks",
+    "type": "consumable",
+    "img": "images/items/masks.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "masks"
+  },
+  {
+    "name": "Eyes of the Traitor",
+    "type": "consumable",
+    "img": "images/items/eyes.png",
+    "max_quantity": 2,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "eyes"
+  },
+  {
+    "name": "The Remains of an Unfinished Ceremony",
+    "type": "consumable",
+    "img": "images/items/scorned_bride.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "scorned"
+  },
+  {
+    "name": "Redento's Toe Rosaries",
+    "type": "consumable",
+    "img": "images/items/threetoes.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "toes"
+  },
+  {
+    "name": "The Three Marks of the Refuge",
+    "type": "consumable",
+    "img": "images/items/refuge.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "refuge"
+  },
+  {
+    "name": "Bouquet of Thyme",
+    "type": "toggle",
+    "img": "images/items/tirso_thyme.png",
+    "codes": "tirso_thyme"
+  },
+  {
+    "name": "Bouquet of Rosemary",
+    "type": "toggle",
+    "img": "images/items/tirso_rosemary.png",
+    "codes": "tirso_rosemary"
+  },
+  {
+    "name": "Dried Clove",
+    "type": "toggle",
+    "img": "images/items/tirso_clove.png",
+    "codes": "tirso_clove"
+  },
+  {
+    "name": "Incense Garlic",
+    "type": "toggle",
+    "img": "images/items/tirso_garlic.png",
+    "codes": "tirso_garlic"
+  },
+  {
+    "name": "Olive Seeds",
+    "type": "toggle",
+    "img": "images/items/tirso_seeds.png",
+    "codes": "tirso_seeds"
+  },
+  {
+    "name": "Sooty Garlic",
+    "type": "toggle",
+    "img": "images/items/tirso_garlic2.png",
+    "codes": "tirso_garlic2"
+  },
+  {
+    "name": "Cord of True Burying",
+    "type": "toggle",
+    "img": "images/items/cord.png",
+    "codes": "cord"
+  },
+  {
+    "name": "Incomplete Scapular",
+    "type": "toggle",
+    "img": "images/items/scapular.png",
+    "codes": "scapular"
+  },
+  {
+    "name": "Defeated Tres Angustias",
+    "type": "toggle",
+    "img": "images/items/boss_tres.png",
+    "codes": "boss_tres"
+  },
+  {
+    "name": "Defeated Ten Piedad",
+    "type": "toggle",
+    "img": "images/items/boss_ten.png",
+    "codes": "boss_ten"
+  },
+  {
+    "name": "Defeated Our Lady of the Charred Visage",
+    "type": "toggle",
+    "img": "images/items/boss_visage.png",
+    "codes": "boss_visage"
+  },
+  {
+    "name": "Melquíades, The Exhumed Archbishop",
+    "type": "toggle",
+    "img": "images/items/boss_bishop.png",
+    "codes": "boss_bishop"
+  },
+  {
+    "name": "Expósito, Scion of Abjuration",
+    "type": "toggle",
+    "img": "images/items/boss_exposito.png",
+    "codes": "boss_exposito"
+  },
+  {
+    "name": "Quirce, Returned By The Flames",
+    "type": "toggle",
+    "img": "images/items/boss_quirce.png",
+    "codes": "boss_quirce"
+  },
+  {
+    "name": "Key Grown from Twisted Wood",
+    "type": "toggle",
+    "img": "images/items/key_wood.png",
+    "codes": "key_wood"
+  },
+  {
+    "name": "Thimble",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/thimble.png",
+        "codes": "thimble",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/thimble_filled.png",
+        "codes": "thimble_filled",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Chalice of Inverted Verses",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/chalice_empty.png",
+        "codes": "chalice",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/chalice_half.png",
+        "codes": "chalice_half",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/chalice_full.png",
+        "codes": "chalice_full",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Egg of Deformity",
+    "type": "toggle",
+    "img": "images/items/egg.png",
+    "codes": "egg"
+  },
+  //{
+   // "name": "Tentudia's Carnal Remains",
+    //"type": "toggle",
+    //"img": "images/items/tentudia_carnal.png",
+    //"codes": "tentudia_carnal"
+  //},
+  //{
+  //  "name": "Tentudia's Skeletal Remains",
+  //  "type": "toggle",
+  //  "img": "images/items/tentudia_skeletal.png",
+  //  "codes": "tentudia_skeletal"
+  //},
+  //{
+  //  "name": "Remains of Tentudia's Hair ",
+  //  "type": "toggle",
+  //  "img": "images/items/tentudia_hair.png",
+  //  "codes": "tentudia_hair"
+  //},
+  {
+    "name": "Hatched Egg of Deformity",
+    "type": "toggle",
+    "img": "images/items/egg_hatched.png",
+    "codes": "egg_hatched"
+  },
+  {
+    "name": "Key to the Chamber of the Elder Brother",
+    "type": "toggle",
+    "img": "images/items/key_brother.png",
+    "codes": "key_brother"
+  },
+  {
+    "name": "Key of the High Peaks",
+    "type": "toggle",
+    "img": "images/items/key_peaks.png",
+    "codes": "key_peaks"
+  },
+  {
+    "name": "Key of the Inquisitor",
+    "type": "toggle",
+    "img": "images/items/key_inquisitor.png",
+    "codes": "key_inquisitor"
+  },
+  {
+    "name": "Key of the Scribe",
+    "type": "toggle",
+    "img": "images/items/key_scribe.png",
+    "codes": "key_scribe"
+  },
+  {
+    "name": "Key of the Secular",
+    "type": "toggle",
+    "img": "images/items/key_secular.png",
+    "codes": "key_secular"
+  },
+  {
+    "name": "Weight of True Guilt",
+    "type": "toggle",
+    "img": "images/items/immaculate_bead.png",
+    "codes": "immaculate_bead"
+  },
+  {
+    "name": "Healing Herbs for Tirso",
+    "type": "consumable",
+    "img": "images/items/herbs.png",
+    "max_quantity": 6,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "herbs"
+  },
+  
+  {
+    "name": "Bead of Red Wax",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/red_wax.png",
+        "codes": "red_wax"
+
+      },
+      {
+        "img": "images/items/red_wax_medium.png",
+        "codes": "red_wax_2"
+
+      },
+      {
+        "img": "images/items/red_wax_large.png",
+        "codes": "red_wax_3"
+
+      }
+    ]
+  
+  },
+  {
+    "name": "Bead of Blue Wax",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/blue_wax.png",
+        "codes": "blue_wax"
+
+      },
+      {
+        "img": "images/items/blue_wax_medium.png",
+        "codes": "blue_wax_2"
+
+      },
+      {
+        "img": "images/items/blue_wax_large.png",
+        "codes": "blue_wax_3"
+
+      }
+    ]
+  
+  },
+  {
+    "name": "Helping Redento",
+    "type": "consumable",
+    "img": "images/items/redento.png",
+    "max_quantity": 4,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "redento"
+  },
+  {
+    "name": "Miriam's Mirrors",
+    "type": "consumable",
+    "img": "images/items/miriam.png",
+    "max_quantity": 6,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "miriam"
+  },
+  {
+    "name": "Bones",
+    "type": "consumable",
+    "img": "images/items/bones.png",
+    "max_quantity": 44,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "bones"
+  },
+  {
+    "name": "Cherubs",
+    "type": "consumable",
+    "img": "images/items/cherub.png",
+    "max_quantity": 38,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "cherubs"
+  },
+  //non visible items for quests
+  {
+    "name": "esdras",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "esdras"
+  },
+  {
+    "name": "loudghost",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "loudghost"
+  },
+  {
+    "name": "savesocorro",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "savesocorro"
+  }, 
+  {
+    "name": "slaysocorro",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "slaysocorro"
+  },
+  {
+    "name": "savecleofas",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "savecleofas"
+  },
+  {
+    "name": "cleofas",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "cleofas"
+  },
+  {
+    "name": "Dried Flowers Bathed in Tears",
+    "type": "toggle",
+    "img": "images/items/driedflowers.png",
+    "codes": "driedflowers"
+  },
+  {
+    "name": "opencave",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "opencave"
+  },
+
+  {
+    "name": "statue",
+    "type": "consumable",
+    "img": "images/items/none.png",
+    "max_quantity": 2,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "statue"
+  },
+  {
+    "name": "bell",
+    "type": "consumable",
+    "img": "images/items/none.png",
+    "max_quantity": 2,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "bell"
+  },
+  {
+    "name": "cleoques",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "cleoques"
+  },
+  {
+    "name": "sparecrisanta",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "sparecrisanta"
+
+
+  },
+  {
+    "name": "Progressive Toggle",
+    "type": "progressive_toggle",
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/progressive.png",
+        "codes": "progressive_toggle",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/progressive_2.png",
+        "codes": "progressive_toggle_2",
+        "inherit_codes": false
+      }
+    ]
+  }
+]

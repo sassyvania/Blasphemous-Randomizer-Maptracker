@@ -1,0 +1,5946 @@
+[
+    {
+        "name": "First Half",
+        "children": [
+            {
+                "name": "Cleofas Quest (Tread Lightly)",
+                "access_rules": [
+                    "wounds:3"
+                ],
+                "sections": [
+                    {
+                        "name": "Give Socorro the Three Marks of the Refuge",
+                        "hosted_item": "savesocorro",
+                        "item_count": 1,
+                        "access_rules": [
+                            "refuge:3"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Kill Socorro",
+                        "item_count": 1,
+                        "hosted_item": "slaysocorro",
+                        "access_rules": [
+                            "open"
+                            
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9848,
+                        "y": 2864
+                    },
+                    {
+                        "map": "mother",
+                        "x": 1914,
+                        "y": 1018
+                    }
+                ]
+            },
+            {
+                "name": "Lvdovico",
+                "access_rules": [
+                    "open"
+                ],
+                "sections": [
+                    {
+                        "name": "Trade Tentudia's Carnal Remains",
+                        "item_count": 1,
+                        "access_rules": [
+                            "tentudia:1"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Trade Remains of Tentudia's Hair",
+                        "item_count": 1,
+                        "access_rules": [
+                            "tentudia:2"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Trade Tentudia's Skeletal Remains",
+                        "item_count": 1,
+                        "access_rules": [
+                            "tentudia:3"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Cleofas Quest Part 2",
+                        "hosted_item": "cord",
+                        "item_count": 1,
+                        "access_rules": [
+                            "savesocorro","slaysocorro" ]
+                        
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4144,
+                        "y": 3248
+                    },
+                    {
+                        "map": "albero",
+                        "x": 795,
+                        "y": 572
+                    }
+                ]
+            },
+            {
+                "name": "Cleofas Cell",
+                "access_rules": [
+                    "cord, slaysocorro, key_inquisitor, key_scribe"
+
+                ],
+                "sections": [
+                    {
+                        "name": "DON'T ENTER THE ROOM UNLESS ITS GREEN",
+                        "hosted_item": "savecleofas",
+                        "item_count": 1
+                        
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7704,
+                        "y": 1960
+                    },
+                    {
+                        "map": "prison",
+                        "x": 867,
+                        "y": 465
+                    }
+                ]
+            },
+            {
+                "name": "Cleofas Rooftops",
+                "access_rules": [
+                    "cord, savesocorro", "slaysocorro, savecleofas"
+
+                ],
+                "sections": [
+                    {
+                        "name": "DON'T ENTER THE ROOM UNLESS IT'S GREEN",
+                        "hosted_item": "cleofas",
+                        "item_count": 1
+                        
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8480,
+                        "y": 2480
+                    },
+                    {
+                        "map": "rooftops",
+                        "x": 248,
+                        "y": 1956
+                    }
+                ]
+            },
+            {
+                "name": "The Church",
+                "access_rules": [
+                    "boss_tres", "boss_ten", "boss_visage",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "name": "Donate $5,000",
+                        "item_count": 1,
+                        "access_rules": [
+                            "open"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Donate $50,000",
+                        "item_count": 1,
+                        "access_rules": [
+                            "open"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Cleofas Finale",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cleofas"
+                            
+                        ]
+                    }
+                ],    
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4240,
+                        "y": 3248
+                    },
+                    {
+                        "map": "albero",
+                        "x": 906,
+                        "y": 572
+                    }
+                ]
+            },
+            {
+                "name": "Brotherhood Prayer",
+                "access_rules": [
+                    "blood",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "name": "This Blood Was Made For Walkin'",
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 672,
+                        "y": 2880
+                    },
+                    {
+                        "map": "brotherhood",
+                        "x": 465,
+                        "y": 180
+                    }
+                ]
+            },
+            {
+                "name": "Resting Place of the Sister",
+                "access_rules": [
+                    "blood","wounds:3"                   
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "scapular",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 5288,
+                        "y": 4664
+                    },
+                    {
+                        "map": "cistern",
+                        "x": 2277,
+                        "y": 1661
+                    }
+
+                ]
+            },
+            {
+                "name": "Hidden Brotherhood Church",
+                "access_rules": [
+                    "blood"                   
+                ],
+                "sections": [
+                    {
+                        "name": "Meet Esdras here after showing him the Incomplete Scapular at the bridge",
+                        "hosted_item": "key_wood",
+                        "item_count": 1,
+                        "access_rules": [
+                            "esdras"
+                        ]
+                    },
+                    {
+                        "name": "Reward for sparing Crisanta",
+                        "item_count": 1,
+                        "access_rules": [
+                            "sparecrisanta"
+                            
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 480,
+                        "y": 2872
+                    },
+                    {
+                        "map": "brotherhood",
+                        "x": 255,
+                        "y": 177
+                    }
+
+                ]
+            },
+            
+            {
+                "name": "Brotherhood Rosary",
+                "access_rules": [
+                    "blood, linen"                   
+                ],
+                "sections": [
+                    {
+                        
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 928,
+                        "y": 2992
+                    },
+                    {
+                        "map": "brotherhood",
+                        "x": 716,
+                        "y": 305
+                    }
+
+                ]
+            },
+            {
+                "name": "Brotherhood Maze Door",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Bone",
+                        "item_count": 1,
+                        "access_rules": [
+                            "open"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Blue Candle",
+                        "item_count": 1,
+                        "access_rules": [
+                            "open"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Clear a path for the boy",
+                        "item_count": 1,
+                        "hosted_item": "redento",
+                        "access_rules": [
+                            "redento:1"
+                            
+                            
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 1564,
+                        "y": 3515
+                    },
+                    {
+                        "map": "brotherhood",
+                        "x": 1347,
+                        "y": 690
+                    }
+                ]
+            },
+            {
+                "name": "Mea Culpa Shrine #2",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 1440,
+                        "y": 3768
+                    },
+                    {
+                        "map": "brotherhood",
+                        "x": 1226,
+                        "y": 1073
+                    }
+
+                ]
+            },
+            {
+                "name": "Mea Culpa Shrine #3",
+                "access_rules": [
+                    "boss_visage"                   
+                ],
+                "sections": [
+                    {
+                        
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4260,
+                        "y": 444
+                    },
+                    {
+                        "map": "convent",
+                        "x": 1604,
+                        "y": 447
+                    }
+
+                ]
+            },
+            {
+                "name": "Brotherhood Cherub",
+                "access_rules": [
+                    "blood, tongues", "blood, linen"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 700,
+                        "y": 3024
+                    },
+                    {
+                        "map": "brotherhood",
+                        "x": 462,
+                        "y": 300
+                    }
+
+                ]
+            },   
+            {
+                "name": "Elder Brother's Room",
+                "access_rules": [
+                    "key_brother"                   
+                ],
+                "sections": [
+                    {
+                        "name": "GET OUT OF MY ROOM",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2080,
+                        "y": 3260
+                    },
+                    {
+                        "map": "brotherhood",
+                        "x": 1863,
+                        "y": 564
+                    }
+
+                ]
+            }, 
+            {
+                "name": "Brotherhood Confessor",
+                "access_rules": [
+                    "immaculate_bead"                   
+                ],
+                "sections": [
+                    {
+                        "name": "BREAK IT",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 1442,
+                        "y": 3388
+                    },
+                    {
+                        "map": "brotherhood",
+                        "x": 1224,
+                        "y": 687
+                    }
+
+                ]
+            }, 
+            {
+                "name": "Thorn",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "name": "Free Thorn",
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2216,
+                        "y": 3256
+                    },
+                    {
+                        "map": "holy_line",
+                        "x": 546,
+                        "y": 422
+                    }
+                ]
+            },
+            {
+                "name": "Holy Line Prayer",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "name": "Free Stuff",
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2864,
+                        "y": 3256
+                    },
+                    {
+                        "map": "holy_line",
+                        "x": 1176,
+                        "y": 422
+                    }
+                ]
+            },
+            {
+                "name": "Holy Line Rosary",
+                "access_rules": [
+                    "blood",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "name": "Jump that blood baby",
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3072,
+                        "y": 3256
+                    },
+                    {
+                        "map": "holy_line",
+                        "x": 1410,
+                        "y": 422
+                    }
+                ]
+            },
+            {
+                "name": "Underground Bone",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "name": "Jump from high up to break through",
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3264,
+                        "y": 3400
+                    },
+                    {
+                        "map": "holy_line",
+                        "x": 1576,
+                        "y": 554
+                    }
+                ]
+            },
+            {
+                "name": "Underground Rosary",
+                "access_rules": [
+                    "blood, nail",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "name": "it's muddy and it's bloody",
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3464,
+                        "y": 3384
+                    },
+                    {
+                        "map": "holy_line",
+                        "x": 1810,
+                        "y": 554
+                    }
+                ]
+            },
+            {
+                "name": "Holy Line Cherub",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3464,
+                        "y": 3240
+                    },
+                    {
+                        "map": "holy_line",
+                        "x": 1810,
+                        "y": 420
+                    }
+                ]
+            },
+            {
+                "name": "Blessed Lord of the Salty Shores",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Trade Shroud",
+                        "item_count": 1,
+                        "access_rules": [
+                            "fountain_cloth"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Trade Severed Hand",
+                        "item_count": 1,
+                        "access_rules": [
+                            "fountain_hand"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Trade Hatched Egg",
+                        "item_count": 1,
+                        "access_rules": [
+                            "egg_hatched"
+                            
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3856,
+                        "y": 3248
+                    },
+                    {
+                        "map": "albero",
+                        "x": 520,
+                        "y": 570
+                    }
+                ]
+            },
+            {
+                "name": "Mea Culpa Shrine #1",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3872,
+                        "y": 3384
+                    },
+                    {
+                        "map": "albero",
+                        "x": 530,
+                        "y": 699
+                    }
+                ]
+            },
+            {
+                "name": "Thyme",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "name": "Acessible from another portal",
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3744,
+                        "y": 3384
+                    },
+                    {
+                        "map": "albero",
+                        "x": 400,
+                        "y": 699
+                    }
+                ]
+            },
+            {
+                "name": "Tirso of the Wound Kissers",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Trade Bouquet of Thyme",
+                        "item_count": 1,
+                        "access_rules": [
+                            "herbs:1"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Trade Bouquet of Rosemary",
+                        "item_count": 1,
+                        "access_rules": [
+                            "herbs:2"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Trade Dried Clove",
+                        "item_count": 1,
+                        "access_rules": [
+                            "herbs:3"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Trade Incense Garlic",
+                        "item_count": 1,
+                        "access_rules": [
+                            "herbs:4"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Trade Olive Seeds",
+                        "item_count": 1,
+                        "access_rules": [
+                            "herbs:5"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Trade Sooty Garlic",
+                        "item_count": 1,
+                        "access_rules": [
+                            "herbs:6"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Defeat Exposito, Melquiades, and Quirce",
+                        "item_count": 1,
+                        "access_rules": [
+                            "boss_quirce, boss_exposito, boss_bishop"
+                            
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4000,
+                        "y": 3256
+                    },
+                    {
+                        "map": "albero",
+                        "x": 653,
+                        "y": 569
+                    }
+                ]
+            },
+            {
+                "name": "Warden of the Ossuary",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Item Outside Door",
+                        "item_count": 1,
+                        "access_rules": [
+                            "open"
+                            
+                        ]
+                    },
+                    {
+                        "name": "4 Bones Reward",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bones:4"
+                            
+                        ]
+                    },
+                    {
+                        "name": "8 Bones Reward",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bones:8"
+                            
+                        ]
+                    },
+                    {
+                        "name": "12 Bones Reward",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bones:12"
+                            
+                        ]
+                    },
+                    {
+                        "name": "16 Bones Reward",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bones:16"
+                            
+                        ]
+                    },
+                    {
+                        "name": "20 Bones Reward",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bones:20"
+                            
+                        ]
+                    },
+                    {
+                        "name": "24 Bones Reward",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bones:24"
+                            
+                        ]
+                    },
+                    {
+                        "name": "28 Bones Reward",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bones:28"
+                            
+                        ]
+                    },
+                    {
+                        "name": "32 Bones Reward",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bones:32"
+                            
+                        ]
+                    },
+                    {
+                        "name": "36 Bones Reward",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bones:36"
+                            
+                        ]
+                    },
+                    {
+                        "name": "40 Bones Reward",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bones:40"
+                            
+                        ]
+                    },
+                    {
+                        "name": "44 Bones Reward",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bones:44"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Open path to Isidora",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bones:22"
+                            
+                        ]
+                    }
+                ],    
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4136,
+                        "y": 3384
+                    },
+                    {
+                        "map": "albero",
+                        "x": 788,
+                        "y": 702
+                    }
+                ]
+            },
+            {
+                "name": "Albero Rosary",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4000,
+                        "y": 3136
+                    },
+                    {
+                        "map": "albero",
+                        "x": 654,
+                        "y": 437
+                    }
+                ]
+            },
+            {
+                "name": "Albero Cherub",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "name": "Take the elevator down, or use Debla, Lorquiana, or Taranto prayers and FREE HIM",
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4128,
+                        "y": 3136
+                    },
+                    {
+                        "map": "albero",
+                        "x": 785,
+                        "y": 441
+                    }
+                ]
+            },        
+            
+            {
+                "name": "Deogracias",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Proof of Humiliations",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wounds:3"
+                            
+                        ]
+                    },
+                    
+                    {
+                        "name": "IF YOU APPROACH ESDRAS WITHOUT THE INCOMPLETE SCAPULAR THE SISTER QUEST WILL DIE",
+                        "hosted_item": "esdras",
+                        "item_count": 1,
+                        "access_rules": [
+                            "scapular, wounds:3"
+                            
+                        ]
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 6640,
+                        "y": 3256
+                    },
+                    {
+                        "map": "bridge",
+                        "x": 624,
+                        "y": 958
+                    }
+                ]
+            },
+            
+            {
+                "name": "Albero Bone",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4384,
+                        "y": 3256
+                    },
+                    {
+                        "map": "albero",
+                        "x": 1040,
+                        "y": 570
+                    }
+                ]
+            },        
+            {
+                "name": "Tree Offering",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "access_rules": [
+                            "open"                    
+                        ],
+                        "name": "Beat Perpetva",
+                        "item_count": 1
+                    },
+                    {
+                        "access_rules": [
+                            "egg"                    
+                        ],
+                        "name": "Come back",
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2976,
+                        "y": 3768
+                    },
+                    {
+                        "map": "mountains",
+                        "x": 1736,
+                        "y": 740
+                    }
+                ]
+            },
+            {
+                "name": "Mountain Bone",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4128,
+                        "y": 3768
+                    },
+                    {
+                        "map": "mountains",
+                        "x": 2888,
+                        "y": 740
+                    }
+                ]
+            },
+            {
+                "name": "Get the platforms moving for the boy",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "item_count": 1,
+                        "hosted_item": "redento"
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2724,
+                        "y": 3900
+                    },
+                    {
+                        "map": "mountains",
+                        "x": 1484,
+                        "y": 864
+                    }
+                ]
+            },
+            {
+                "name": "Upper Flask",
+                "access_rules": [
+                    "blood",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2468,
+                        "y": 3900
+                    },
+                    {
+                        "map": "mountains",
+                        "x": 1216,
+                        "y": 864
+                    }
+                ]
+            },
+            {
+                "name": "Mountain Cherub",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2200,
+                        "y": 3900
+                    },
+                    {
+                        "map": "mountains",
+                        "x": 1000,
+                        "y": 864
+                    }
+                ]
+            },
+            {
+                "name": "Clove Check",
+                "access_rules": [
+                    "blood",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 1884,
+                        "y": 3900
+                    },
+                    {
+                        "map": "mountains",
+                        "x": 640,
+                        "y": 864
+                    }
+                ]
+            },
+            {
+                "name": "Hot Oil Basin",
+                "access_rules": [
+                    "thimble, boss_visage",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "item_count": 1,
+                        "hosted_item": "thimble"
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4000,
+                        "y": 440
+                    },
+                    {
+                        "map": "convent",
+                        "x": 1341,
+                        "y": 447
+                    }
+                ]
+            },
+            {
+            "name": "Gemino",
+                "access_rules": [],
+                "sections": [
+                    {
+                       
+                        "item_count": 1,
+                        "access_rules": [
+                            "open"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Trade Filled Thimble",
+                        "item_count": 1,
+                        "hosted_item": "opencave",
+                        "access_rules": [
+                            "thimble_filled"
+                            
+                        ]
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 5416,
+                        "y": 2748
+                    },
+                    {
+                        "map": "wither",
+                        "x": 1350,
+                        "y": 891
+                    }
+                ]
+            },
+            {
+                "name": "Wither Bone 1",
+                    "access_rules": ["open"],
+                    "sections": [
+                        {
+                           
+                            "item_count": 1
+
+                        }
+                       
+                    ],
+                    "map_locations": [
+                        {
+                            "map": "full",
+                            "x": 5529,
+                            "y": 2877
+                        },
+                        {
+                            "map": "wither",
+                            "x": 1461,
+                            "y": 1020
+                        }
+                    ]
+            },
+            {
+                "name": "Wither Bone 2",
+                    "access_rules": ["open"],
+                    "sections": [
+                        {
+                           
+                            "item_count": 1
+
+                        }
+                       
+                    ],
+                    "map_locations": [
+                        {
+                            "map": "full",
+                            "x": 5409,
+                            "y": 2877
+                        },
+                        {
+                            "map": "wither",
+                            "x": 1341,
+                            "y": 1020
+                        }
+                    ]
+            },
+            {
+                "name": "Wither Cherub 1",
+                    "access_rules": ["linen"],
+                    "sections": [
+                        {
+                           "name": "fall from above with linen AND FREE HIM",
+                            "item_count": 1
+
+                        }
+                       
+                    ],
+                    "map_locations": [
+                        {
+                            "map": "full",
+                            "x": 5031,
+                            "y": 2877
+                        },
+                        {
+                            "map": "wither",
+                            "x": 957,
+                            "y": 1011
+                        }
+                    ]
+            },
+            {
+                "name": "Wither Cherub 2",
+                    "access_rules": ["tongues"],
+                    "sections": [
+                        {
+                           "name": "FREE HIM",
+                            "item_count": 1
+
+                        }
+                       
+                    ],
+                    "map_locations": [
+                        {
+                            "map": "full",
+                            "x": 5265,
+                            "y": 2484
+                        },
+                        {
+                            "map": "wither",
+                            "x": 1191,
+                            "y": 636
+                        }
+                    ]
+            },
+            {
+                "name": "Remains of Tentudia's Hair",
+                    "access_rules": ["open"],
+                    "sections": [
+                        {
+                            "item_count": 1
+
+                        }
+                       
+                    ],
+                    "map_locations": [
+                        {
+                            "map": "full",
+                            "x": 4386,
+                            "y": 2493
+                        },
+                        {
+                            "map": "wither",
+                            "x": 324,
+                            "y": 636
+                        }
+                    ]
+            },
+            {
+                "name": "Incense Garlic",
+                    "access_rules": ["open"],
+                    "sections": [
+                        {
+                            "item_count": 1
+
+                        }
+                       
+                    ],
+                    "map_locations": [
+                        {
+                            "map": "full",
+                            "x": 5031,
+                            "y": 2751
+                        },
+                        {
+                            "map": "wither",
+                            "x": 966,
+                            "y": 894
+                        }
+                    ]
+            },
+            {
+                "name": "Wither Heart",
+                    "access_rules": ["tongues"],
+                    "sections": [
+                        {
+                            "item_count": 1
+
+                        }
+                       
+                    ],
+                    "map_locations": [
+                        {
+                            "map": "full",
+                            "x": 5535,
+                            "y": 2496
+                        },
+                        {
+                            "map": "wither",
+                            "x": 1476,
+                            "y": 636
+                        }
+                    ]
+            },
+            {
+                "name": "Gemino's Cave",
+                "access_rules": [
+                    "opencave",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4900,
+                        "y": 2745
+                    },
+                    {
+                        "map": "wither",
+                        "x": 831,
+                        "y": 891
+                    }
+                ]
+            },
+            {
+                "name": "Frozen Tomb",
+                "access_rules": [
+                    "driedflowers",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4900,
+                        "y": 3012
+                    },
+                    {
+                        "map": "wither",
+                        "x": 831,
+                        "y": 1149
+                    }
+                ]
+            },
+            {
+                "name": "Charred Visage Check",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1,
+                        "hosted_item": "boss_visage"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3888,
+                        "y": 444
+                    },
+                    {
+                        "map": "convent",
+                        "x": 1221,
+                        "y": 447
+                    }
+
+                ]
+            },
+            {
+                "name": "Convent Rosary 2",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2968,
+                        "y": 444
+                    },
+                    {
+                        "map": "convent",
+                        "x": 303,
+                        "y": 447
+                    }
+
+                ]
+            },
+            {
+                "name": "Convent Bone 1",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3483,
+                        "y": 816
+                    },
+                    {
+                        "map": "convent",
+                        "x": 824,
+                        "y": 816
+                    }
+
+                ]
+            },
+            {
+                "name": "Convent Heart",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3363,
+                        "y": 1086
+                    },
+                    {
+                        "map": "convent",
+                        "x": 698,
+                        "y": 1080
+                    }
+
+                ]
+            },
+            {
+                "name": "Convent Rosary",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3492,
+                        "y": 568
+                    },
+                    {
+                        "map": "convent",
+                        "x": 813,
+                        "y": 558
+                    }
+
+                ]
+            },
+            {
+                "name": "Convent Bone 2",
+                "access_rules": [
+                    "blood"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3880,
+                        "y": 564
+                    },
+                    {
+                        "map": "convent",
+                        "x": 1209,
+                        "y": 567
+                    }
+
+                ]
+            },
+            {
+                "name": "Red Candle #2",
+                "access_rules": [
+                    "red_wax"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3364,
+                        "y": 560
+                    },
+                    {
+                        "map": "convent",
+                        "x": 700,
+                        "y": 564
+                    }
+
+                ]
+            },
+            {
+                "name": "Blue Candle #1",
+
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2982,
+                        "y": 954
+                    },
+                    {
+                        "map": "convent",
+                        "x": 329,
+                        "y": 960
+                    }
+
+                ]
+            },
+            {
+                "name": "Convent Miriam Gate",
+                "access_rules": [
+                    "miriam:1"                   
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "miriam",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3237,
+                        "y": 825
+                    },
+                    {
+                        "map": "convent",
+                        "x": 576,
+                        "y": 830
+                    }
+
+                ]
+            },
+            {
+                "name": "Mirrored Mask of Dolphos",
+                "access_rules": [
+                    "wounds:3, key_peaks",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4000,
+                        "y": 188
+                    },
+                    {
+                        "map": "convent",
+                        "x": 1341,
+                        "y": 192
+                    }
+                ]
+            },
+            {
+                "name": "Convent Blood Fountain",
+                "access_rules": [
+                    "wounds:3, key_peaks",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4000,
+                        "y": 315
+                    },
+                    {
+                        "map": "convent",
+                        "x": 1341,
+                        "y": 318
+                    }
+                ]
+            },
+            {
+                "name": "Wasteland Rosary",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4764,
+                        "y": 3393
+                    },
+                    {
+                        "map": "wasteland",
+                        "x": 699,
+                        "y": 846
+                    }
+                ]
+            },
+            {
+                "name": "Graveyard Shop",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "Plate 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Plate 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Plate 3",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4269,
+                        "y": 2244
+                    },
+                    {
+                        "map": "graveyard",
+                        "x": 900,
+                        "y": 1507
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard Heart",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "You gotta cut yourself D:",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4269,
+                        "y": 1086
+                    },
+                    {
+                        "map": "graveyard",
+                        "x": 900,
+                        "y": 357
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard Cherub 1",
+                "access_rules": [
+                    "blood"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4503,
+                        "y": 2238
+                    },
+                    {
+                        "map": "graveyard",
+                        "x": 1138,
+                        "y": 1501
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard Cherub 2",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4512,
+                        "y": 1725
+                    },
+                    {
+                        "map": "graveyard",
+                        "x": 1149,
+                        "y": 1000
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard Cherub 3",
+                "access_rules": [
+                    "blood"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4383,
+                        "y": 1589
+                    },
+                    {
+                        "map": "graveyard",
+                        "x": 1028,
+                        "y": 863
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard Bone 1",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "Break the floor",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4515,
+                        "y": 2367
+                    },
+                    {
+                        "map": "graveyard",
+                        "x": 1155,
+                        "y": 1639
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard Bone 2",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4642,
+                        "y": 1584
+                    },
+                    {
+                        "map": "graveyard",
+                        "x": 1281,
+                        "y": 847
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard Bone 3",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4383,
+                        "y": 1337
+                    },
+                    {
+                        "map": "graveyard",
+                        "x": 1028,
+                        "y": 616
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard HP+",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4260,
+                        "y": 2106
+                    },
+                    {
+                        "map": "graveyard",
+                        "x": 902,
+                        "y": 1380
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard MP+",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4640,
+                        "y": 1212
+                    },
+                    {
+                        "map": "graveyard",
+                        "x": 1280,
+                        "y": 478
+                    }
+
+                ]
+            },
+            {
+                "name": "Tentudia's Skeletal Remains",
+                "access_rules": [
+                    "blood, tongues"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4640,
+                        "y": 1344
+                    },
+                    {
+                        "map": "graveyard",
+                        "x": 1280,
+                        "y": 616
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard Rosary 2",
+                "access_rules": [
+                    "tongues"                   
+                ],
+                "sections": [
+                    {   "name": "it's such a specific jump you might wanna look it up tbh",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4767,
+                        "y": 1344
+                    },
+                    {
+                        "map": "graveyard",
+                        "x": 1410,
+                        "y": 616
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard Rosary 3",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {   
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4510,
+                        "y": 946
+                    },
+                    {
+                        "map": "graveyard",
+                        "x": 1150,
+                        "y": 225
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard Rosary 1",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4383,
+                        "y": 1468
+                    },
+                    {
+                        "map": "graveyard",
+                        "x": 1017,
+                        "y": 742
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard Rosary Knot",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4131,
+                        "y": 2106
+                    },
+                    {
+                        "map": "graveyard",
+                        "x": 770,
+                        "y": 1380
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard Bile Flask",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4131,
+                        "y": 2106
+                    },
+                    {
+                        "map": "graveyard",
+                        "x": 770,
+                        "y": 1380
+                    }
+
+                ]
+            },
+            {
+                "name": "Wasteland Bone 1",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 5151,
+                        "y": 3252
+                    },
+                    {
+                        "map": "wasteland",
+                        "x": 1086,
+                        "y": 723
+                    }
+                ]
+            },
+            {
+                "name": "Wasteland Bone 2",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 5364,
+                        "y": 3264
+                    },
+                    {
+                        "map": "wasteland",
+                        "x": 1278,
+                        "y": 723
+                    }
+                ]
+            },
+            {
+                "name": "Wasteland Cherub",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",   
+                        "item_count": 1
+                
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 5541,
+                        "y": 3264
+                    },
+                    {
+                        "map": "wasteland",
+                        "x": 1479,
+                        "y": 723
+                    }
+                ]
+            },
+            {
+                "name": "Wasteland Heart+Cherub",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                
+                    },
+                    {
+
+                        "item_count": 1
+                
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 5667,
+                        "y": 3006
+                    },
+                    {
+                        "map": "wasteland",
+                        "x": 1599,
+                        "y": 465
+                    }
+                ]
+            },
+            {
+                "name": "Knock down some trees for the boy",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "access_rules": [
+                            "redento:2",
+                            "toggle"                    
+                        ],
+                        "item_count": 1,
+                        "hosted_item": "redento"
+                    }
+                   
+                ],
+                "map_locations": [
+            {
+                "map": "full",
+                "x": 5928,
+                "y": 3258
+            },
+            {
+                "map": "wasteland",
+                "x": 1886,
+                "y": 720
+            }
+                ]
+            },
+            {
+                "name": "Tentudia's Carnal Remains",
+                "access_rules": [
+                    "blood",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        
+                        "item_count": 1
+                
+                    }
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 6162,
+                        "y": 3522
+                    },
+                    {
+                        "map": "wasteland",
+                        "x": 2106,
+                        "y": 984
+                    }
+                ]
+            },
+            {
+                "name": "Graveyard Confessor",
+                "access_rules": [
+                    "immaculate_bead"                   
+                ],
+                "sections": [
+                    {
+                        "name": "BREAK IT",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4003,
+                        "y": 2235
+                    },
+                    {
+                        "map": "graveyard",
+                        "x": 638,
+                        "y": 1507
+                    }
+
+                ]
+            }, 
+            
+            {
+                "name": "Mercy Dreams Confessor",
+                "access_rules": [
+                    "immaculate_bead"                   
+                ],
+                "sections": [
+                    {
+                        "name": "BREAK IT",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 6439,
+                        "y": 3515
+                    },
+                    {
+                        "map": "mercy",
+                        "x": 858,
+                        "y": 375
+                    }
+
+                ]
+            },
+            {
+                "name": "Mercy Dreams Bone 1",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 6564,
+                        "y": 3648
+                    },
+                    {
+                        "map": "mercy",
+                        "x": 978,
+                        "y": 504
+                    }
+
+                ]
+            },  
+            {
+                "name": "Mercy Dreams Bone 2",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 6564,
+                        "y": 4029
+                    },
+                    {
+                        "map": "mercy",
+                        "x": 978,
+                        "y": 885
+                    }
+
+                ]
+            },
+            {
+                "name": "Mercy Dreams Bone 3",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7070,
+                        "y": 4668
+                    },
+                    {
+                        "map": "mercy",
+                        "x": 1497,
+                        "y": 1533
+                    }
+
+                ]
+            },
+            {
+                "name": "Mercy Dreams Bone 4",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 6810,
+                        "y": 4671
+                    },
+                    {
+                        "map": "mercy",
+                        "x": 1230,
+                        "y": 1533
+                    }
+
+                ]
+            },
+            {
+                "name": "Mercy Dreams Shop",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "Plate 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Plate 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Plate 3",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 6180,
+                        "y": 4158
+                    },
+                    {
+                        "map": "mercy",
+                        "x": 591,
+                        "y": 1017
+                    }
+
+                ]
+            },
+            {
+                "name": "Mercy Dreams Cherub",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 6429,
+                        "y": 4032
+                    },
+                    {
+                        "map": "mercy",
+                        "x": 861,
+                        "y": 888
+                    }
+
+                ]
+            },
+            {
+                "name": "Mercy Dreams Prayer",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 6816,
+                        "y": 4032
+                    },
+                    {
+                        "map": "mercy",
+                        "x": 1236,
+                        "y": 888
+                    }
+
+                ]
+            },
+            {
+                "name": "Red Candle #1",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 6180,
+                        "y": 4026
+                    },
+                    {
+                        "map": "mercy",
+                        "x": 597,
+                        "y": 888
+                    }
+
+                ]
+            },
+            {
+                "name": "Blue Candle Room",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Candle",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7203,
+                        "y": 4671
+                    },
+                    {
+                        "map": "mercy",
+                        "x": 1620,
+                        "y": 1533
+                    }
+
+                ]
+            },
+            {
+                "name": "Ten Piedad Check",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    
+                    {
+                        "hosted_item": "boss_ten",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 6570,
+                        "y": 4542
+                    },
+                    {
+                        "map": "mercy",
+                        "x": 975,
+                        "y": 1404
+                    }
+
+                ]
+            },
+            {
+                "name": "Wound of Attrition Check",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 6246,
+                        "y": 4542
+                    },
+                    {
+                        "map": "mercy",
+                        "x": 654,
+                        "y": 1404
+                    }
+
+                ]
+            },
+            {
+                "name": "Mercy Bile Flask",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 6453,
+                        "y": 4410
+                    },
+                    {
+                        "map": "mercy",
+                        "x": 849,
+                        "y": 1275
+                    }
+
+                ]
+            },   
+            {
+                "name": "Jondo Prayer",
+                "access_rules": [
+                    "tongues"                   
+                ],
+                "sections": [
+                    {
+                        "name": "CLIMB",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2721,
+                        "y": 4022
+                    },
+                    {
+                        "map": "jondo",
+                        "x": 1059,
+                        "y": 288
+                    }
+
+                ]
+            },
+            {
+                "name": "Jondo Rosary",
+                "access_rules": [
+                    "tongues"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 1956,
+                        "y": 4168
+                    },
+                    {
+                        "map": "jondo",
+                        "x": 291,
+                        "y": 420
+                    }
+
+                ]
+            },
+            {
+                "name": "Jondo Cherub 1",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2076,
+                        "y": 4027
+                    },
+                    {
+                        "map": "jondo",
+                        "x": 408,
+                        "y": 285
+                    }
+
+                ]
+            },
+            {
+                "name": "Jondo Cherub 2",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2721,
+                        "y": 4416
+                    },
+                    {
+                        "map": "jondo",
+                        "x": 1059,
+                        "y": 672
+                    }
+
+                ]
+            },
+            {
+                "name": "Jondo Cherub 3",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3168,
+                        "y": 4416
+                    },
+                    {
+                        "map": "jondo",
+                        "x": 1527,
+                        "y": 672
+                    }
+
+                ]
+            },
+            {
+                "name": "Jondo Heart",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3354,
+                        "y": 4416
+                    },
+                    {
+                        "map": "jondo",
+                        "x": 1677,
+                        "y": 672
+                    }
+
+                ]
+            },
+            {
+                "name": "Jondo Quicksilver",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3489,
+                        "y": 4416
+                    },
+                    {
+                        "map": "jondo",
+                        "x": 1824,
+                        "y": 672
+                    }
+
+                ]
+            },
+            {
+                "name": "Jondo Rosary Knot",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 1824,
+                        "y": 4284
+                    },
+                    {
+                        "map": "jondo",
+                        "x": 156,
+                        "y": 546
+                    }
+
+                ]
+            },
+            {
+                "name": "Statue #1",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "statue",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2145,
+                        "y": 4308
+                    },
+                    {
+                        "map": "jondo",
+                        "x": 477,
+                        "y": 600
+                    }
+
+                ]
+            },
+            {
+                "name": "Statue #2",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "statue",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2781,
+                        "y": 4470
+                    },
+                    {
+                        "map": "jondo",
+                        "x": 1116,
+                        "y": 738
+                    }
+
+                ]
+            },
+            {
+                "name": "Break the statues, then ring the bell",
+                "access_rules": [
+                    "statue:2"                   
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "bell",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2463,
+                        "y": 4422
+                    },
+                    {
+                        "map": "jondo",
+                        "x": 801,
+                        "y": 696
+                    }
+
+                ]
+            },
+            {
+                "name": "Jondo Bone 1",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2727,
+                        "y": 4152
+                    },
+                    {
+                        "map": "jondo",
+                        "x": 1062,
+                        "y": 408
+                    }
+
+                ]
+            },
+            {
+                "name": "Jondo Bone 2",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2340,
+                        "y": 4779
+                    },
+                    {
+                        "map": "jondo",
+                        "x": 675,
+                        "y": 1059
+                    }
+
+                ]
+            },
+            {
+                "name": "Jondo Bone 3",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2661,
+                        "y": 4788
+                    },
+                    {
+                        "map": "jondo",
+                        "x": 993,
+                        "y": 1050
+                    }
+
+                ]
+            },
+            {
+                "name": "Bouquet of Rosemary",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2718,
+                        "y": 4929
+                    },
+                    {
+                        "map": "jondo",
+                        "x": 1050,
+                        "y": 1195
+                    }
+
+                ]
+            },
+            
+            {
+                "name": "Jondo Bile Flask",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2205,
+                        "y": 4794
+                    },
+                    {
+                        "map": "jondo",
+                        "x": 546,
+                        "y": 1059
+                    }
+
+                ]
+            },
+            {
+                "name": "Echoes Rosary 1",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3992,
+                        "y": 4224
+                    },
+                    {
+                        "map": "cistern",
+                        "x": 1056,
+                        "y": 1265
+                    }
+
+                ]
+            },
+            {
+                "name": "Echoes Rosary 2",
+                "access_rules": [
+                    "blood"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3880,
+                        "y": 5176
+                    },
+                    {
+                        "map": "cistern",
+                        "x": 930,
+                        "y": 2167
+                    }
+
+                ]
+            },
+            {
+                "name": "Mea Culpa Shrine #7",
+                "access_rules": [
+                    "chalice_full, tongues"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4008,
+                        "y": 4680
+                    },
+                    {
+                        "map": "cistern",
+                        "x": 1056,
+                        "y": 1656
+                    }
+
+                ]
+            },
+            {
+                "name": "Chalice Quest",
+                "access_rules": [
+                    "tongues"                   
+                ],
+                "sections": [
+                    {
+                        "name": "google blasphemous chalice quest, it fuckin sucks tbh",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4136,
+                        "y": 4680
+                    },
+                    {
+                        "map": "cistern",
+                        "x": 1183,
+                        "y": 1656
+                    }
+
+                ]
+            },
+            {
+                "name": "Number Room",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "leaving and coming back changes the numbers on each side. Set it to IV and II",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4376,
+                        "y": 4680
+                    },
+                    {
+                        "map": "cistern",
+                        "x": 1436,
+                        "y": 1656
+                    }
+
+                ]
+            },
+            {
+                "name": "Cistern Bone 1",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 5157,
+                        "y": 3515
+                    },
+                    {
+                        "map": "cistern",
+                        "x": 2206,
+                        "y": 500
+                    }
+
+                ]
+            },
+            {
+                "name": "Cistern Bone 2",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 5664,
+                        "y": 4281
+                    },
+                    {
+                        "map": "cistern",
+                        "x": 2717,
+                        "y": 1276
+                    }
+
+                ]
+            },
+            {
+                "name": "Cistern Bone 3",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4641,
+                        "y": 4665
+                    },
+                    {
+                        "map": "cistern",
+                        "x": 1689,
+                        "y": 1650
+                    }
+
+                ]
+            },
+            {
+                "name": "Cistern Cherrub 1",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 5403,
+                        "y": 3639
+                    },
+                    {
+                        "map": "cistern",
+                        "x": 2453,
+                        "y": 633
+                    }
+
+                ]
+            },
+            {
+                "name": "Cistern Cherrub 2",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "cistern",
+                        "x": 1914,
+                        "y": 886
+                    },
+                    {
+                        "map": "full",
+                        "x": 4893,
+                        "y": 3896
+                    }
+
+                ]
+            },
+            {
+                "name": "Cistern Cherrub 3",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "cistern",
+                        "x": 2448,
+                        "y": 1331
+                    },
+                    {
+                        "map": "full",
+                        "x": 5417,
+                        "y": 4347
+                    }
+
+                ]
+            },
+            {
+                "name": "Cistern Cherrub 4",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "cistern",
+                        "x": 1557,
+                        "y": 1265
+                    },
+                    {
+                        "map": "full",
+                        "x": 4509,
+                        "y": 4281
+                    }
+
+                ]
+            },
+            {
+                "name": "Cistern Cherrub 5",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "cistern",
+                        "x": 1309,
+                        "y": 1518
+                    },
+                    {
+                        "map": "full",
+                        "x": 4254,
+                        "y": 4539
+                    }
+
+                ]
+            },
+            {
+                "name": "Cistern Cherrub 6",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "cistern",
+                        "x": 1436,
+                        "y": 759
+                    },
+                    {
+                        "map": "full",
+                        "x": 4389,
+                        "y": 3771
+                    }
+
+                ]
+            },
+            {
+                "name": "Black Grieving Veil",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4767,
+                        "y": 3900
+                    },
+                    {
+                        "map": "cistern",
+                        "x": 1815,
+                        "y": 886
+                    }
+
+                ]
+            },
+            {
+                "name": "Cistern MP+",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4509,
+                        "y": 3900
+                    },
+                    {
+                        "map": "cistern",
+                        "x": 1568,
+                        "y": 886
+                    }
+
+                ]
+            },
+            {
+                "name": "Cistern HP+ 1",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 5535,
+                        "y": 4542
+                    },
+                    {
+                        "map": "cistern",
+                        "x": 2591,
+                        "y": 1529
+                    }
+
+                ]
+            },
+            {
+                "name": "Cistern HP+ 2",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 4378,
+                        "y": 6072
+                    },
+                    {
+                        "map": "cistern",
+                        "x": 1435,
+                        "y": 3063
+                    }
+
+                ]
+            },
+            {
+                "name": "Cistern Bile Flask",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 5920,
+                        "y": 3900
+                    },
+                    {
+                        "map": "cistern",
+                        "x": 2965,
+                        "y": 886
+                    }
+
+                ]
+            },
+            {
+                "name": "Cistern Prayer",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 5547,
+                        "y": 3642
+                    },
+                    {
+                        "map": "cistern",
+                        "x": 2580,
+                        "y": 627
+                    }
+
+                ]
+            },
+            {
+                "name": "Severed Hand Check",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 5157,
+                        "y": 4026
+                    },
+                    {
+                        "map": "cistern",
+                        "x": 2206,
+                        "y": 1018
+                    }
+
+                ]
+            },
+            {
+                "name": "Canvases Shop",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "Plate 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Plate 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Plate 3",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7715,
+                        "y": 4675
+                    },
+                    {
+                        "map": "canvas",
+                        "x": 735,
+                        "y": 927
+                    }
+
+                ]
+            },
+            {
+                "name": "Canvases Quicksilver",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7336,
+                        "y": 4544
+                    },
+                    {
+                        "map": "canvas",
+                        "x": 354,
+                        "y": 798
+                    }
+
+                ]
+            },
+            {
+                "name": "Sooty Garlic",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8224,
+                        "y": 4604
+                    },
+                    {
+                        "map": "canvas",
+                        "x": 1242,
+                        "y": 864
+                    }
+
+                ]
+            },
+            {
+                "name": "Canvases Bone",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9250,
+                        "y": 4541
+                    },
+                    {
+                        "map": "canvas",
+                        "x": 2227,
+                        "y": 801
+                    }
+
+                ]
+            },
+            {
+                "name": "Canvases Heart",
+                "access_rules": [
+                    "blue_wax_3, red_wax_3"                   
+                ],
+                "sections": [
+                    {
+                        "name": "equip big beads of red and blue wax, cut yourself in the middle of the room",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8480,
+                        "y": 4672
+                    },
+                    {
+                        "map": "canvas",
+                        "x": 1503,
+                        "y": 930
+                    }
+
+                ]
+            },
+            {
+                "name": "Jocinero, Child of Moonlight",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "20 Cherub Rewards",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cherubs:20"
+                            
+                        ]
+                    },
+                    {
+                        "name": "38 Cherub Rewards",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cherubs:38"
+                            
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8480,
+                        "y": 4418
+                    },
+                    {
+                        "map": "canvas",
+                        "x": 1503,
+                        "y": 669
+                    }
+
+                ]
+            }
+
+                                                   
+        ]
+    },
+    {
+        "name": "Grievance Ascends",
+        "access_rules": [
+            "bell","boss_ten, lung"],
+        
+        "children": [
+            {
+                "name": "Grievance Ascends Confessor",
+                "access_rules": [
+                    "immaculate_bead"                   
+                ],
+                "sections": [
+                    {
+                        "name": "BREAK IT",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2851,
+                        "y": 5304
+                    },
+                    {
+                        "map": "grievance",
+                        "x": 724,
+                        "y": 620
+                    }
+
+                ]
+            },
+            {
+                "name": "Grievance Rosary Knot",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2724,
+                        "y": 5820
+                    },
+                    {
+                        "map": "grievance",
+                        "x": 588,
+                        "y": 1108
+                    }
+
+                ]
+            },
+            {
+                "name": "Grievance Miriam Gate",
+                "access_rules": [
+                    "miriam:1"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1,
+                        "hosted_item": "miriam"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3108,
+                        "y": 5697
+                    },
+                    {
+                        "map": "grievance",
+                        "x": 980,
+                        "y": 992
+                    }
+
+                ]
+            },
+            {
+                "name": "Lung and Cherub",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    },
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3231,
+                        "y": 5184
+                    },
+                    {
+                        "map": "grievance",
+                        "x": 1104,
+                        "y": 488
+                    }
+
+                ]
+            },
+            {
+                "name": "Grievance Bone",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3237,
+                        "y": 5562
+                    },
+                    {
+                        "map": "grievance",
+                        "x": 1108,
+                        "y": 848
+                    }
+
+                ]
+            },
+            {
+                "name": "Metled Coins and Cherub",
+                "access_rules": [
+                    "blood"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    },
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3744,
+                        "y": 5691
+                    },
+                    {
+                        "map": "grievance",
+                        "x": 1596,
+                        "y": 992
+                    }
+
+                ]
+            },
+            {
+                "name": "Grievance MP+",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                   {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3108,
+                        "y": 6072
+                    },
+                    {
+                        "map": "grievance",
+                        "x": 976,
+                        "y": 1380
+                    }
+
+                ]
+            },
+            {
+                "name": "Altasgracias",
+                "access_rules": [
+                    "scorned:3"                   
+                ],
+                "sections": [
+                    {
+                        "name": "Leave the three offerings",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Leave and come back",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 2853,
+                        "y": 6462
+                    },
+                    {
+                        "map": "grievance",
+                        "x": 724,
+                        "y": 1756
+                    }
+
+                ]
+            },
+            {
+                "name": "Grievance Cherub 2",
+                "access_rules": [
+                    "tongues"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3744,
+                        "y": 5691
+                    },
+                    {
+                        "map": "grievance",
+                        "x": 1596,
+                        "y": 992
+                    }
+
+                ]
+            },
+            
+            {
+                "name": "Tres Angustias Reward",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "boss_tres",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 3744,
+                        "y": 5691
+                    },
+                    {
+                        "map": "grievance",
+                        "x": 1596,
+                        "y": 992
+                    }
+
+                ]
+            }
+            
+        ]
+    },
+    {
+        "name": "Post-Bridge",
+        "access_rules": [
+            "wounds:3"],
+        
+        "children": [
+            {
+                "name": "Hall Quicksilver Check",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7203,
+                        "y": 2877
+                    },
+                    {
+                        "map": "bridge",
+                        "x": 1158,
+                        "y": 582
+                    }
+                ]
+            },
+            {
+                "name": "Bridge Heart",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 6942,
+                        "y": 2877
+                    },
+                    {
+                        "map": "bridge",
+                        "x": 890,
+                        "y": 582
+                    }
+                ]
+            },
+            {
+                "name": "Patio Cherub 1",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7338,
+                        "y": 3132
+                    },
+                    {
+                        "map": "patio",
+                        "x": 1098,
+                        "y": 1029
+                    }
+                ]
+            },
+            {
+                "name": "Patio Cherub 2",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8220,
+                        "y": 3000
+                    },
+                    {
+                        "map": "patio",
+                        "x": 1608,
+                        "y": 882
+                    }
+                ]
+            },
+            {
+                "name": "Patio Bone 1",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7458,
+                        "y": 3003
+                    },
+                    {
+                        "map": "patio",
+                        "x": 852,
+                        "y": 894
+                    }
+                ]
+            },
+            {
+                "name": "Bone and Seed",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "name": "Patio Bone 2",
+                        "item_count": 1                   
+                    },
+                    {
+                        "name": "Olive Seeds",
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7962,
+                        "y": 2985
+                    },
+                    {
+                        "map": "patio",
+                        "x": 1358,
+                        "y": 885
+                    }
+                ]
+            },
+            {
+                "name": "Patio Quicksilver",
+                "access_rules": ["blood, tongues"],
+                "sections": [
+                    {
+                        "name": "can also be grabbed from prison exit without relics",
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7458,
+                        "y": 2496
+                    },
+                    {
+                        "map": "patio",
+                        "x": 852,
+                        "y": 393
+                    }
+                ]
+            },
+            {
+                "name": "Kill that big freak for the boy",
+                "access_rules": [
+                    "open",
+                    "toggle"                    
+                ],
+                "sections": [
+                    {
+                        "access_rules": [
+                            "redento:3",
+                            "toggle"                    
+                        ],
+                        "item_count": 1,
+                        "hosted_item": "redento"
+                    }
+                   
+                ],
+                "map_locations": [
+            {
+                "map": "full",
+                "x": 8355,
+                "y": 3132
+            },
+            {
+                "map": "patio",
+                "x": 1740,
+                "y": 1026
+            }
+                ]
+            },
+            {
+                "name": "Patio Rosary",
+                "access_rules": ["tongues"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7833,
+                        "y": 2991
+                    },
+                    {
+                        "map": "patio",
+                        "x": 1230,
+                        "y": 885
+                    }
+                ]
+            },
+            {
+                "name": "Mothers Cherub 1",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8651,
+                        "y": 3065
+                    },
+                    {
+                        "map": "mother",
+                        "x": 671,
+                        "y": 1227
+                    }
+                ]
+            },
+            {
+                "name": "Mothers Cherub 2",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9513,
+                        "y": 2721
+                    },
+                    {
+                        "map": "mother",
+                        "x": 1535,
+                        "y": 847
+                    }
+                ]
+            },
+            {
+                "name": "equip all three toe rosaries and let the boy rest",
+                "access_rules": ["redento:4, toes:3"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    },
+                    {
+                        "name": "leave and come back",
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 10660,
+                        "y": 2612
+                    },
+                    {
+                        "map": "mother",
+                        "x": 2684,
+                        "y": 770
+                    }
+                ]
+            },
+            {
+                "name": "Miriam",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "name": "Talk to her to start the quest",
+                        "hosted_item": "miriam",
+                        "item_count": 1                   
+                    },
+                    {
+                        "name": "Finiah all five challenge rooms to send her home",
+                        "access_rules": [
+                            "miriam:6"
+                        ],
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 10907,
+                        "y": 3131
+                    },
+                    {
+                        "map": "mother",
+                        "x": 2932,
+                        "y": 1287
+                    }
+                ]
+            },
+            {
+                "name": "Mothers Miriam Gate",
+                "access_rules": [
+                    "miriam:1"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1,
+                        "hosted_item": "miriam"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 11166,
+                        "y": 3131
+                    },
+                    {
+                        "map": "mother",
+                        "x": 3196,
+                        "y": 1287
+                    }
+
+                ]
+            },
+            {
+                "name": "Mothers Heart",
+                "access_rules": [
+                    "blood"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 10273,
+                        "y": 2104
+                    },
+                    {
+                        "map": "mother",
+                        "x": 2299,
+                        "y": 259
+                    }
+
+                ]
+            },
+            {
+                "name": "Mothers Bone 1",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8602,
+                        "y": 2872
+                    },
+                    {
+                        "map": "mother",
+                        "x": 633,
+                        "y": 1018
+                    }
+                ]
+            },
+            {
+                "name": "Mothers Bone 2",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9363,
+                        "y": 2864
+                    },
+                    {
+                        "map": "mother",
+                        "x": 1397,
+                        "y": 1034
+                    }
+                ]
+            },
+            {
+                "name": "Mothers Bone 3",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9640,
+                        "y": 2757
+                    },
+                    {
+                        "map": "mother",
+                        "x": 1661,
+                        "y": 913
+                    }
+                ]
+            },
+            {
+                "name": "Mothers Bone 4",
+                "access_rules": ["blood"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 10346,
+                        "y": 2878
+                    },
+                    {
+                        "map": "mother",
+                        "x": 2400,
+                        "y": 1029
+                    }
+                ]
+            },
+            {
+                "name": "Mothers MP+",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9507,
+                        "y": 3264
+                    },
+                    {
+                        "map": "mother",
+                        "x": 1535,
+                        "y": 1414
+                    }
+                ]
+            },
+            {
+                "name": "Mothers Rosary",
+                "access_rules": ["blood"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 10280,
+                        "y": 2787
+                    },
+                    {
+                        "map": "mother",
+                        "x": 2305,
+                        "y": 913
+                    }
+                ]
+            },
+            {
+                "name": "Melquiades Check",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "hosted_item": "boss_bishop",
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9055,
+                        "y": 2618
+                    },
+                    {
+                        "map": "mother",
+                        "x": 1084,
+                        "y": 776
+                    }
+                ]
+            },
+            {
+                "name": "Deformed Mask of Orestes",
+                "access_rules": ["boss_bishop"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8789,
+                        "y": 2618
+                    },
+                    {
+                        "map": "mother",
+                        "x": 820,
+                        "y": 776
+                    }
+                ]
+            },
+            {
+                "name": "Mea Culpa Shrine #5",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9375,
+                        "y": 2491
+                    },
+                    {
+                        "map": "mother",
+                        "x": 1402,
+                        "y": 633
+                    }
+
+                ]
+            },
+            {
+                "name": "Prohibitions Cherub 1",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7716,
+                        "y": 1854
+                    },
+                    {
+                        "map": "prison",
+                        "x": 866,
+                        "y": 352
+                    }
+                ]
+            },
+            {
+                "name": "Prohibitions Rosary 1",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "name": "Move the elevator 6 times",
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8253,
+                        "y": 2043
+                    },
+                    {
+                        "map": "prison",
+                        "x": 1416,
+                        "y": 544
+                    }
+                ]
+            },
+            {
+                "name": "You'll have to save and quit if you dont have Key of the Secular",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    },
+                    {
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8091,
+                        "y": 2040
+                    },
+                    {
+                        "map": "prison",
+                        "x": 1303,
+                        "y": 542
+                    }
+                ]
+            },
+            {
+                "name": "Prohibitions Bone 1",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "name": "break the wall",
+                        "item_count": 1                   
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7957,
+                        "y": 2296
+                    },
+                    {
+                        "map": "prison",
+                        "x": 1103,
+                        "y": 789
+                    }
+                ]
+            },
+            {
+                "name": "Prison Rosary 2",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7723,
+                        "y": 2218
+                    },
+                    {
+                        "map": "prison",
+                        "x": 886,
+                        "y": 726
+                    }
+                ]
+            },
+            {
+                "name": "Diosado 1",
+                "access_rules": [
+                    "blood"                   
+                ],
+                "sections": [
+                    {
+                        "name": "Kill the ghost, go in, come out",
+                        "hosted_item": "loudghost",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7712,
+                        "y": 4016
+                    },
+                    {
+                        "map": "library",
+                        "x": 440,
+                        "y": 1134
+                    }
+
+                ]
+            },
+            {
+                "name": "Diosado 2",
+                "access_rules": [
+                    "loudghost, key_wood"                   
+                ],
+                "sections": [
+                    {
+                        "name": "Breakable left wall inside the door",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9136,
+                        "y": 3384
+                    },
+                    {
+                        "map": "library",
+                        "x": 1985,
+                        "y": 495
+                    }
+
+                ]
+            },
+            {
+                "name": "Library Bile Flask",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "smash the floor",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8735,
+                        "y": 3770
+                    },
+                    {
+                        "map": "library",
+                        "x": 1596,
+                        "y": 882
+                    }
+
+                ]
+            },
+            {
+                "name": "Library MP+",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7580,
+                        "y": 4540
+                    },
+                    {
+                        "map": "library",
+                        "x": 444,
+                        "y": 1644
+                    }
+
+                ]
+            },
+            {
+                "name": "Library HP+",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8224,
+                        "y": 3896
+                    },
+                    {
+                        "map": "library",
+                        "x": 1080,
+                        "y": 1020
+                    }
+
+                ]
+            },
+            {
+                "name": "Bone Books Room",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "Fill fervor bar, unequip everything, and stand still",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8224,
+                        "y": 4156
+                    },
+                    {
+                        "map": "library",
+                        "x": 1080,
+                        "y": 1260
+                    }
+
+                ]
+            },
+            {
+                "name": "Library Prayer",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7964,
+                        "y": 4024
+                    },
+                    {
+                        "map": "library",
+                        "x": 816,
+                        "y": 1128
+                    }
+
+                ]
+            },
+            {
+                "name": "The Fourth Visage",
+                "access_rules": [
+                    "eyes:2, key_wood"                   
+                ],
+                "sections": [
+                    {
+                        "name": "return his dang EYES",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9300,
+                        "y": 3260
+                    },
+                    {
+                        "map": "library",
+                        "x": 2168,
+                        "y": 360
+                    }
+
+                ]
+            },
+            {
+                "name": "Library Cherrub 1",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7704,
+                        "y": 4392
+                    },
+                    {
+                        "map": "library",
+                        "x": 568,
+                        "y": 1488
+                    }
+
+                ]
+            },
+            {
+                "name": "Library Cherrub 2",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8988,
+                        "y": 3388
+                    },
+                    {
+                        "map": "library",
+                        "x": 1844,
+                        "y": 492
+                    }
+
+                ]
+            },
+            {
+                "name": "Library Cherrub 3",
+                "access_rules": [
+                    "boss_exposito, blood, tongues"                  
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9244,
+                        "y": 3772
+                    },
+                    {
+                        "map": "library",
+                        "x": 2100,
+                        "y": 888
+                    }
+
+                ]
+            },
+            {
+                "name": "Library Rosary 1",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7708,
+                        "y": 4272
+                    },
+                    {
+                        "map": "library",
+                        "x": 556,
+                        "y": 1392
+                    }
+
+                ]
+            },
+            {
+                "name": "Library Rosary 2",
+                "access_rules": [
+                    "tongues, blood"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7708,
+                        "y": 3640
+                    },
+                    {
+                        "map": "library",
+                        "x": 556,
+                        "y": 752
+                    }
+
+                ]
+            },
+            {
+                "name": "Library Miriam Gate",
+                "access_rules": [
+                    "tongues, blood, miriam:1"                   
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "miriam",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7584,
+                        "y": 3640
+                    },
+                    {
+                        "map": "library",
+                        "x": 444,
+                        "y": 748
+                    }
+
+                ]
+            },
+            {
+                "name": "Library Bone 1",
+                "access_rules": [
+                    "tongues, blood"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8096,
+                        "y": 3264
+                    },
+                    {
+                        "map": "library",
+                        "x": 1592,
+                        "y": 368
+                    }
+
+                ]
+            },
+            {
+                "name": "Library Bone 2",
+                "access_rules": [
+                    "open"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8864,
+                        "y": 3524
+                    },
+                    {
+                        "map": "library",
+                        "x": 1720,
+                        "y": 624
+                    }
+
+                ]
+            },
+            {
+                "name": "Mea Culpa Shrine #4",
+                "access_rules": [
+                    "boss_exposito, blood, tongues"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9124,
+                        "y": 3512
+                    },
+                    {
+                        "map": "library",
+                        "x": 1984,
+                        "y": 624
+                    }
+
+                ]
+            },
+            {
+                "name": "Embossed Mask of Crescente",
+                "access_rules": [
+                    "boss_exposito, blood, tongues"                   
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9376,
+                        "y": 3512
+                    },
+                    {
+                        "map": "library",
+                        "x": 2236,
+                        "y": 624
+                    }
+
+                ]
+            },
+            {
+                "name": "Red Candle #3",
+                "access_rules": [
+                    "red_wax"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9504,
+                        "y": 3512
+                    },
+                    {
+                        "map": "library",
+                        "x": 2360,
+                        "y": 624
+                    }
+
+                ]
+            },
+            {
+                "name": "Mourning Prayer West",
+                "access_rules": [
+                    "open"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 5528,
+                        "y": 5312
+                    },
+                    {
+                        "map": "mourning",
+                        "x": 1232,
+                        "y": 560
+                    }
+
+                ]
+            },
+            {
+                "name": "Mourning Prayer East",
+                "access_rules": [
+                    "tongues"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 10392,
+                        "y": 5048
+                    },
+                    {
+                        "map": "mourning",
+                        "x": 4640,
+                        "y": 296
+                    }
+
+                ]
+            },
+            {
+                "name": "Sierpes",
+                "access_rules": [
+                    "tongues"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7896,
+                        "y": 5048
+                    },
+                    {
+                        "map": "mourning",
+                        "x": 2136,
+                        "y": 296
+                    }
+
+                ]
+            },
+            {
+                "name": "Mark of the First Refuge",
+                "access_rules": [
+                    "open"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9762,
+                        "y": 2240
+                    },
+                    {
+                        "map": "rooftops",
+                        "x": 1530,
+                        "y": 1704
+                    }
+
+                ]
+            },
+            {
+                "name": "Mark of the Second Refuge",
+                "access_rules": [
+                    "masks:1"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9762,
+                        "y": 1854
+                    },
+                    {
+                        "map": "rooftops",
+                        "x": 1530,
+                        "y": 1326
+                    }
+
+                ]
+            },
+            {
+                "name": "Mark of the Third Refuge",
+                "access_rules": [
+                    "masks:2"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 10018,
+                        "y": 1342
+                    },
+                    {
+                        "map": "rooftops",
+                        "x": 1782,
+                        "y": 820
+                    }
+
+                ]
+            },
+            {
+                "name": "Archcathedral Heart",
+                "access_rules": [
+                    "open"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9504,
+                        "y": 2364
+                    },
+                    {
+                        "map": "rooftops",
+                        "x": 1278,
+                        "y": 1839
+                    }
+
+                ]
+            },
+            {
+                "name": "Archcathedral HP+",
+                "access_rules": [
+                    "blood, tongues"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9502,
+                        "y": 2364
+                    },
+                    {
+                        "map": "rooftops",
+                        "x": 1782,
+                        "y": 1452
+                    }
+
+                ]
+            },
+            {
+                "name": "Archcathedral Bone 1",
+                "access_rules": [
+                    "masks:1, linen"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9248,
+                        "y": 1996
+                    },
+                    {
+                        "map": "rooftops",
+                        "x": 1017,
+                        "y": 1452
+                    }
+
+                ]
+            },
+            {
+                "name": "Archcathedral Bone 2",
+                "access_rules": [
+                    "masks:1, blood, tongues"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 10146,
+                        "y": 1470
+                    },
+                    {
+                        "map": "rooftops",
+                        "x": 1908,
+                        "y": 945
+                    }
+
+                ]
+            },
+            {
+                "name": "Archcathedral Cherrub",
+                "access_rules": [
+                    "masks:1"
+                ],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9248,
+                        "y": 1718
+                    },
+                    {
+                        "map": "rooftops",
+                        "x": 1017,
+                        "y": 1194
+                    }
+
+                ]
+            },
+            {
+                "name": "Archcathedral Prayer",
+                "access_rules": [
+                    "masks:2, linen, tongues"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9248,
+                        "y": 1470
+                    },
+                    {
+                        "map": "rooftops",
+                        "x": 1017,
+                        "y": 946
+                    }
+
+                ]
+            },
+            {
+                "name": "Crisanta of the Wrapped Agony",
+                "access_rules": [
+                    "masks:3"
+                ],
+                "sections": [
+                    {
+                        "name": "Spare her and a check will open in the Hidden Brotherhood Church",
+                        "hosted_item": "sparecrisanta",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "If Viridiana is still alive, she'll have a prayer for you",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 9820,
+                        "y": 958
+                    },
+                    {
+                        "map": "rooftops",
+                        "x": 1590,
+                        "y": 426
+                    }
+
+                ]
+            },
+            {
+                "name": "Mea Culpa Shrine #6",
+                "access_rules": [
+                    "masks:2"
+                ],
+                "sections": [
+                    {
+                        "name": "Unlock gate getting check below",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 10276,
+                        "y": 1346
+                    },
+                    {
+                        "map": "rooftops",
+                        "x": 2043,
+                        "y": 810
+                    }
+
+                ]
+            },
+            {
+                "name": "Rooftops Miriam Gate",
+                "access_rules": [
+                    "miriam:1, linen, blood, tongues"                   
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "miriam",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 10022,
+                        "y": 1464
+                    },
+                    {
+                        "map": "rooftops",
+                        "x": 1788,
+                        "y": 936
+                    }
+
+                ]
+            },
+            {
+                "name": "Mother of Mothers Confessor",
+                "access_rules": [
+                    "immaculate_bead"                   
+                ],
+                "sections": [
+                    {
+                        "name": "BREAK IT",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8739,
+                        "y": 2868
+                    },
+                    {
+                        "map": "mother",
+                        "x": 765,
+                        "y": 1023
+                    }
+
+                ]
+            }, 
+            {
+                "name": "Library Confessor",
+                "access_rules": [
+                    "immaculate_bead, blood, tongues"                   
+                ],
+                "sections": [
+                    {
+                        "name": "BREAK IT",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8865,
+                        "y": 3258
+                    },
+                    {
+                        "map": "library",
+                        "x": 1728,
+                        "y": 363
+                    }
+
+                ]
+            }, 
+            {
+                "name": "Wall of Prohibitions Confessor",
+                "access_rules": [
+                    "immaculate_bead"                   
+                ],
+                "sections": [
+                    {
+                        "name": "BREAK IT",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7074,
+                        "y": 1974
+                    },
+                    {
+                        "map": "prison",
+                        "x": 228,
+                        "y": 478
+                    }
+
+                ]
+            }
+              
+        ]
+    },
+    {
+        "name": "Prison Inquisitor",
+        "access_rules": [
+            "wounds:3, key_inquisitor"],
+        
+        "children": [
+            {
+                "name": "Prohibitions Bile Flask",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8046,
+                        "y": 2044
+                    },
+                    {
+                        "map": "prison",
+                        "x": 1218,
+                        "y": 546
+                    }
+                ]
+            },
+            {
+                "name": "Prohibitions Bone 2",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "name": "break the wall",
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7568,
+                        "y": 2376
+                    },
+                    {
+                        "map": "prison",
+                        "x": 724,
+                        "y": 882
+                    }
+                ]
+            },
+            {
+                "name": "Prohibitions Bone 3",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7560,
+                        "y": 2040
+                    },
+                    {
+                        "map": "prison",
+                        "x": 710,
+                        "y": 543
+                    }
+                ]
+            }
+              
+        ]
+    },
+    {
+        "name": "Prison Secular",
+        "access_rules": [
+            "wounds:3, key_secular"],
+        
+        "children": [
+            {
+                "name": "Prohibitions Cherub 2",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7966,
+                        "y": 1974
+                    },
+                    {
+                        "map": "prison",
+                        "x": 1124,
+                        "y": 468
+                    }
+                ]
+            },
+            {
+                "name": "Scribe Key Check",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8043,
+                        "y": 2222
+                    },
+                    {
+                        "map": "prison",
+                        "x": 1179,
+                        "y": 712
+                    }
+                ]
+            }
+              
+        ]
+    },
+    {
+        "name": "Prison Scribe",
+        "access_rules": [
+            "wounds:3, key_scribe"],
+        
+        "children": [
+            {
+                "name": "Prohibitions Bone 3",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8132,
+                        "y": 1966
+                    },
+                    {
+                        "map": "prison",
+                        "x": 1296,
+                        "y": 468
+                    }
+                ]
+            },
+            {
+                "name": "Prohibitions Bone 4",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8132,
+                        "y": 1966
+                    },
+                    {
+                        "map": "prison",
+                        "x": 1400,
+                        "y": 712
+                    }
+                ]
+            },
+            {
+                "name": "Prohibitions Cherub 3",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 8039,
+                        "y": 2367
+                    },
+                    {
+                        "map": "prison",
+                        "x": 1182,
+                        "y": 876
+                    }
+                ]
+            },
+            {
+                "name": "Prohibitions MP+",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "name": "go up through scribe key door down and to the right from here, then slide on through babe",
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7458,
+                        "y": 2338
+                    },
+                    {
+                        "map": "prison",
+                        "x": 611,
+                        "y": 735
+                    }
+                ]
+            },
+            {
+                "name": "Quirce Room",
+                "access_rules": ["open"],
+                "sections": [
+                    {
+                        "name": "FREE HIM",
+                        "item_count": 1                   
+                    },
+                    {
+                        "name": "Come back for the check after you beat him",
+                        "item_count": 1                   
+                    },
+                    {
+                        "name": "Take him OUT",
+                        "hosted_item": "boss_quirce",
+                        "item_count": 1                   
+                    }
+
+                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "full",
+                        "x": 7329,
+                        "y": 1983
+                    },
+                    {
+                        "map": "prison",
+                        "x": 583,
+                        "y": 465
+                    }
+                ]
+            }
+              
+        ]
+    }
+]

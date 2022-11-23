@@ -1,0 +1,79 @@
+{
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "5, 5",
+                        "h_alignment": "left",
+                        "item_size": 40,
+                        "rows": [
+                            [
+                                "blood",
+                                "linen",
+                                "tongues",
+                                "cherubs",
+                                "red_wax",
+                                "key_brother",
+                                "key_wood",
+                                "key_peaks",
+                                "thimble",
+                                
+                               
+                                "egg",
+                                
+                                "fountain_cloth",
+                                "fountain_hand",
+                                "egg_hatched",
+                                "tentudia",
+                                "cord",
+                                
+                                "driedflowers",
+                                
+                                
+                                "eyes",
+                                "masks",
+                                "redento",
+                                "miriam"           
+                            ],
+                            [
+                                
+                                "nail",
+                                "lung",
+                                "wounds",
+                                "bones",
+                                "blue_wax",
+                                "key_inquisitor",
+                                "key_scribe",
+                                "key_secular",
+                                
+                                "chalice",
+                                "immaculate_bead",
+                                "toes",
+                                "herbs",
+                                "boss_ten",
+                                "boss_tres",
+                                "boss_visage",
+                                "boss_bishop",
+                                "boss_exposito",
+                                "boss_quirce",
+                                "scapular",
+                            
+                                "refuge",
+                                "scorned"
+                                
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

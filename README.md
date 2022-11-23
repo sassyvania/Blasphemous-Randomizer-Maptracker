@@ -29,9 +29,7 @@ Unzip into poptracker's "packs" folder. That's it! On macOS you'll find the pack
 This is an EXTREMELY beta version of the tracker. It's messy and probably got some stuff wrong with it. I just wanted to get it out as soon as it was usable and leave other stuff later. Here's what I've got planned for future releases
 
 Vertical Item Tracker
-  
-  Cleaning up The Items
-  
-  Evening out the locations so they don't look all wobbly
-  
-  Auto-tracking? (I have no idea where to even start with this right now, feel free to give me a push in the right direction, or if you want to collab on it, let me know!)
+Cleaning up The Items
+Evening out the locations so they don't look all wobbly
+Auto-tracking? (I have no idea where to even start with this right now, feel free to give me a push in the right direction, or if you want to collab on it, let me know!)
+

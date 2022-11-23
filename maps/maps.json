@@ -1,0 +1,128 @@
+[
+  {
+    "name": "full",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_full.png"
+  },
+  {
+    "name": "brotherhood",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_brotherhood.png"
+  },  
+  {
+    "name": "cistern",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_cistern_echoes.png"
+  },  
+  {
+    "name": "mother",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_mother.png"
+  },  
+  {
+    "name": "canvas",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_canvas.png"
+  },  
+  {
+    "name": "jondo",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_jondo.png"
+  },
+  {
+    "name": "grievance",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_grievance.png"
+  },
+  {
+    "name": "mercy",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_mercy.png"
+  },
+  {
+    "name": "mourning",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_mourning.png"
+  },
+  {
+    "name": "rooftops",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_rooftops.png"
+  },
+  {
+    "name": "graveyard",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_graveyard.png"
+  },
+  {
+    "name": "convent",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_convent.png"
+  },
+  {
+    "name": "holy_line",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_holy.png"
+  },
+  {
+    "name": "wasteland",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_churches.png"
+  },
+  {
+    "name": "albero",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_albero.png"
+  },
+  {
+    "name": "bridge",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_bridge.png"
+  },
+  {
+    "name": "patio",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_patio.png"
+  },
+  {
+    "name": "library",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_library.png"
+  },
+  {
+    "name": "prison",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_wall.png"
+  },
+  {
+    "name": "wither",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_wither.png"
+  },
+  {
+    "name": "mountains",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/map_mountains.png"
+  }
+]
