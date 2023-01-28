@@ -72,7 +72,7 @@
               "type": "group",
               "header": "Items",
               "dock": "left",
-              "margin": "0,0,3,0",
+              "margin": "10,0,3,0",
               "content": {
                 "type": "layout",
                 "h_alignment": "center",
@@ -176,33 +176,8 @@
               }
             },
           
-            {
-              "title": "Mercy Dreams",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "mercy"
-                ]
-              }
-            },
-            {
-              "title": "The Sleeping Canvases",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "canvas"
-                ]
-              }
-            },
-            {
-              "title": "Library of the Negated Words",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "library"
-                ]
-              }
-            },
+            
+            
             {
               "title": "Bridge of the Three Calvaries/Ferrous Tree",
               "content": {
@@ -250,11 +225,47 @@
               }
             },
             {
+              "title": "Grievance Ascends",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "grievance"
+                ]
+              }
+            },
+            {
               "title": "Desecrated Cistern / Echoes of Salt",
               "content": {
                 "type": "map",
                 "maps": [
                   "cistern"
+                ]
+              }
+            },
+            {
+              "title": "Mercy Dreams",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "mercy"
+                ]
+              }
+            },
+            {
+              "title": "The Sleeping Canvases",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "canvas"
+                ]
+              }
+            },
+            {
+              "title": "Library of the Negated Words",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "library"
                 ]
               }
             },
@@ -266,16 +277,8 @@
                   "mourning"
                 ]
               }
-            },
-            {
-              "title": "Grievance Ascends",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "grievance"
-                ]
-              }
             }
+            
             
             
             

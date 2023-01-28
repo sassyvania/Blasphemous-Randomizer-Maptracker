@@ -11,7 +11,7 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "3, 3",
                         "h_alignment": "left",
                         "item_size": 40,
                         "rows": [
@@ -21,6 +21,7 @@
                                 "tongues",
                                 "cherubs",
                                 "red_wax",
+                                "weight",
                                 "key_brother",
                                 "key_wood",
                                 "key_peaks",
@@ -31,15 +32,17 @@
                                 
                                 "fountain_cloth",
                                 "fountain_hand",
-                                "egg_hatched",
+                               
                                 "tentudia",
                                 "cord",
-                                
+                                "verses",
                                 "driedflowers",
                                 
                                 
                                 "eyes",
                                 "masks",
+                                "ruby",
+                                "petrified",
                                 "redento",
                                 "miriam"           
                             ],
@@ -47,9 +50,11 @@
                                 
                                 "nail",
                                 "lung",
-                                "wounds",
+                                "shroud",
+                                
                                 "bones",
                                 "blue_wax",
+                                "throw_blood",
                                 "key_inquisitor",
                                 "key_scribe",
                                 "key_secular",
@@ -58,6 +63,7 @@
                                 "immaculate_bead",
                                 "toes",
                                 "herbs",
+                                "wounds",
                                 "boss_ten",
                                 "boss_tres",
                                 "boss_visage",
