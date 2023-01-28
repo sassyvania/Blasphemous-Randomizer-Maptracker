@@ -2,6 +2,15 @@
 -- don't be afraid to use custom logic functions. it will make many things a lot easier to maintain, for example by adding logging.
 -- to see how this function gets called, check: locations/locations.json
 -- example:
+function has(item, amount)
+    local count = Tracker:ProviderCountForCode(item)
+    amount = tonumber(amount)
+    if not amount then
+        return count > 0
+    else
+        return count >= amount
+    end
+end
 function has_more_then_n_consumable(n)
     local count = Tracker:ProviderCountForCode('consumable')
     local val = (count > tonumber(n))
@@ -13,3 +22,14 @@ function has_more_then_n_consumable(n)
     end
     return 0 -- 0 => no access
 end
+function canBreakHoles()
+    return (has("debla") or has("weight") or has("ruby") or has("zarabanda"))
+  end
+  
+
+function pillar()
+return (has("debla"))
+end  
+function speed()
+    return (has("wheel") or has("dawn"))
+  end

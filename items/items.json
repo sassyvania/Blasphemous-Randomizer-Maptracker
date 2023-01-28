@@ -55,6 +55,36 @@
     "codes": "fountain_hand"
   },
   {
+    "name": "Zarabanda of the Safe Haven",
+    "type": "toggle",
+    "img": "images/items/zarabanda.png",
+    "codes": "zarabanda"
+},
+{
+  "name": "Shroud of the Dreamt Sins",
+  "type": "toggle",
+  "img": "images/items/shroud.png",
+  "codes": "shroud"
+},
+  {
+    "name": "The Young Masons Wheel",
+    "type": "toggle",
+    "img": "images/items/wheel.png",
+    "codes": "wheel"
+  },
+  {
+    "name": "Weight of Sin",
+    "type": "toggle",
+    "img": "images/items/ability_pound.png",
+    "codes": "weight"
+  },
+  {
+    "name": "laudes",
+    "type": "toggle",
+    "img": "images/items/none.jpg",
+    "codes": "boss_laudes"
+  },
+  {
     "name": "The Three Holy Wounds",
     "type": "consumable",
     "img": "images/items/three_wounds.png",
@@ -65,6 +95,18 @@
     "overlay_background": "#000000",
     "overlay_font_size": 15,
     "codes": "wounds"
+  },
+  {
+    "name": "Verses Spun from Gold",
+    "type": "consumable",
+    "img": "images/items/verses.png",
+    "max_quantity": 4,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "verses"
   },
   {
     "name": "Tentudia's Remains",
@@ -175,6 +217,12 @@
     "codes": "tirso_garlic2"
   },
   {
+    "name": "Debla of the Lights",
+    "type": "toggle",
+    "img": "images/items/debla.png",
+    "codes": "debla"
+  },
+  {
     "name": "Cord of True Burying",
     "type": "toggle",
     "img": "images/items/cord.png",
@@ -229,6 +277,54 @@
     "codes": "key_wood"
   },
   {
+    "name": "Ferverous Blood",
+    "type": "toggle",
+    "img": "images/items/ability_blood.png",
+    "codes": "throw_blood"
+  },
+  {
+    "name": "Cloistered Ruby",
+    "type": "toggle",
+    "img": "images/items/ruby.png",
+    "codes": "ruby"
+  },
+  {
+    "name": "jibrael",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "jibrael"
+  },
+  {
+    "name": "openama1",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "openama1"
+  },
+  {
+    "name": "openama2",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "openama2"
+  },
+  {
+    "name": "openama3",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "openama3"
+  },
+  {
+    "name": "openama4",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "openama4"
+  },
+  {
+    "name": "Lorquiana",
+    "type": "toggle",
+    "img": "images/items/prayer_lorquiana.png",
+    "codes": "beam"
+  },
+  {
     "name": "Thimble",
     "type": "progressive",
     "allow_disabled": true,
@@ -271,34 +367,22 @@
   },
   {
     "name": "Egg of Deformity",
-    "type": "toggle",
-    "img": "images/items/egg.png",
-    "codes": "egg"
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/egg.png",
+        "codes": "egg"
+
+      },
+      {
+        "img": "images/items/egg_hatched.png",
+        "codes": "egg_hatched"
+
+      }]
   },
-  //{
-   // "name": "Tentudia's Carnal Remains",
-    //"type": "toggle",
-    //"img": "images/items/tentudia_carnal.png",
-    //"codes": "tentudia_carnal"
-  //},
-  //{
-  //  "name": "Tentudia's Skeletal Remains",
-  //  "type": "toggle",
-  //  "img": "images/items/tentudia_skeletal.png",
-  //  "codes": "tentudia_skeletal"
-  //},
-  //{
-  //  "name": "Remains of Tentudia's Hair ",
-  //  "type": "toggle",
-  //  "img": "images/items/tentudia_hair.png",
-  //  "codes": "tentudia_hair"
-  //},
-  {
-    "name": "Hatched Egg of Deformity",
-    "type": "toggle",
-    "img": "images/items/egg_hatched.png",
-    "codes": "egg_hatched"
-  },
+  
   {
     "name": "Key to the Chamber of the Elder Brother",
     "type": "toggle",
@@ -328,6 +412,12 @@
     "type": "toggle",
     "img": "images/items/key_secular.png",
     "codes": "key_secular"
+  },
+  {
+    "name": "Verdiales of the Forsaken Hamlet",
+    "type": "toggle",
+    "img": "images/items/hamlet.png",
+    "codes": "hamlet"
   },
   {
     "name": "Weight of True Guilt",
@@ -480,6 +570,12 @@
     "type": "toggle",
     "img": "images/items/none.png",
     "codes": "cleofas"
+  },
+  {
+    "name": "Petrified Bell",
+    "type": "toggle",
+    "img": "images/items/bell.png",
+    "codes": "petrified"
   },
   {
     "name": "Dried Flowers Bathed in Tears",
