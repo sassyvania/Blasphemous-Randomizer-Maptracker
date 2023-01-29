@@ -1,5 +1,4 @@
-[  
-  
+[
   {
     "name": "free",
     "type": "consumable",
@@ -11,8 +10,10 @@
     "overlay_background": "#000000",
     "overlay_font_size": 15,
     "codes": "open"
-  },  
-{
+  },
+
+  // Relics
+  {
     "name": "Blood Perpetuated in Sand",
     "type": "toggle",
     "img": "images/items/relic_blood.png",
@@ -23,12 +24,6 @@
     "type": "toggle",
     "img": "images/items/relic_tongues.png",
     "codes": "tongues"
-  },
-  {
-    "name": "Linen Cloth",
-    "type": "toggle",
-    "img": "images/items/fountain_cloth.png",
-    "codes": "fountain_cloth"
   },
   {
     "name": "Linen of the Golden Thread",
@@ -49,41 +44,13 @@
     "codes": "lung"
   },
   {
-    "name": "Severed Hand",
+    "name": "Shroud of the Dreamt Sins",
     "type": "toggle",
-    "img": "images/items/fountain_hand.png",
-    "codes": "fountain_hand"
+    "img": "images/items/relic_shroud.png",
+    "codes": "shroud"
   },
-  {
-    "name": "Zarabanda of the Safe Haven",
-    "type": "toggle",
-    "img": "images/items/zarabanda.png",
-    "codes": "zarabanda"
-},
-{
-  "name": "Shroud of the Dreamt Sins",
-  "type": "toggle",
-  "img": "images/items/shroud.png",
-  "codes": "shroud"
-},
-  {
-    "name": "The Young Masons Wheel",
-    "type": "toggle",
-    "img": "images/items/wheel.png",
-    "codes": "wheel"
-  },
-  {
-    "name": "Weight of Sin",
-    "type": "toggle",
-    "img": "images/items/ability_pound.png",
-    "codes": "weight"
-  },
-  {
-    "name": "laudes",
-    "type": "toggle",
-    "img": "images/items/none.jpg",
-    "codes": "boss_laudes"
-  },
+
+  // Main Quest Items
   {
     "name": "The Three Holy Wounds",
     "type": "consumable",
@@ -97,6 +64,26 @@
     "codes": "wounds"
   },
   {
+    "name": "Archcathedral Elevator Masks",
+    "type": "consumable",
+    "img": "images/items/masks.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "masks"
+  },
+
+  // Amanecidas Quest Items
+  {
+    "name": "Petrified Bell",
+    "type": "toggle",
+    "img": "images/items/bell.png",
+    "codes": "petrified"
+  },
+  {
     "name": "Verses Spun from Gold",
     "type": "consumable",
     "img": "images/items/verses.png",
@@ -108,29 +95,13 @@
     "overlay_font_size": 15,
     "codes": "verses"
   },
+
+  // True Ending Quest Items
   {
-    "name": "Tentudia's Remains",
-    "type": "consumable",
-    "img": "images/items/tentudia.png",
-    "max_quantity": 3,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 0,
-    "overlay_background": "#000000",
-    "overlay_font_size": 15,
-    "codes": "tentudia"
-  },
-  {
-    "name": "Archcathedral Elevator Masks",
-    "type": "consumable",
-    "img": "images/items/masks.png",
-    "max_quantity": 3,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 0,
-    "overlay_background": "#000000",
-    "overlay_font_size": 15,
-    "codes": "masks"
+    "name": "Incomplete Scapular",
+    "type": "toggle",
+    "img": "images/items/scapular.png",
+    "codes": "scapular"
   },
   {
     "name": "Eyes of the Traitor",
@@ -143,6 +114,20 @@
     "overlay_background": "#000000",
     "overlay_font_size": 15,
     "codes": "eyes"
+  },
+
+  // Side Quest Items
+  {
+    "name": "Tentudia's Remains",
+    "type": "consumable",
+    "img": "images/items/tentudia.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "tentudia"
   },
   {
     "name": "The Remains of an Unfinished Ceremony",
@@ -181,148 +166,10 @@
     "codes": "refuge"
   },
   {
-    "name": "Bouquet of Thyme",
-    "type": "toggle",
-    "img": "images/items/tirso_thyme.png",
-    "codes": "tirso_thyme"
-  },
-  {
-    "name": "Bouquet of Rosemary",
-    "type": "toggle",
-    "img": "images/items/tirso_rosemary.png",
-    "codes": "tirso_rosemary"
-  },
-  {
-    "name": "Dried Clove",
-    "type": "toggle",
-    "img": "images/items/tirso_clove.png",
-    "codes": "tirso_clove"
-  },
-  {
-    "name": "Incense Garlic",
-    "type": "toggle",
-    "img": "images/items/tirso_garlic.png",
-    "codes": "tirso_garlic"
-  },
-  {
-    "name": "Olive Seeds",
-    "type": "toggle",
-    "img": "images/items/tirso_seeds.png",
-    "codes": "tirso_seeds"
-  },
-  {
-    "name": "Sooty Garlic",
-    "type": "toggle",
-    "img": "images/items/tirso_garlic2.png",
-    "codes": "tirso_garlic2"
-  },
-  {
-    "name": "Debla of the Lights",
-    "type": "toggle",
-    "img": "images/items/debla.png",
-    "codes": "debla"
-  },
-  {
     "name": "Cord of True Burying",
     "type": "toggle",
     "img": "images/items/cord.png",
     "codes": "cord"
-  },
-  {
-    "name": "Incomplete Scapular",
-    "type": "toggle",
-    "img": "images/items/scapular.png",
-    "codes": "scapular"
-  },
-  {
-    "name": "Defeated Tres Angustias",
-    "type": "toggle",
-    "img": "images/items/boss_tres.png",
-    "codes": "boss_tres"
-  },
-  {
-    "name": "Defeated Ten Piedad",
-    "type": "toggle",
-    "img": "images/items/boss_ten.png",
-    "codes": "boss_ten"
-  },
-  {
-    "name": "Defeated Our Lady of the Charred Visage",
-    "type": "toggle",
-    "img": "images/items/boss_visage.png",
-    "codes": "boss_visage"
-  },
-  {
-    "name": "Melquíades, The Exhumed Archbishop",
-    "type": "toggle",
-    "img": "images/items/boss_bishop.png",
-    "codes": "boss_bishop"
-  },
-  {
-    "name": "Expósito, Scion of Abjuration",
-    "type": "toggle",
-    "img": "images/items/boss_exposito.png",
-    "codes": "boss_exposito"
-  },
-  {
-    "name": "Quirce, Returned By The Flames",
-    "type": "toggle",
-    "img": "images/items/boss_quirce.png",
-    "codes": "boss_quirce"
-  },
-  {
-    "name": "Key Grown from Twisted Wood",
-    "type": "toggle",
-    "img": "images/items/key_wood.png",
-    "codes": "key_wood"
-  },
-  {
-    "name": "Ferverous Blood",
-    "type": "toggle",
-    "img": "images/items/ability_blood.png",
-    "codes": "throw_blood"
-  },
-  {
-    "name": "Cloistered Ruby",
-    "type": "toggle",
-    "img": "images/items/ruby.png",
-    "codes": "ruby"
-  },
-  {
-    "name": "jibrael",
-    "type": "toggle",
-    "img": "images/items/none.png",
-    "codes": "jibrael"
-  },
-  {
-    "name": "openama1",
-    "type": "toggle",
-    "img": "images/items/none.png",
-    "codes": "openama1"
-  },
-  {
-    "name": "openama2",
-    "type": "toggle",
-    "img": "images/items/none.png",
-    "codes": "openama2"
-  },
-  {
-    "name": "openama3",
-    "type": "toggle",
-    "img": "images/items/none.png",
-    "codes": "openama3"
-  },
-  {
-    "name": "openama4",
-    "type": "toggle",
-    "img": "images/items/none.png",
-    "codes": "openama4"
-  },
-  {
-    "name": "Lorquiana",
-    "type": "toggle",
-    "img": "images/items/prayer_lorquiana.png",
-    "codes": "beam"
   },
   {
     "name": "Thimble",
@@ -366,6 +213,38 @@
     ]
   },
   {
+    "name": "Weight of True Guilt",
+    "type": "toggle",
+    "img": "images/items/immaculate_bead.png",
+    "codes": "immaculate_bead"
+  },
+  {
+    "name": "Healing Herbs for Tirso",
+    "type": "consumable",
+    "img": "images/items/herbs.png",
+    "max_quantity": 6,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "herbs"
+  },
+  {
+    "name": "Dried Flowers Bathed in Tears",
+    "type": "toggle",
+    "img": "images/items/driedflowers.png",
+    "codes": "driedflowers"
+  },
+
+  // Relics-to-be
+  {
+    "name": "Linen Cloth",
+    "type": "toggle",
+    "img": "images/items/fountain_cloth.png",
+    "codes": "fountain_cloth"
+  },
+  {
     "name": "Egg of Deformity",
     "type": "progressive",
     "allow_disabled": true,
@@ -380,9 +259,23 @@
         "img": "images/items/egg_hatched.png",
         "codes": "egg_hatched"
 
-      }]
+      }
+    ]
   },
-  
+  {
+    "name": "Severed Hand",
+    "type": "toggle",
+    "img": "images/items/fountain_hand.png",
+    "codes": "fountain_hand"
+  },
+
+  // Keys
+  {
+    "name": "Key Grown from Twisted Wood",
+    "type": "toggle",
+    "img": "images/items/key_wood.png",
+    "codes": "key_wood"
+  },
   {
     "name": "Key to the Chamber of the Elder Brother",
     "type": "toggle",
@@ -413,6 +306,20 @@
     "img": "images/items/key_secular.png",
     "codes": "key_secular"
   },
+
+  // Prayers
+  {
+    "name": "Debla of the Lights",
+    "type": "toggle",
+    "img": "images/items/debla.png",
+    "codes": "debla"
+  },
+  {
+    "name": "Lorquiana",
+    "type": "toggle",
+    "img": "images/items/prayer_lorquiana.png",
+    "codes": "lorquiana"
+  },
   {
     "name": "Verdiales of the Forsaken Hamlet",
     "type": "toggle",
@@ -420,24 +327,25 @@
     "codes": "hamlet"
   },
   {
-    "name": "Weight of True Guilt",
+    "name": "Zarabanda of the Safe Haven",
     "type": "toggle",
-    "img": "images/items/immaculate_bead.png",
-    "codes": "immaculate_bead"
+    "img": "images/items/zarabanda.png",
+    "codes": "zarabanda"
+  },
+
+  // Beads
+  {
+    "name": "The Young Masons Wheel",
+    "type": "toggle",
+    "img": "images/items/wheel.png",
+    "codes": "wheel"
   },
   {
-    "name": "Healing Herbs for Tirso",
-    "type": "consumable",
-    "img": "images/items/herbs.png",
-    "max_quantity": 6,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 0,
-    "overlay_background": "#000000",
-    "overlay_font_size": 15,
-    "codes": "herbs"
+    "name": "Cloistered Ruby",
+    "type": "toggle",
+    "img": "images/items/ruby.png",
+    "codes": "ruby"
   },
-  
   {
     "name": "Bead of Red Wax",
     "type": "progressive",
@@ -460,7 +368,7 @@
 
       }
     ]
-  
+
   },
   {
     "name": "Bead of Blue Wax",
@@ -484,32 +392,88 @@
 
       }
     ]
-  
+
+  },
+
+  // Sword Hearts
+  {
+    "name": "Brilliant Heart of Dawn",
+    "type": "toggle",
+    "img": "images/items/heart_dawn.png",
+    "codes": "dawn"
   },
   {
-    "name": "Helping Redento",
-    "type": "consumable",
-    "img": "images/items/redento.png",
-    "max_quantity": 4,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 0,
-    "overlay_background": "#000000",
-    "overlay_font_size": 15,
-    "codes": "redento"
+    "name": "Apodictic Heart of Mea Culpa",
+    "type": "toggle",
+    "img": "images/items/heart_apodictic.png",
+    "codes": "apodictic"
+  },
+
+  // Abilities
+  {
+    "name": "Fervorous Blood",
+    "type": "toggle",
+    "img": "images/items/ability_blood.png",
+    "codes": "throw_blood"
   },
   {
-    "name": "Miriam's Mirrors",
-    "type": "consumable",
-    "img": "images/items/miriam.png",
-    "max_quantity": 6,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 0,
-    "overlay_background": "#000000",
-    "overlay_font_size": 15,
-    "codes": "miriam"
+    "name": "Sinful Wrath",
+    "type": "toggle",
+    "img": "images/items/ability_wrath.png",
+    "codes": "charge_attack"
   },
+  {
+    "name": "Weight of Sin",
+    "type": "toggle",
+    "img": "images/items/ability_weight.png",
+    "codes": "weight"
+  },
+
+  // Bosses
+  {
+    "name": "Defeated Tres Angustias",
+    "type": "toggle",
+    "img": "images/items/boss_tres.png",
+    "codes": "boss_tres"
+  },
+  {
+    "name": "Defeated Ten Piedad",
+    "type": "toggle",
+    "img": "images/items/boss_ten.png",
+    "codes": "boss_ten"
+  },
+  {
+    "name": "Defeated Our Lady of the Charred Visage",
+    "type": "toggle",
+    "img": "images/items/boss_visage.png",
+    "codes": "boss_visage"
+  },
+  {
+    "name": "Defeated Melquíades, The Exhumed Archbishop",
+    "type": "toggle",
+    "img": "images/items/boss_bishop.png",
+    "codes": "boss_bishop"
+  },
+  {
+    "name": "Defeated Expósito, Scion of Abjuration",
+    "type": "toggle",
+    "img": "images/items/boss_exposito.png",
+    "codes": "boss_exposito"
+  },
+  {
+    "name": "Defeated Quirce, Returned By The Flames",
+    "type": "toggle",
+    "img": "images/items/boss_quirce.png",
+    "codes": "boss_quirce"
+  },
+  {
+    "name": "Defeated Laudes",
+    "type": "toggle",
+    "img": "images/items/none.jpg",
+    "codes": "boss_laudes"
+  },
+
+  // Collectables
   {
     "name": "Bones",
     "type": "consumable",
@@ -534,7 +498,34 @@
     "overlay_font_size": 15,
     "codes": "cherubs"
   },
-  //non visible items for quests
+
+  // Side Quest Status
+  {
+    "name": "Miriam's Mirrors",
+    "type": "consumable",
+    "img": "images/items/miriam.png",
+    "max_quantity": 6,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "miriam"
+  },
+  {
+    "name": "Helping Redento",
+    "type": "consumable",
+    "img": "images/items/redento.png",
+    "max_quantity": 4,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "redento"
+  },
+
+  // Invisible Quest Items
   {
     "name": "esdras",
     "type": "toggle",
@@ -552,7 +543,7 @@
     "type": "toggle",
     "img": "images/items/none.png",
     "codes": "savesocorro"
-  }, 
+  },
   {
     "name": "slaysocorro",
     "type": "toggle",
@@ -572,24 +563,11 @@
     "codes": "cleofas"
   },
   {
-    "name": "Petrified Bell",
-    "type": "toggle",
-    "img": "images/items/bell.png",
-    "codes": "petrified"
-  },
-  {
-    "name": "Dried Flowers Bathed in Tears",
-    "type": "toggle",
-    "img": "images/items/driedflowers.png",
-    "codes": "driedflowers"
-  },
-  {
     "name": "opencave",
     "type": "toggle",
     "img": "images/items/none.png",
     "codes": "opencave"
   },
-
   {
     "name": "statue",
     "type": "consumable",
@@ -625,9 +603,40 @@
     "type": "toggle",
     "img": "images/items/none.png",
     "codes": "sparecrisanta"
-
-
   },
+
+  // Jibrael Hidden Items
+  {
+    "name": "jibrael",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "jibrael"
+  },
+  {
+    "name": "openama1",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "openama1"
+  },
+  {
+    "name": "openama2",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "openama2"
+  },
+  {
+    "name": "openama3",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "openama3"
+  },
+  {
+    "name": "openama4",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "openama4"
+  },
+
   {
     "name": "Progressive Toggle",
     "type": "progressive_toggle",

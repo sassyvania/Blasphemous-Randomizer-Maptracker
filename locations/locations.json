@@ -2010,7 +2010,7 @@
           "blood",
           "ruby",
           "throw_blood",
-          "beam"
+          "lorquiana"
         ],
         "sections": [
           {
@@ -2420,7 +2420,7 @@
           {
             "name": "FREE HIM",
             "item_count": 1,
-            "access_rules": [ "linen", "ruby", "throw_blood", "beam" ]
+            "access_rules": [ "linen", "ruby", "throw_blood", "lorquiana" ]
 
           },
           {
@@ -4249,7 +4249,7 @@
   {
     "name": "Post-Bridge",
     "access_rules": [
-      "wounds:3"
+      "wounds:3", "$speed, throw_blood"
     ],
 
     "children": [
