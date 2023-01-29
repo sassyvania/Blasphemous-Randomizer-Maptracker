@@ -50,6 +50,33 @@
     "codes": "shroud"
   },
 
+
+  // Collectables
+  {
+    "name": "Bones",
+    "type": "consumable",
+    "img": "images/items/bones.png",
+    "max_quantity": 44,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "bones"
+  },
+  {
+    "name": "Cherubs",
+    "type": "consumable",
+    "img": "images/items/cherub.png",
+    "max_quantity": 38,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "cherubs"
+  },
+
   // Main Quest Items
   {
     "name": "The Three Holy Wounds",
@@ -311,7 +338,7 @@
   {
     "name": "Debla of the Lights",
     "type": "toggle",
-    "img": "images/items/debla.png",
+    "img": "images/items/prayer_debla.png",
     "codes": "debla"
   },
   {
@@ -321,15 +348,27 @@
     "codes": "lorquiana"
   },
   {
+    "name": "Tiento to your Thorned Hairs",
+    "type": "toggle",
+    "img": "images/items/prayer_tiento.png",
+    "codes": "tiento"
+  },
+  {
+    "name": "Tirana of the Celestial Bastion",
+    "type": "toggle",
+    "img": "images/items/prayer_tirana.png",
+    "codes": "tirana"
+  },
+  {
     "name": "Verdiales of the Forsaken Hamlet",
     "type": "toggle",
-    "img": "images/items/hamlet.png",
-    "codes": "hamlet"
+    "img": "images/items/prayer_verdiales.png",
+    "codes": "verdiales"
   },
   {
     "name": "Zarabanda of the Safe Haven",
     "type": "toggle",
-    "img": "images/items/zarabanda.png",
+    "img": "images/items/prayer_zarabanda.png",
     "codes": "zarabanda"
   },
 
@@ -449,6 +488,12 @@
     "codes": "boss_visage"
   },
   {
+    "name": "Defeat Esdras",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "boss_esdras"
+  },
+  {
     "name": "Defeated Melquíades, The Exhumed Archbishop",
     "type": "toggle",
     "img": "images/items/boss_bishop.png",
@@ -467,36 +512,16 @@
     "codes": "boss_quirce"
   },
   {
+    "name": "Defeated Crisanta",
+    "type": "toggle",
+    "img": "images/items/none.jpg",
+    "codes": "boss_crisanta"
+  },
+  {
     "name": "Defeated Laudes",
     "type": "toggle",
     "img": "images/items/none.jpg",
     "codes": "boss_laudes"
-  },
-
-  // Collectables
-  {
-    "name": "Bones",
-    "type": "consumable",
-    "img": "images/items/bones.png",
-    "max_quantity": 44,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 0,
-    "overlay_background": "#000000",
-    "overlay_font_size": 15,
-    "codes": "bones"
-  },
-  {
-    "name": "Cherubs",
-    "type": "consumable",
-    "img": "images/items/cherub.png",
-    "max_quantity": 38,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 0,
-    "overlay_background": "#000000",
-    "overlay_font_size": 15,
-    "codes": "cherubs"
   },
 
   // Side Quest Status

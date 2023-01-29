@@ -1,85 +1,101 @@
 {
-    "shared_item_grid": {
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
         "type": "array",
-        "orientation": "vertical",
+        "orientation": "horizontal",
         "margin": "0,0",
         "content": [
-            {
-                "type": "array",
-                "orientation": "horizontal",
-                "margin": "0,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "3, 3",
-                        "h_alignment": "left",
-                        "item_size": 40,
-                        "rows": [
-                            [
-                                "blood",
-                                "linen",
-                                "tongues",
-                                "cherubs",
-                                "red_wax",
-                                "weight",
-                                "key_brother",
-                                "key_wood",
-                                "key_peaks",
-                                "thimble",
-                                
-                               
-                                "egg",
-                                
-                                "fountain_cloth",
-                                "fountain_hand",
-                               
-                                "tentudia",
-                                "cord",
-                                "verses",
-                                "driedflowers",
-                                
-                                
-                                "eyes",
-                                "masks",
-                                "ruby",
-                                "petrified",
-                                "redento",
-                                "miriam"           
-                            ],
-                            [
-                                
-                                "nail",
-                                "lung",
-                                "shroud",
-                                
-                                "bones",
-                                "blue_wax",
-                                "throw_blood",
-                                "key_inquisitor",
-                                "key_scribe",
-                                "key_secular",
-                                
-                                "chalice",
-                                "immaculate_bead",
-                                "toes",
-                                "herbs",
-                                "wounds",
-                                "boss_ten",
-                                "boss_tres",
-                                "boss_visage",
-                                "boss_bishop",
-                                "boss_exposito",
-                                "boss_quirce",
-                                "scapular",
-                            
-                                "refuge",
-                                "scorned"
-                                
-                            ]
-                        ]
-                    }
-                ]
-            }
+          {
+            "type": "itemgrid",
+            "item_margin": "3, 3",
+            "h_alignment": "left",
+            "item_size": 50,
+            "rows": [
+              [
+                "blood",
+                "linen",
+                "tongues",
+
+                "cherubs",
+                "wounds",
+                "petrified",
+                "scapular",
+
+                "charge_attack",
+                "throw_blood",
+                "weight",
+
+                "key_inquisitor",
+                "key_scribe",
+                "key_secular",
+
+                "debla",
+                "tirana",
+                "verdiales",
+
+                "red_wax",
+                "ruby",
+                "apodictic",
+
+                "herbs",
+                "thimble",
+                "chalice",
+                "refuge",
+                "toes",
+
+                "redento",
+
+                "boss_ten",
+                "boss_tres",
+                "boss_visage"
+              ],
+              [
+
+                "nail",
+                "lung",
+                "shroud",
+
+                "bones",
+                "masks",
+                "verses",
+                "eyes",
+
+                "egg",
+                "fountain_cloth",
+                "fountain_hand",
+
+                "key_brother",
+                "key_peaks",
+                "key_wood",
+
+                "lorquiana",
+                "tiento",
+                "zarabanda",
+
+                "blue_wax",
+                "wheel",
+                "dawn",
+
+                "tentudia",
+                "driedflowers",
+                "scorned",
+                "cord",
+                "immaculate_bead",
+
+                "miriam",
+
+                "boss_bishop",
+                "boss_exposito",
+                "boss_quirce"
+              ]
+            ]
+          }
         ]
-    }
+      }
+    ]
+  }
 }

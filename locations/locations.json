@@ -3,35 +3,6 @@
     "name": "First Half",
     "children": [
       {
-        "name": "Cleofas Quest",
-        "access_rules": [
-          "wounds:3"
-        ],
-        "sections": [
-          {
-            "name": "Give Socorro the Three Marks of the Refuge",
-            "hosted_item": "savesocorro",
-            "item_count": 1,
-            "access_rules": [
-              "refuge:3"
-
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 9848,
-            "y": 2864
-          },
-          {
-            "map": "mother",
-            "x": 1914,
-            "y": 1018
-          }
-        ]
-      },
-      {
         "name": "Lvdovico",
         "access_rules": [
           "open"
@@ -62,8 +33,7 @@
             ]
           },
           {
-            "name": "Cleofas Quest Part 2",
-            "hosted_item": "cord",
+            "name": "Talk to Lvdovico after meeting Cleofas",
             "item_count": 1,
             "access_rules": [
               "savesocorro"
@@ -82,43 +52,6 @@
             "map": "albero",
             "x": 795,
             "y": 572
-          }
-        ]
-      },
-
-      {
-        "name": "The Once Forbidden Rooftops",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "name": "Cleofas",
-            "access_rules": [
-              "cord"
-            ],
-            "hosted_item": "cleofas",
-            "item_count": 1
-          },
-          {
-            "name": "Jibrael on the Rooftops",
-            "hosted_item": "openama3",
-            "item_count": 1,
-            "access_rules": [
-              "jibrael"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 8480,
-            "y": 2480
-          },
-          {
-            "map": "rooftops",
-            "x": 248,
-            "y": 1956
           }
         ]
       },
@@ -1084,25 +1017,24 @@
       },
 
       {
-        "name": "Deogracias",
+        "name": "Proof of Humiliations",
         "access_rules": [],
         "sections": [
           {
-            "name": "Proof of Humiliations",
+            "name": "Defeat Esdras",
             "item_count": 1,
+            "hosted_item": "boss_esdras",
             "access_rules": [
               "wounds:3"
-
             ]
           },
 
           {
-            "name": "IF YOU APPROACH ESDRAS WITHOUT THE INCOMPLETE SCAPULAR THE SISTER QUEST WILL DIE",
+            "name": "IF YOU APPROACH ESDRAS WITHOUT THE INCOMPLETE SCAPULAR, THE SISTER QUEST WILL DIE",
             "hosted_item": "esdras",
             "item_count": 1,
             "access_rules": [
               "scapular, wounds:3"
-
             ]
           }
 
@@ -1819,7 +1751,7 @@
       {
         "name": "Mirrored Mask of Dolphos",
         "access_rules": [
-          "wounds:3, key_peaks",
+          "boss_esdras, key_peaks",
           "toggle"
         ],
         "sections": [
@@ -1845,7 +1777,7 @@
       {
         "name": "Convent Blood Fountain",
         "access_rules": [
-          "wounds:3, key_peaks",
+          "boss_esdras, key_peaks",
           "toggle"
         ],
         "sections": [
@@ -2036,7 +1968,7 @@
         "name": "Graveyard Cherub 4",
         "access_rules": [
           "linen",
-          "hamlet"
+          "verdiales"
         ],
         "sections": [
           {
@@ -3549,58 +3481,6 @@
         ]
       },
       {
-        "name": "Cistern cherub 5",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "name": "FREE HIM",
-            "item_count": 1
-          }
-
-        ],
-        "map_locations": [
-          {
-            "map": "cistern",
-            "x": 1309,
-            "y": 1518
-          },
-          {
-            "map": "full",
-            "x": 4254,
-            "y": 4539
-          }
-
-        ]
-      },
-      {
-        "name": "Cistern cherub 6",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "name": "FREE HIM",
-            "item_count": 1
-          }
-
-        ],
-        "map_locations": [
-          {
-            "map": "cistern",
-            "x": 1436,
-            "y": 759
-          },
-          {
-            "map": "full",
-            "x": 4389,
-            "y": 3771
-          }
-
-        ]
-      },
-      {
         "name": "Black Grieving Veil",
         "access_rules": [
           "open"
@@ -3671,55 +3551,6 @@
             "map": "cistern",
             "x": 2591,
             "y": 1529
-          }
-
-        ]
-      },
-      {
-        "name": "Cistern HP+ 2",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 4378,
-            "y": 6072
-          },
-          {
-            "map": "cistern",
-            "x": 1435,
-            "y": 3063
-          }
-
-        ]
-      },
-      {
-        "name": "Cistern Bone 4",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 4278,
-            "y": 6002
-          },
-          {
-            "map": "cistern",
-            "x": 1320,
-            "y": 3004
           }
 
         ]
@@ -3799,182 +3630,13 @@
           }
 
         ]
-      },
-      {
-        "name": "Canvases Shop",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "name": "Plate 1",
-            "item_count": 1
-          },
-          {
-            "name": "Plate 2",
-            "item_count": 1
-          },
-          {
-            "name": "Plate 3",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 7715,
-            "y": 4675
-          },
-          {
-            "map": "canvas",
-            "x": 735,
-            "y": 927
-          }
-
-        ]
-      },
-      {
-        "name": "Canvases Quicksilver",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 7336,
-            "y": 4544
-          },
-          {
-            "map": "canvas",
-            "x": 354,
-            "y": 798
-          }
-
-        ]
-      },
-      {
-        "name": "Sooty Garlic",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 8224,
-            "y": 4604
-          },
-          {
-            "map": "canvas",
-            "x": 1242,
-            "y": 864
-          }
-
-        ]
-      },
-      {
-        "name": "Canvases Bone",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 9250,
-            "y": 4541
-          },
-          {
-            "map": "canvas",
-            "x": 2227,
-            "y": 801
-          }
-
-        ]
-      },
-      {
-        "name": "Canvases Heart",
-        "access_rules": [
-          "blue_wax_3, red_wax_3"
-        ],
-        "sections": [
-          {
-            "name": "equip big beads of red and blue wax, cut yourself in the middle of the room",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 8480,
-            "y": 4672
-          },
-          {
-            "map": "canvas",
-            "x": 1503,
-            "y": 930
-          }
-
-        ]
-      },
-      {
-        "name": "Jocinero, Child of Moonlight",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "name": "20 Cherub Rewards",
-            "item_count": 1,
-            "access_rules": [
-              "cherubs:20"
-
-            ]
-          },
-          {
-            "name": "38 Cherub Rewards",
-            "item_count": 1,
-            "access_rules": [
-              "cherubs:38"
-
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 8480,
-            "y": 4418
-          },
-          {
-            "map": "canvas",
-            "x": 1503,
-            "y": 669
-          }
-
-        ]
       }
-
-
     ]
   },
   {
     "name": "Grievance Ascends",
     "access_rules": [
-      "bell, boss_ten"
+      "bell"
     ],
 
     "children": [
@@ -4242,17 +3904,128 @@
           }
 
         ]
-      }
+      },
+      {
+        "name": "Cistern Cherub 5",
+        "access_rules": [
+          "open"
+        ],
+        "sections": [
+          {
+            "name": "FREE HIM",
+            "item_count": 1
+          }
 
+        ],
+        "map_locations": [
+          {
+            "map": "cistern",
+            "x": 1309,
+            "y": 1518
+          },
+          {
+            "map": "full",
+            "x": 4254,
+            "y": 4539
+          }
+
+        ]
+      },
+      {
+        "name": "Cistern Elevator",
+        "access_rules": [
+          "boss_tres"
+        ],
+        "children": [
+          {
+            "name": "Cistern Cherub 6",
+            "access_rules": [
+              "open"
+            ],
+            "sections": [
+              {
+                "name": "FREE HIM",
+                "item_count": 1
+              }
+
+            ],
+            "map_locations": [
+              {
+                "map": "cistern",
+                "x": 1436,
+                "y": 759
+              },
+              {
+                "map": "full",
+                "x": 4389,
+                "y": 3771
+              }
+
+            ]
+          },
+          {
+            "name": "Cistern Bone 4",
+            "access_rules": [
+              "open"
+            ],
+            "sections": [
+              {
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 4278,
+                "y": 6002
+              },
+              {
+                "map": "cistern",
+                "x": 1320,
+                "y": 3004
+              }
+
+            ]
+          },
+          {
+            "name": "Cistern HP+ 2",
+            "access_rules": [
+              "open"
+            ],
+            "sections": [
+              {
+                "item_count": 1
+              }
+
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 4378,
+                "y": 6072
+              },
+              {
+                "map": "cistern",
+                "x": 1435,
+                "y": 3063
+              }
+
+            ]
+          }
+        ]
+      }
     ]
   },
   {
     "name": "Post-Bridge",
     "access_rules": [
-      "wounds:3", "$speed, throw_blood"
+      "boss_esdras",
+      "$speed, throw_blood",
+      "$pillar"
     ],
 
     "children": [
+
       {
         "name": "Hall Quicksilver Check",
         "access_rules": [ "open" ],
@@ -4281,7 +4054,7 @@
         "access_rules": [ "verses:4" ],
         "sections": [
           {
-			"hosted_item": "boss_laudes",
+            "hosted_item": "boss_laudes",
             "item_count": 1
           }
         ],
@@ -4422,14 +4195,12 @@
       },
       {
         "name": "Patio Quicksilver",
-        "access_rules": [ "blood, tongues", "key_scribe" ],
+        "access_rules": [ "blood, tongues", "key_scribe, boss_bishop" ],
         "sections": [
           {
             "name": "Can also be grabbed from prison exit without relics",
             "item_count": 1
           }
-
-
         ],
         "map_locations": [
           {
@@ -4588,6 +4359,31 @@
             "map": "mother",
             "x": 2684,
             "y": 770
+          }
+        ]
+      },
+      {
+        "name": "Cleofas Quest",
+        "sections": [
+          {
+            "name": "Give Socorro the Three Marks of the Refuge",
+            "hosted_item": "savesocorro",
+            "item_count": 1,
+            "access_rules": [
+              "refuge:3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 9848,
+            "y": 2864
+          },
+          {
+            "map": "mother",
+            "x": 1914,
+            "y": 1018
           }
         ]
       },
@@ -4968,8 +4764,8 @@
         "map_locations": [
           {
             "map": "full",
-            "x": 8091,
-            "y": 2040
+            "x": 8132,
+            "y": 2044
           },
           {
             "map": "prison",
@@ -4983,7 +4779,7 @@
         "access_rules": [ "open" ],
         "sections": [
           {
-            "name": "break the wall",
+            "name": "Break the wall",
             "item_count": 1
           }
         ],
@@ -5279,7 +5075,7 @@
         ]
       },
       {
-        "name": "Library cherub 3",
+        "name": "Library Cherub 3",
         "access_rules": [
           "boss_exposito, blood, tongues"
         ],
@@ -5472,6 +5268,199 @@
 
         ]
       },
+
+      {
+        "name": "Canvases Shop",
+        "access_rules": [
+          "open"
+        ],
+        "sections": [
+          {
+            "name": "Plate 1",
+            "item_count": 1
+          },
+          {
+            "name": "Plate 2",
+            "item_count": 1
+          },
+          {
+            "name": "Plate 3",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 7715,
+            "y": 4675
+          },
+          {
+            "map": "canvas",
+            "x": 735,
+            "y": 927
+          }
+
+        ]
+      },
+      {
+        "name": "Canvases Quicksilver",
+        "access_rules": [
+          "open"
+        ],
+        "sections": [
+          {
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 7336,
+            "y": 4544
+          },
+          {
+            "map": "canvas",
+            "x": 354,
+            "y": 798
+          }
+
+        ]
+      },
+      {
+        "name": "Sooty Garlic",
+        "access_rules": [
+          "open"
+        ],
+        "sections": [
+          {
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 8224,
+            "y": 4604
+          },
+          {
+            "map": "canvas",
+            "x": 1242,
+            "y": 864
+          }
+
+        ]
+      },
+      {
+        "name": "Canvases Bone",
+        "access_rules": [
+          "open"
+        ],
+        "sections": [
+          {
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 9250,
+            "y": 4541
+          },
+          {
+            "map": "canvas",
+            "x": 2227,
+            "y": 801
+          }
+
+        ]
+      },
+      {
+        "name": "Canvases Heart",
+        "access_rules": [
+          "blue_wax_3, red_wax_3"
+        ],
+        "sections": [
+          {
+            "name": "equip big beads of red and blue wax, cut yourself in the middle of the room",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 8480,
+            "y": 4672
+          },
+          {
+            "map": "canvas",
+            "x": 1503,
+            "y": 930
+          }
+
+        ]
+      },
+      {
+        "name": "Jocinero, Child of Moonlight",
+        "access_rules": [
+          "open"
+        ],
+        "sections": [
+          {
+            "name": "20 Cherub Rewards",
+            "item_count": 1,
+            "access_rules": [
+              "cherubs:20"
+
+            ]
+          },
+          {
+            "name": "38 Cherub Rewards",
+            "item_count": 1,
+            "access_rules": [
+              "cherubs:38"
+
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 8480,
+            "y": 4418
+          },
+          {
+            "map": "canvas",
+            "x": 1503,
+            "y": 669
+          }
+
+        ]
+      },
+      {
+        "name": "Defeat Exposito",
+        "access_rules": [
+          "open"
+        ],
+        "sections": [
+          {
+            "item_count": 1,
+            "hosted_item": "boss_exposito"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 9040,
+            "y": 4418
+          },
+          {
+            "map": "canvas",
+            "x": 1503,
+            "y": 669
+          }
+
+        ]
+      },
       {
         "name": "Embossed Mask of Crescente",
         "access_rules": [
@@ -5570,302 +5559,657 @@
         ]
       },
       {
-        "name": "Mark of the First Refuge",
+        "name": "Rooftop Access",
         "access_rules": [
-          "open"
+          "boss_bishop"
         ],
-        "sections": [
+        "children": [
           {
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 9762,
-            "y": 2240
+            "name": "The Once Forbidden Rooftops",
+            "access_rules": [
+              "open"
+            ],
+            "sections": [
+              {
+                "name": "Save Cleofas",
+                "access_rules": [
+                  "cord, savesocorro"
+                ],
+                "hosted_item": "cleofas",
+                "item_count": 1
+              },
+              {
+                "name": "Jibrael on the Rooftops",
+                "hosted_item": "openama3",
+                "item_count": 1,
+                "access_rules": [
+                  "jibrael"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 8480,
+                "y": 2480
+              },
+              {
+                "map": "rooftops",
+                "x": 248,
+                "y": 1956
+              }
+            ]
           },
           {
-            "map": "rooftops",
-            "x": 1530,
-            "y": 1704
+            "name": "Mark of the First Refuge",
+            "access_rules": [
+              "open"
+            ],
+            "sections": [
+              {
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 9762,
+                "y": 2240
+              },
+              {
+                "map": "rooftops",
+                "x": 1530,
+                "y": 1704
+              }
+
+            ]
+          },
+          {
+            "name": "Mark of the Second Refuge",
+            "access_rules": [
+              "masks:1"
+            ],
+            "sections": [
+              {
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 9762,
+                "y": 1854
+              },
+              {
+                "map": "rooftops",
+                "x": 1530,
+                "y": 1326
+              }
+
+            ]
+          },
+          {
+            "name": "Mark of the Third Refuge",
+            "access_rules": [
+              "masks:2"
+            ],
+            "sections": [
+              {
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 10018,
+                "y": 1342
+              },
+              {
+                "map": "rooftops",
+                "x": 1782,
+                "y": 820
+              }
+
+            ]
+          },
+          {
+            "name": "Archcathedral Heart",
+            "access_rules": [
+              "open"
+            ],
+            "sections": [
+              {
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 9504,
+                "y": 2364
+              },
+              {
+                "map": "rooftops",
+                "x": 1278,
+                "y": 1839
+              }
+
+            ]
+          },
+          {
+            "name": "Archcathedral HP+",
+            "access_rules": [
+              "blood, tongues, lung"
+            ],
+            "sections": [
+              {
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 9502,
+                "y": 2364
+              },
+              {
+                "map": "rooftops",
+                "x": 1782,
+                "y": 1452
+              }
+
+            ]
+          },
+          {
+            "name": "Archcathedral Bone 1",
+            "access_rules": [
+              "masks:1, linen"
+            ],
+            "sections": [
+              {
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 9248,
+                "y": 1996
+              },
+              {
+                "map": "rooftops",
+                "x": 1017,
+                "y": 1452
+              }
+
+            ]
+          },
+          {
+            "name": "Archcathedral Bone 2",
+            "access_rules": [
+              "masks:1, blood, tongues, lung",
+              "masks:1, blood, tongues, tiento"
+            ],
+            "sections": [
+              {
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 10146,
+                "y": 1470
+              },
+              {
+                "map": "rooftops",
+                "x": 1908,
+                "y": 945
+              }
+
+            ]
+          },
+          {
+            "name": "Archcathedral Cherub",
+            "access_rules": [
+              "masks:1"
+            ],
+            "sections": [
+              {
+                "name": "FREE HIM",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 9248,
+                "y": 1718
+              },
+              {
+                "map": "rooftops",
+                "x": 1017,
+                "y": 1194
+              }
+
+            ]
+          },
+          {
+            "name": "Archcathedral Prayer",
+            "access_rules": [
+              "masks:2, linen, tongues"
+            ],
+            "sections": [
+              {
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 9248,
+                "y": 1470
+              },
+              {
+                "map": "rooftops",
+                "x": 1017,
+                "y": 946
+              }
+
+            ]
+          },
+          {
+            "name": "Crisanta of the Wrapped Agony",
+            "access_rules": [
+              "masks:3"
+            ],
+            "sections": [
+              {
+                "name": "Defeat Crisanta",
+                "hosted_item": "boss_crisanta",
+                "item_count": 1
+              },
+              {
+                "name": "Spare her and a check will open in the Hidden Brotherhood Church",
+                "hosted_item": "sparecrisanta",
+                "access_rules": [
+                  "apodictic"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Viridiana's Prayer",
+                "access_rules": [
+                  "boss_crisanta"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 9820,
+                "y": 958
+              },
+              {
+                "map": "rooftops",
+                "x": 1590,
+                "y": 426
+              }
+            ]
+          },
+          {
+            "name": "Mea Culpa Shrine #6",
+            "access_rules": [
+              "masks:2, blood, tongues, lung",
+              "masks:2, blood, tongues, tiento"
+            ],
+            "sections": [
+              {
+                "name": "Unlock gate getting check below",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 10276,
+                "y": 1346
+              },
+              {
+                "map": "rooftops",
+                "x": 2043,
+                "y": 810
+              }
+
+            ]
+          },
+          {
+            "name": "Wall of Prohibitions Confessor",
+            "access_rules": [
+              "immaculate_bead, key_scribe"
+            ],
+            "sections": [
+              {
+                "name": "BREAK IT",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 7074,
+                "y": 1974
+              },
+              {
+                "map": "prison",
+                "x": 228,
+                "y": 478
+              }
+
+            ]
+          },
+          {
+            "name": "Rooftops Miriam Gate",
+            "access_rules": [
+              "miriam:1, linen, blood, tongues, masks:2"
+            ],
+            "sections": [
+              {
+                "hosted_item": "miriam",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 10022,
+                "y": 1464
+              },
+              {
+                "map": "rooftops",
+                "x": 1788,
+                "y": 936
+              }
+            ]
+          },
+          {
+            "name": "Prison Inquisitor",
+            "access_rules": [
+              "key_inquisitor"
+            ],
+
+            "children": [
+              {
+                "name": "Prohibitions Bile Flask",
+                "access_rules": [ "open" ],
+                "sections": [
+                  {
+                    "item_count": 1
+                  }
+
+
+                ],
+                "map_locations": [
+                  {
+                    "map": "full",
+                    "x": 8046,
+                    "y": 2044
+                  },
+                  {
+                    "map": "prison",
+                    "x": 1218,
+                    "y": 546
+                  }
+                ]
+              },
+              {
+                "name": "Prohibitions Bone 2",
+                "access_rules": [ "lung, blood, tongues" ],
+                "sections": [
+                  {
+                    "name": "Break the wall",
+                    "item_count": 1
+                  }
+
+
+                ],
+                "map_locations": [
+                  {
+                    "map": "full",
+                    "x": 7568,
+                    "y": 2376
+                  },
+                  {
+                    "map": "prison",
+                    "x": 724,
+                    "y": 882
+                  }
+                ]
+              },
+              {
+                "name": "Prohibitions Bone 3",
+                "access_rules": [ "open" ],
+                "sections": [
+                  {
+                    "item_count": 1
+                  }
+
+
+                ],
+                "map_locations": [
+                  {
+                    "map": "full",
+                    "x": 7560,
+                    "y": 2040
+                  },
+                  {
+                    "map": "prison",
+                    "x": 710,
+                    "y": 543
+                  }
+                ]
+              }
+
+            ]
+          },
+          {
+            "name": "Prison Secular",
+            "access_rules": [
+              "key_secular"
+            ],
+
+            "children": [
+              {
+                "name": "Prohibitions Cherub 2",
+                "access_rules": [ "open" ],
+                "sections": [
+                  {
+                    "name": "FREE HIM",
+                    "item_count": 1
+                  }
+
+
+                ],
+                "map_locations": [
+                  {
+                    "map": "full",
+                    "x": 7966,
+                    "y": 1974
+                  },
+                  {
+                    "map": "prison",
+                    "x": 1124,
+                    "y": 468
+                  }
+                ]
+              },
+              {
+                "name": "Scribe Key Check",
+                "access_rules": [ "open" ],
+                "sections": [
+                  {
+
+                    "item_count": 1
+                  }
+
+
+                ],
+                "map_locations": [
+                  {
+                    "map": "full",
+                    "x": 8043,
+                    "y": 2222
+                  },
+                  {
+                    "map": "prison",
+                    "x": 1179,
+                    "y": 712
+                  }
+                ]
+              }
+
+            ]
+          },
+          {
+            "name": "Prison Scribe",
+            "access_rules": [
+              "key_scribe"
+            ],
+
+            "children": [
+              {
+                "name": "Prohibitions Bone 4",
+                "access_rules": [ "open" ],
+                "sections": [
+                  {
+                    "item_count": 1
+                  }
+
+
+                ],
+                "map_locations": [
+                  {
+                    "map": "full",
+                    "x": 8132,
+                    "y": 1966
+                  },
+                  {
+                    "map": "prison",
+                    "x": 1296,
+                    "y": 468
+                  }
+                ]
+              },
+              {
+                "name": "Prohibitions Bone 4",
+                "access_rules": [ "open" ],
+                "sections": [
+                  {
+                    "item_count": 1
+                  }
+
+
+                ],
+                "map_locations": [
+                  {
+                    "map": "full",
+                    "x": 8132,
+                    "y": 1966
+                  },
+                  {
+                    "map": "prison",
+                    "x": 1400,
+                    "y": 712
+                  }
+                ]
+              },
+              {
+                "name": "Prohibitions Cherub 3",
+                "access_rules": [ "open" ],
+                "sections": [
+                  {
+                    "name": "FREE HIM",
+                    "item_count": 1
+                  }
+
+
+                ],
+                "map_locations": [
+                  {
+                    "map": "full",
+                    "x": 8039,
+                    "y": 2367
+                  },
+                  {
+                    "map": "prison",
+                    "x": 1182,
+                    "y": 876
+                  }
+                ]
+              },
+              {
+                "name": "Prohibitions MP+",
+                "access_rules": [ "open" ],
+                "sections": [
+                  {
+                    "name": "go up through scribe key door down and to the right from here, then break the wall",
+                    "item_count": 1
+                  }
+
+
+                ],
+                "map_locations": [
+                  {
+                    "map": "full",
+                    "x": 7458,
+                    "y": 2338
+                  },
+                  {
+                    "map": "prison",
+                    "x": 611,
+                    "y": 735
+                  }
+                ]
+              },
+              {
+                "name": "Quirce Room",
+                "access_rules": [ "open" ],
+                "sections": [
+                  {
+                    "name": "Defeat Quirce",
+                    "hosted_item": "boss_quirce",
+                    "item_count": 1
+                  },
+                  {
+                    "name": "FREE HIM",
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Come back for the check after you beat Quirce",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "full",
+                    "x": 7329,
+                    "y": 1983
+                  },
+                  {
+                    "map": "prison",
+                    "x": 583,
+                    "y": 465
+                  }
+                ]
+              }
+
+            ]
           }
 
         ]
       },
-      {
-        "name": "Mark of the Second Refuge",
-        "access_rules": [
-          "masks:1"
-        ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 9762,
-            "y": 1854
-          },
-          {
-            "map": "rooftops",
-            "x": 1530,
-            "y": 1326
-          }
 
-        ]
-      },
-      {
-        "name": "Mark of the Third Refuge",
-        "access_rules": [
-          "masks:2"
-        ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 10018,
-            "y": 1342
-          },
-          {
-            "map": "rooftops",
-            "x": 1782,
-            "y": 820
-          }
-
-        ]
-      },
-      {
-        "name": "Archcathedral Heart",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 9504,
-            "y": 2364
-          },
-          {
-            "map": "rooftops",
-            "x": 1278,
-            "y": 1839
-          }
-
-        ]
-      },
-      {
-        "name": "Archcathedral HP+",
-        "access_rules": [
-          "blood, tongues, lung"
-        ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 9502,
-            "y": 2364
-          },
-          {
-            "map": "rooftops",
-            "x": 1782,
-            "y": 1452
-          }
-
-        ]
-      },
-      {
-        "name": "Archcathedral Bone 1",
-        "access_rules": [
-          "masks:1, linen"
-        ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 9248,
-            "y": 1996
-          },
-          {
-            "map": "rooftops",
-            "x": 1017,
-            "y": 1452
-          }
-
-        ]
-      },
-      {
-        "name": "Archcathedral Bone 2",
-        "access_rules": [
-          "masks:1, blood, tongues, lung"
-        ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 10146,
-            "y": 1470
-          },
-          {
-            "map": "rooftops",
-            "x": 1908,
-            "y": 945
-          }
-
-        ]
-      },
-      {
-        "name": "Archcathedral cherub",
-        "access_rules": [
-          "masks:1"
-        ],
-        "sections": [
-          {
-            "name": "FREE HIM",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 9248,
-            "y": 1718
-          },
-          {
-            "map": "rooftops",
-            "x": 1017,
-            "y": 1194
-          }
-
-        ]
-      },
-      {
-        "name": "Archcathedral Prayer",
-        "access_rules": [
-          "masks:2, linen, tongues"
-        ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 9248,
-            "y": 1470
-          },
-          {
-            "map": "rooftops",
-            "x": 1017,
-            "y": 946
-          }
-
-        ]
-      },
-      {
-        "name": "Crisanta of the Wrapped Agony",
-        "access_rules": [
-          "masks:3"
-        ],
-        "sections": [
-          {
-            "name": "Spare her and a check will open in the Hidden Brotherhood Church",
-            "hosted_item": "sparecrisanta",
-            "item_count": 1
-          },
-          {
-            "name": "If Viridiana is still alive, she'll have a prayer for you",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 9820,
-            "y": 958
-          },
-          {
-            "map": "rooftops",
-            "x": 1590,
-            "y": 426
-          }
-
-        ]
-      },
-      {
-        "name": "Mea Culpa Shrine #6",
-        "access_rules": [
-          "masks:2"
-        ],
-        "sections": [
-          {
-            "name": "Unlock gate getting check below",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 10276,
-            "y": 1346
-          },
-          {
-            "map": "rooftops",
-            "x": 2043,
-            "y": 810
-          }
-
-        ]
-      },
-      {
-        "name": "Rooftops Miriam Gate",
-        "access_rules": [
-          "miriam:1, linen, blood, tongues, masks:2"
-        ],
-        "sections": [
-          {
-            "hosted_item": "miriam",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 10022,
-            "y": 1464
-          },
-          {
-            "map": "rooftops",
-            "x": 1788,
-            "y": 936
-          }
-
-        ]
-      },
       {
         "name": "Mother of Mothers Confessor",
         "access_rules": [
@@ -5915,308 +6259,9 @@
           }
 
         ]
-      },
-      {
-        "name": "Wall of Prohibitions Confessor",
-        "access_rules": [
-          "immaculate_bead, key_scribe"
-        ],
-        "sections": [
-          {
-            "name": "BREAK IT",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 7074,
-            "y": 1974
-          },
-          {
-            "map": "prison",
-            "x": 228,
-            "y": 478
-          }
-
-        ]
-      }
-
-    ]
-  },
-  {
-    "name": "Prison Inquisitor",
-    "access_rules": [
-      "wounds:3, key_inquisitor"
-    ],
-
-    "children": [
-      {
-        "name": "Prohibitions Bile Flask",
-        "access_rules": [ "open" ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-
-
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 8046,
-            "y": 2044
-          },
-          {
-            "map": "prison",
-            "x": 1218,
-            "y": 546
-          }
-        ]
-      },
-      {
-        "name": "Prohibitions Bone 2",
-        "access_rules": [ "lung, blood, tongues" ],
-        "sections": [
-          {
-            "name": "Break the wall",
-            "item_count": 1
-          }
-
-
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 7568,
-            "y": 2376
-          },
-          {
-            "map": "prison",
-            "x": 724,
-            "y": 882
-          }
-        ]
-      },
-      {
-        "name": "Prohibitions Bone 3",
-        "access_rules": [ "open" ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-
-
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 7560,
-            "y": 2040
-          },
-          {
-            "map": "prison",
-            "x": 710,
-            "y": 543
-          }
-        ]
-      }
-
-    ]
-  },
-  {
-    "name": "Prison Secular",
-    "access_rules": [
-      "wounds:3, key_secular"
-    ],
-
-    "children": [
-      {
-        "name": "Prohibitions Cherub 2",
-        "access_rules": [ "open" ],
-        "sections": [
-          {
-            "name": "FREE HIM",
-            "item_count": 1
-          }
-
-
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 7966,
-            "y": 1974
-          },
-          {
-            "map": "prison",
-            "x": 1124,
-            "y": 468
-          }
-        ]
-      },
-      {
-        "name": "Scribe Key Check",
-        "access_rules": [ "open" ],
-        "sections": [
-          {
-
-            "item_count": 1
-          }
-
-
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 8043,
-            "y": 2222
-          },
-          {
-            "map": "prison",
-            "x": 1179,
-            "y": 712
-          }
-        ]
-      }
-
-    ]
-  },
-  {
-    "name": "Prison Scribe",
-    "access_rules": [
-      "wounds:3, key_scribe"
-    ],
-
-    "children": [
-      {
-        "name": "Prohibitions Bone 3",
-        "access_rules": [ "open" ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-
-
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 8132,
-            "y": 1966
-          },
-          {
-            "map": "prison",
-            "x": 1296,
-            "y": 468
-          }
-        ]
-      },
-      {
-        "name": "Prohibitions Bone 4",
-        "access_rules": [ "open" ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-
-
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 8132,
-            "y": 1966
-          },
-          {
-            "map": "prison",
-            "x": 1400,
-            "y": 712
-          }
-        ]
-      },
-      {
-        "name": "Prohibitions Cherub 3",
-        "access_rules": [ "open" ],
-        "sections": [
-          {
-            "name": "FREE HIM",
-            "item_count": 1
-          }
-
-
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 8039,
-            "y": 2367
-          },
-          {
-            "map": "prison",
-            "x": 1182,
-            "y": 876
-          }
-        ]
-      },
-      {
-        "name": "Prohibitions MP+",
-        "access_rules": [ "open" ],
-        "sections": [
-          {
-            "name": "go up through scribe key door down and to the right from here, then break the wall",
-            "item_count": 1
-          }
-
-
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 7458,
-            "y": 2338
-          },
-          {
-            "map": "prison",
-            "x": 611,
-            "y": 735
-          }
-        ]
-      },
-      {
-        "name": "Quirce Room",
-        "access_rules": [ "open" ],
-        "sections": [
-          {
-            "name": "FREE HIM",
-            "item_count": 1
-          },
-          {
-            "name": "Come back for the check after you beat him",
-            "item_count": 1
-          },
-          {
-            "name": "Take him OUT",
-            "hosted_item": "boss_quirce",
-            "item_count": 1
-          }
-
-
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 7329,
-            "y": 1983
-          },
-          {
-            "map": "prison",
-            "x": 583,
-            "y": 465
-          }
-        ]
       }
 
     ]
   }
+
 ]

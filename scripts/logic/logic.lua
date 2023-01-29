@@ -23,7 +23,7 @@ function has_more_then_n_consumable(n)
     return 0 -- 0 => no access
 end
 function canBreakHoles()
-    return (has("debla") or has("weight") or has("ruby") or has("zarabanda"))
+    return (has("debla") or has("weight") or has("ruby") or has("zarabanda") or has("tirana") or has("tiento") or has("lorquiana") or has("verdiales"))
   end
   
 
