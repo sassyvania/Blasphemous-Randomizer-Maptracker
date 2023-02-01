@@ -302,7 +302,7 @@
       {
         "name": "Mourning Prayer West",
         "access_rules": [
-          "open"
+          "blood"
         ],
         "sections": [
           {
@@ -4020,8 +4020,8 @@
     "name": "Post-Bridge",
     "access_rules": [
       "boss_esdras",
-      "$speed, throw_blood",
-      "$pillar"
+      "blood, $speed, throw_blood",
+      "blood, $pillar"
     ],
 
     "children": [
@@ -5561,7 +5561,7 @@
       {
         "name": "Rooftop Access",
         "access_rules": [
-          "boss_bishop"
+          "open"
         ],
         "children": [
           {
