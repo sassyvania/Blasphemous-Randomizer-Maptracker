@@ -7,111 +7,124 @@
     "content": [
       {
         "type": "itemgrid",
-                "h_alignment": "center",
-                "margin": "2,0,0,0",
-                "item_margin": "1,1",
-                "item_size": 36,
-                "rows": [
-                    [
-                        "blood",
-                        "tongues",
-                        "linen",
-                        "nail",
-                        "lung"
-                    ],
-                    [
-                        "wounds",
-                        "cherubs",
-                        "bones",
-                        "masks",
-                        "herbs"
-                    ],
-                    [   "red_wax",
-                        "blue_wax",
-                        "tentudia",
-                        "scorned",
-                        "refuge"
-                    ],
-                    [   "immaculate_bead",
-                        "egg",
-                        "fountain_cloth",
-                        "fountain_hand",
-                        "egg_hatched"
-                    ],
-                    [   "scapular",
-                        "cord",
-                        "toes",
-                        "eyes",
-                        "driedflowers"
-                    ]
-                ]
-              },
-              {
-                "type": "itemgrid",
-                        "h_alignment": "center",
-                        "margin": "2,0,0,0",
-                        "item_margin": "1,1",
-                        "item_size": 30,
-                        "rows": [
-                            
-                    [
-                      "key_secular",
-                      "key_scribe",
-                      "key_inquisitor",
-                      "key_brother",
-                      "key_peaks",
-                      "key_wood"
-                    ]
-                ]
-            },
-            {
-              "type": "itemgrid",
-                      "h_alignment": "center",
-                      "margin": "2,0,0,0",
-                      "item_margin": "10,2",
-                      "item_size": 45,
-                      "rows": [
-                          
-                  [
-                    "redento",
-                    "toes",
-                    "miriam"
-                    
-                  ]
-              ]
-          },
-            {
-              "type": "itemgrid",
-                      "h_alignment": "center",
-                      "margin": "2,0,0,0",
-                      "item_margin": "10,2",
-                      "item_size": 45,
-                      "rows": [
-                          
-                  [
-                    "boss_ten",
-                    "boss_tres",
-                    "boss_visage"
-                    
-                  ]
-              ]
-          },
-          {
-            "type": "itemgrid",
-                    "h_alignment": "center",
-                    "margin": "2,0,0,0",
-                    "item_margin": "10,2",
-                    "item_size": 45,
-                    "rows": [
-                        
-                [
-                  
-                  "boss_bishop",
-                  "boss_exposito",
-                  "boss_quirce"
-                ]
-            ]
-        }
+        "h_alignment": "center",
+        "margin": "2,0,0,0",
+        "item_margin": "1,1",
+        "item_size": 41,
+        "rows": [
+          [
+            "blood",
+            "tongues",
+            "linen",
+            "nail",
+            "lung",
+            "shroud"
           ]
-        }
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "margin": "0,0,0,0",
+        "item_margin": "3,1",
+        "item_size": 60,
+        "rows": [
+          [
+
+            "cherubs",
+            "wounds",
+            "masks",
+            "bones"
+
+          ],
+          [
+            "petrified",
+            "verses",
+            "scapular",
+            "eyes"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "margin": "2,0,0,0",
+        "item_margin": "1,1",
+        "item_size": 41,
+        "rows": [
+
+          [
+            "charge_attack",
+            "throw_blood",
+            "weight",
+            "egg",
+            "fountain_cloth",
+            "fountain_hand"
+          ],
+          [
+            "key_secular",
+            "key_scribe",
+            "key_inquisitor",
+            "key_brother",
+            "key_peaks",
+            "key_wood"
+          ],
+          [
+
+            "debla",
+            "tirana",
+            "verdiales",
+            "lorquiana",
+            "tiento",
+            "zarabanda"
+          ],
+          [
+            "red_wax",
+            "blue_wax",
+            "ruby",
+            "wheel",
+            "dawn",
+            "apodictic"
+          ],
+          [
+            "herbs",
+            "tentudia",
+            "thimble",
+            "driedflowers",
+            "chalice",
+            "scorned"
+          ],
+          [
+            "refuge",
+            "cord",
+            "toes",
+            "redento",
+            "immaculate_bead",
+            "miriam"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "margin": "2,0,0,0",
+        "item_margin": "5,1",
+        "item_size": 75,
+        "rows": [
+
+          [
+            "boss_ten",
+            "boss_tres",
+            "boss_visage"
+          ],
+          [
+
+            "boss_bishop",
+            "boss_exposito",
+            "boss_quirce"
+          ]
+        ]
       }
+    ]
+  }
+}

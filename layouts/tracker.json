@@ -21,39 +21,8 @@
               }
             }
           ]
-        },
-        {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "CVSTODIA",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "full"
-                ]
-              }
-            },
-            {
-              "title": "Brotherhood of the Silent Sorrow",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "brotherhood"
-                ]
-              }
-            },
-            {
-              "title": "Jondo",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "jondo"
-                ]
-              }
-            }
-          ]
         }
+        
       ]
     }
   },
