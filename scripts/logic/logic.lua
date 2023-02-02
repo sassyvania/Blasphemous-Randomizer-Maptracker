@@ -28,7 +28,7 @@ function canBreakHoles()
   
 
 function pillar()
-return (has("debla"))
+return (has("debla") or has("tirana"))
 end  
 function speed()
     return (has("wheel") or has("dawn"))

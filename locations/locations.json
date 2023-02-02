@@ -1,6 +1,34 @@
 [
   {
+    "name": "Defeat the Warden of the Silent Sorrow",
+    "access_rules": [
+      "open"
+    ],
+    "sections": [
+      {
+        "item_count": 1,
+        "hosted_item": "boss_warden"
+      }
+
+    ],
+    "map_locations": [
+      {
+        "map": "full",
+        "x": 1887,
+        "y": 3264
+      },
+      {
+        "map": "brotherhood",
+        "x": 1671,
+        "y": 561
+      }
+    ]
+  },
+  {
     "name": "First Half",
+    "access_rules": [
+      "boss_warden"
+    ],
     "children": [
       {
         "name": "Lvdovico",
@@ -125,30 +153,6 @@
             "map": "brotherhood",
             "x": 465,
             "y": 180
-          }
-        ]
-      },
-      {
-        "name": "Defeat the Warden of the Silent Sorrow",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 1887,
-            "y": 3264
-          },
-          {
-            "map": "brotherhood",
-            "x": 1671,
-            "y": 561
           }
         ]
       },

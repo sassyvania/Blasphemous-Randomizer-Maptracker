@@ -470,10 +470,10 @@
 
   // Bosses
   {
-    "name": "Defeated Tres Angustias",
+    "name": "Defeated the Warden of the Silent Sorrow",
     "type": "toggle",
-    "img": "images/items/boss_tres.png",
-    "codes": "boss_tres"
+    "img": "images/items/none.png",
+    "codes": "boss_warden"
   },
   {
     "name": "Defeated Ten Piedad",
@@ -482,13 +482,19 @@
     "codes": "boss_ten"
   },
   {
+    "name": "Defeated Tres Angustias",
+    "type": "toggle",
+    "img": "images/items/boss_tres.png",
+    "codes": "boss_tres"
+  },
+  {
     "name": "Defeated Our Lady of the Charred Visage",
     "type": "toggle",
     "img": "images/items/boss_visage.png",
     "codes": "boss_visage"
   },
   {
-    "name": "Defeat Esdras",
+    "name": "Defeated Esdras",
     "type": "toggle",
     "img": "images/items/none.png",
     "codes": "boss_esdras"
