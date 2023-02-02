@@ -1,101 +1,136 @@
 {
   "shared_item_grid": {
     "type": "array",
-    "orientation": "vertical",
+    "orientation": "horizontal",
     "margin": "0,0",
     "content": [
       {
         "type": "array",
-        "orientation": "horizontal",
-        "margin": "0,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "item_margin": "3, 3",
-            "h_alignment": "left",
-            "item_size": 50,
-            "rows": [
-              [
-                "blood",
-                "linen",
-                "tongues",
+    "orientation": "vertical",
+    "margin": "1,1",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "margin": "2,0,0,0",
+        "item_margin": "1,1",
+        "item_size": 41,
+        "rows": [
+          [
+            "blood",
+            "tongues",
+            "linen",
+            "nail",
+            "lung",
+            "shroud"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "margin": "0,0,0,0",
+        "item_margin": "3,1",
+        "item_size": 60,
+        "rows": [
+          [
 
-                "cherubs",
-                "wounds",
-                "petrified",
-                "scapular",
+            "cherubs",
+            "wounds",
+            "masks",
+            "bones"
 
-                "charge_attack",
-                "throw_blood",
-                "weight",
+          ],
+          [
+            "petrified",
+            "verses",
+            "scapular",
+            "eyes"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "margin": "2,0,0,0",
+        "item_margin": "1,1",
+        "item_size": 41,
+        "rows": [
 
-                "key_inquisitor",
-                "key_scribe",
-                "key_secular",
+          [
+            "charge_attack",
+            "throw_blood",
+            "weight",
+            "egg",
+            "fountain_cloth",
+            "fountain_hand"
+          ],
+          [
+            "key_secular",
+            "key_scribe",
+            "key_inquisitor",
+            "key_brother",
+            "key_peaks",
+            "key_wood"
+          ],
+          [
 
-                "debla",
-                "tirana",
-                "verdiales",
+            "debla",
+            "tirana",
+            "verdiales",
+            "lorquiana",
+            "tiento",
+            "zarabanda"
+          ],
+          [
+            "red_wax",
+            "blue_wax",
+            "ruby",
+            "wheel",
+            "dawn",
+            "apodictic"
+          ],
+          [
+            "herbs",
+            "tentudia",
+            "thimble",
+            "driedflowers",
+            "chalice",
+            "scorned"
+          ],
+          [
+            "refuge",
+            "cord",
+            "immaculate_bead",
+            "toes",
+            "redento",
+            "miriam"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "margin": "2,0,0,0",
+        "item_margin": "5,1",
+        "item_size": 75,
+        "rows": [
 
-                "red_wax",
-                "ruby",
-                "apodictic",
+          [
+            "boss_ten",
+            "boss_tres",
+            "boss_visage"
+          ],
+          [
 
-                "herbs",
-                "thimble",
-                "chalice",
-                "refuge",
-                "toes",
-
-                "redento",
-
-                "boss_ten",
-                "boss_tres",
-                "boss_visage"
-              ],
-              [
-
-                "nail",
-                "lung",
-                "shroud",
-
-                "bones",
-                "masks",
-                "verses",
-                "eyes",
-
-                "egg",
-                "fountain_cloth",
-                "fountain_hand",
-
-                "key_brother",
-                "key_peaks",
-                "key_wood",
-
-                "lorquiana",
-                "tiento",
-                "zarabanda",
-
-                "blue_wax",
-                "wheel",
-                "dawn",
-
-                "tentudia",
-                "driedflowers",
-                "scorned",
-                "cord",
-                "immaculate_bead",
-
-                "miriam",
-
-                "boss_bishop",
-                "boss_exposito",
-                "boss_quirce"
-              ]
-            ]
-          }
+            "boss_bishop",
+            "boss_exposito",
+            "boss_quirce"
+          ]
         ]
       }
+    ]
+  }
     ]
   }
 }
