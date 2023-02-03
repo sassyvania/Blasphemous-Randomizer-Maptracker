@@ -273,11 +273,11 @@
         ],
         "sections": [
           {
-            "name": "Meet Esdras here after showing him the Incomplete Scapular at the bridge",
+            "name": "Bring the Incomplete Scapular",
 
             "item_count": 1,
             "access_rules": [
-              "esdras"
+              "scapular"
             ]
           },
           {
@@ -1030,15 +1030,6 @@
             "hosted_item": "boss_esdras",
             "access_rules": [
               "wounds:3"
-            ]
-          },
-
-          {
-            "name": "IF YOU APPROACH ESDRAS WITHOUT THE INCOMPLETE SCAPULAR, THE SISTER QUEST WILL DIE",
-            "hosted_item": "esdras",
-            "item_count": 1,
-            "access_rules": [
-              "scapular, wounds:3"
             ]
           }
 
