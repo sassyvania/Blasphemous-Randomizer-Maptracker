@@ -243,8 +243,7 @@
       {
         "name": "Resting Place of the Sister",
         "access_rules": [
-          "blood",
-          "wounds:3"
+          "blood", "wounds:3"
         ],
         "sections": [
           {
@@ -273,11 +272,11 @@
         ],
         "sections": [
           {
-            "name": "Bring the Incomplete Scapular",
+            "name": "Bring the Incomplete Scapular after defeating Esdras",
 
             "item_count": 1,
             "access_rules": [
-              "scapular"
+              "scapular, boss_esdras"
             ]
           },
           {
