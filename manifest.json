@@ -12,13 +12,13 @@
     "standard": {
       "display_name": "Map Tracker",
       "flags": [
-//        "ap" //enables AP autotracking interface - remove if not needed
+       "ap" //enables AP autotracking interface - remove if not needed
       ]
     },
     "var_itemsonly": {
      "display_name": "Items Only",
      "flags": [
-//       "ap" //enables AP autotracking interface - remove if not needed
+      "ap" //enables AP autotracking interface - remove if not needed
      ]
     }
   }
