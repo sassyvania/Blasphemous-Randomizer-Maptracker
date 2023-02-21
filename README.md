@@ -27,7 +27,10 @@ Unzip into PopTracker's "packs" folder. That's it! On macOS, you'll find the pac
 ## To-Do
 
 Archipelago autotracking for Locations
+
 Add Mea Culpa shrine purchase checks
+
 Add more prayers 
+
 Update cherub prayer logic
 
