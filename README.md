@@ -26,11 +26,8 @@ Unzip into PopTracker's "packs" folder. That's it! On macOS, you'll find the pac
 
 ## To-Do
 
-This is a beta version of the tracker. It's messy and probably got plenty wrong with it. I just wanted to get it out as soon as it was usable and leave other stuff later. Here's what's got planned for future releases
-
-Triple check the logic (on my own and through others beta testing)
-Vertical item tracker layout
-Cleaning up the items
-Evening out the locations so they don't look all wobbly
-Auto-tracking? (I have no idea where to even start with this right now, feel free to give me a push in the right direction, or if you want to collab on it, let me know!)
+Archipelago autotracking for Locations
+Add Mea Culpa shrine purchase checks
+Add more prayers 
+Update cherub prayer logic
 
