@@ -6,6 +6,7 @@
     ],
     "sections": [
       {
+        "name": "Start the game",
         "item_count": 1,
         "hosted_item": "boss_warden"
       }
@@ -243,7 +244,7 @@
       {
         "name": "Resting Place of the Sister",
         "access_rules": [
-          "blood", "wounds:3"
+          "blood"
         ],
         "sections": [
           {
@@ -403,7 +404,19 @@
         ],
         "sections": [
           {
-
+            "name": "free check",
+            "item_count": 1
+          },
+          {
+            "name": "Sword Shop 1",
+            "item_count": 1
+          },
+          {
+            "name": "Sword Shop 2",
+            "item_count": 1
+          },
+          {
+            "name": "Sword Shop 3",
             "item_count": 1
           }
         ],
@@ -428,7 +441,15 @@
         ],
         "sections": [
           {
-
+            "name": "free check",
+            "item_count": 1
+          },
+          {
+            "name": "Sword Shop 1",
+            "item_count": 1
+          },
+          {
+            "name": "Sword Shop 2",
             "item_count": 1
           }
         ],
@@ -727,7 +748,19 @@
           "toggle"
         ],
         "sections": [
-          {
+          { "name": "free check",
+            "item_count": 1
+          },
+          { "name": "Sword Shop 1",
+            "item_count": 1
+          },
+          { "name": "Sword Shop 2",
+            "item_count": 1
+          },
+          { "name": "Sword Shop 3",
+            "item_count": 1
+          },
+          { "name": "Sword Shop 4",
             "item_count": 1
           }
 
@@ -776,7 +809,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Trade Bouquet of Thyme",
+            "name": "Herb Trade 1",
             "item_count": 1,
             "access_rules": [
               "herbs:1"
@@ -784,7 +817,7 @@
             ]
           },
           {
-            "name": "Trade Bouquet of Rosemary",
+            "name": "Herb Trade 2",
             "item_count": 1,
             "access_rules": [
               "herbs:2"
@@ -792,7 +825,7 @@
             ]
           },
           {
-            "name": "Trade Dried Clove",
+            "name": "Herb Trade 3",
             "item_count": 1,
             "access_rules": [
               "herbs:3"
@@ -800,7 +833,7 @@
             ]
           },
           {
-            "name": "Trade Incense Garlic",
+            "name": "Herb Trade 4",
             "item_count": 1,
             "access_rules": [
               "herbs:4"
@@ -808,7 +841,7 @@
             ]
           },
           {
-            "name": "Trade Olive Seeds",
+            "name": "Herb Trade 5",
             "item_count": 1,
             "access_rules": [
               "herbs:5"
@@ -816,7 +849,7 @@
             ]
           },
           {
-            "name": "Trade Sooty Garlic",
+            "name": "Herb Trade 6",
             "item_count": 1,
             "access_rules": [
               "herbs:6"
@@ -968,13 +1001,14 @@
         ]
       },
       {
-        "name": "Albero Rosary",
+        "name": "Tirso's Attic",
         "access_rules": [
           "open",
           "toggle"
         ],
         "sections": [
           {
+            "name": "Albero Rosary",
             "item_count": 1
           }
 
@@ -1048,13 +1082,14 @@
       },
 
       {
-        "name": "Albero Bone",
+        "name": "Albero Graveyard",
         "access_rules": [
           "open",
           "toggle"
         ],
         "sections": [
           {
+            "name": "Albero Bone",
             "item_count": 1
           }
 
@@ -3231,6 +3266,11 @@
         ],
         "sections": [
           {
+            "name": "free check",
+            "item_count": 1
+          },
+          {
+            "name": "Sword Shop 1",
             "item_count": 1
           }
         ],
@@ -3795,7 +3835,7 @@
       {
         "name": "Grievance MP+",
         "access_rules": [
-          "open"
+          "blood"
         ],
         "sections": [
           {
@@ -4654,6 +4694,11 @@
         ],
         "sections": [
           {
+            "name": "free check",
+            "item_count": 1
+          },
+          {
+            "name": "Sword Shop 1",
             "item_count": 1
           }
         ],
@@ -5245,6 +5290,15 @@
         ],
         "sections": [
           {
+            "name": "free check",
+            "item_count": 1
+          },
+          {
+            "name": "Sword Shop 1",
+            "item_count": 1
+          },
+          {
+            "name": "Sword Shop 2",
             "item_count": 1
           }
         ],
@@ -5703,8 +5757,8 @@
             "map_locations": [
               {
                 "map": "full",
-                "x": 9502,
-                "y": 2364
+                "x": 10016,
+                "y": 1984
               },
               {
                 "map": "rooftops",
@@ -5861,6 +5915,15 @@
             "sections": [
               {
                 "name": "Unlock gate getting check below",
+                "item_count": 1
+              },
+              
+              {
+                "name": "Sword Shop 1",
+                "item_count": 1
+              },
+              {
+                "name": "Sword Shop 2",
                 "item_count": 1
               }
             ],
