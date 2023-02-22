@@ -1,7 +1,7 @@
 # Blasphemous Randomizer Map Tracker by Sassyvania
 
 Blasphemous Randomizer
-https://www.nexusmods.com/blasphemous/mods/15
+https://github.com/BrandenEK/Blasphemous-Randomizer
 
 Poptracker 
 https://github.com/black-sliver/PopTracker
