@@ -26,6 +26,84 @@
     ]
   },
   {
+    "name": "Brotherhood Cherub",
+    "access_rules": [
+      "blood, tongues",
+      "blood, linen"
+    ],
+    "sections": [
+      {
+        "name": "FREE HIM",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "full",
+        "x": 700,
+        "y": 3024
+      },
+      {
+        "map": "brotherhood",
+        "x": 462,
+        "y": 300
+      }
+
+    ]
+  },
+  {
+    "name": "Brotherhood Prayer",
+    "access_rules": [
+      "blood",
+      "toggle"
+    ],
+    "sections": [
+      {
+        "name": "This Blood Was Made For Walkin'",
+        "item_count": 1
+      }
+
+    ],
+    "map_locations": [
+      {
+        "map": "full",
+        "x": 672,
+        "y": 2880
+      },
+      {
+        "map": "brotherhood",
+        "x": 465,
+        "y": 180
+      }
+    ]
+  },
+  {
+    "name": "BotSS: Starting room ledge",
+    "access_rules": [
+      "blood, linen"
+    ],
+    "sections": [
+      {
+        "name": "Brotherhood Rosary",
+
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "full",
+        "x": 928,
+        "y": 2992
+      },
+      {
+        "map": "brotherhood",
+        "x": 716,
+        "y": 305
+      }
+
+    ]
+  },
+  {
     "name": "First Half",
     "access_rules": [
       "boss_warden"
@@ -131,32 +209,7 @@
           }
         ]
       },
-      {
-        "name": "Brotherhood Prayer",
-        "access_rules": [
-          "blood",
-          "toggle"
-        ],
-        "sections": [
-          {
-            "name": "This Blood Was Made For Walkin'",
-            "item_count": 1
-          }
-
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 672,
-            "y": 2880
-          },
-          {
-            "map": "brotherhood",
-            "x": 465,
-            "y": 180
-          }
-        ]
-      },
+      
       {
         "name": "Welcome 2 Petrous",
 
@@ -242,13 +295,13 @@
         ]
       },
       {
-        "name": "Resting Place of the Sister",
+        "name": "TRPotS: Perpetva's shrine",
         "access_rules": [
           "blood"
         ],
         "sections": [
           {
-
+            "name": "Resting Place of the Sister",
             "item_count": 1
           }
         ],
@@ -304,12 +357,13 @@
         ]
       },
       {
-        "name": "Mourning Prayer West",
+        "name": "MaH: West chest",
         "access_rules": [
           "blood"
         ],
         "sections": [
           {
+            "name": "Mourning Prayer West",
             "item_count": 1
           }
         ],
@@ -328,31 +382,7 @@
         ]
       },
 
-      {
-        "name": "Brotherhood Rosary",
-        "access_rules": [
-          "blood, linen"
-        ],
-        "sections": [
-          {
-
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 928,
-            "y": 2992
-          },
-          {
-            "map": "brotherhood",
-            "x": 716,
-            "y": 305
-          }
-
-        ]
-      },
+      
       {
         "name": "Brotherhood Maze Door",
         "access_rules": [],
@@ -467,32 +497,7 @@
 
         ]
       },
-      {
-        "name": "Brotherhood Cherub",
-        "access_rules": [
-          "blood, tongues",
-          "blood, linen"
-        ],
-        "sections": [
-          {
-            "name": "FREE HIM",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 700,
-            "y": 3024
-          },
-          {
-            "map": "brotherhood",
-            "x": 462,
-            "y": 300
-          }
-
-        ]
-      },
+      
       {
         "name": "Elder Brother's Room",
         "access_rules": [
@@ -544,7 +549,7 @@
         ]
       },
       {
-        "name": "Thorn",
+        "name": "THL: Deogracias' gift",
         "access_rules": [
           "open",
           "toggle"
@@ -570,7 +575,7 @@
         ]
       },
       {
-        "name": "Holy Line Prayer",
+        "name": "THL: Hanging skeleton",
         "access_rules": [
           "open",
           "toggle"
@@ -596,7 +601,7 @@
         ]
       },
       {
-        "name": "Holy Line Rosary",
+        "name": "THL: Across blood platforms",
         "access_rules": [
           "blood",
           "toggle"
@@ -648,7 +653,7 @@
         ]
       },
       {
-        "name": "Underground Rosary",
+        "name": "THL: Underground chest",
         "access_rules": [
           "blood, nail",
           "toggle"
@@ -1125,7 +1130,7 @@
             "access_rules": [
               "egg"
             ],
-            "name": "Come back",
+            "name": "Lay an Egg",
             "item_count": 1
           }
 
@@ -1144,13 +1149,14 @@
         ]
       },
       {
-        "name": "Mountain Bone",
+        "name": "MotED: Under entrance to DC",
         "access_rules": [
           "open",
           "toggle"
         ],
         "sections": [
           {
+            "name": "Mountain Bone",
             "item_count": 1
           }
 
@@ -1308,7 +1314,7 @@
         "access_rules": [],
         "sections": [
           {
-
+            "name": "Gemino's gift",
             "item_count": 1,
             "access_rules": [
               "open"
@@ -1344,7 +1350,7 @@
         "access_rules": [ "open" ],
         "sections": [
           {
-
+            "name": "Wither Bone 1",
             "item_count": 1
 
           }
@@ -1364,11 +1370,11 @@
         ]
       },
       {
-        "name": "Wither Bone 2",
+        "name": "WOTW: Underground ledge",
         "access_rules": [ "open" ],
         "sections": [
           {
-
+            "name": "Wither Bone 2",
             "item_count": 1
 
           }
@@ -1436,10 +1442,11 @@
         ]
       },
       {
-        "name": "Remains of Tentudia's Hair",
+        "name": "WOTW: Death runr",
         "access_rules": [ "open" ],
         "sections": [
           {
+            "name": "Remains of Tentudia's Hair",
             "item_count": 1
 
           }
@@ -1459,10 +1466,11 @@
         ]
       },
       {
-        "name": "Incense Garlic",
+        "name": "WOTW: Entrance to tomb",
         "access_rules": [ "open" ],
         "sections": [
           {
+            "name": "Incense Garlic",
             "item_count": 1
 
           }
@@ -1482,10 +1490,11 @@
         ]
       },
       {
-        "name": "Wither Heart",
+        "name": "WOTW: Upper east statue",
         "access_rules": [ "tongues" ],
         "sections": [
           {
+            "name": "Wither Heart",
             "item_count": 1
 
           }
@@ -1535,7 +1544,7 @@
         ]
       },
       {
-        "name": "Frozen Tomb",
+        "name": "WOTW: Underground tomb",
         "access_rules": [
           "driedflowers, linen",
           "driedflowers, thimble_filled",
@@ -1543,6 +1552,7 @@
         ],
         "sections": [
           {
+            "name": "Frozen Tomb",
             "item_count": 1
           }
 
@@ -1574,6 +1584,31 @@
         "map_locations": [
           {
             "map": "full",
+            "x": 3688,
+            "y": 444
+          },
+          {
+            "map": "convent",
+            "x": 1021,
+            "y": 447
+          }
+
+        ]
+      },
+      {
+        "name": "Visage of Compunction",
+        "access_rules": [
+          "open"
+        ],
+        "sections": [
+          {
+            "name": "you did it!",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
             "x": 3888,
             "y": 444
           },
@@ -1586,12 +1621,13 @@
         ]
       },
       {
-        "name": "Convent Rosary 2",
+        "name": "CoOLotCV: Outside pathway",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Convent Rosary 2",
             "item_count": 1
           }
         ],
@@ -1707,12 +1743,13 @@
         ]
       },
       {
-        "name": "Red Candle #2",
+        "name": "CoOLotCV: Red candle",
         "access_rules": [
           "red_wax"
         ],
         "sections": [
           {
+            "name": "Red Candle #2",
             "item_count": 1
           }
         ],
@@ -1731,10 +1768,11 @@
         ]
       },
       {
-        "name": "Blue Candle #1",
+        "name": "CoOLotCV: Blue candle",
 
         "sections": [
           {
+            "name": "Blue Candle #1",
             "item_count": 1
           }
         ],
@@ -1778,13 +1816,14 @@
         ]
       },
       {
-        "name": "Mirrored Mask of Dolphos",
+        "name": "CoOLotCV: Mask room",
         "access_rules": [
           "boss_esdras, key_peaks",
           "toggle"
         ],
         "sections": [
           {
+            "name": "Mirrored Mask of Dolphos",
             "item_count": 1
 
           }
@@ -1804,13 +1843,14 @@
         ]
       },
       {
-        "name": "Convent Blood Fountain",
+        "name": "CoOLotCV: Lady of the Six Sorrows",
         "access_rules": [
           "boss_esdras, key_peaks",
           "toggle"
         ],
         "sections": [
           {
+            "name": "Convent HP+",
             "item_count": 1
 
           }
@@ -1830,13 +1870,14 @@
         ]
       },
       {
-        "name": "Wasteland Rosary",
+        "name": "WotBC: Lower log path",
         "access_rules": [
           "open",
           "toggle"
         ],
         "sections": [
           {
+            "name": "Wasteland Rosary",
             "item_count": 1
 
           }
@@ -1896,6 +1937,31 @@
         "sections": [
           {
             "name": "You gotta cut yourself D:",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 4269,
+            "y": 1086
+          },
+          {
+            "map": "graveyard",
+            "x": 900,
+            "y": 357
+          }
+
+        ]
+      },
+      {
+        "name": "GotP: Lower east shaft",
+        "access_rules": [
+          "open"
+        ],
+        "sections": [
+          {
+            "name": "Graveyard Bile Flask",
             "item_count": 1
           }
         ],
@@ -2045,12 +2111,13 @@
         ]
       },
       {
-        "name": "Graveyard Bone 2",
+        "name": "GotP: Center east shaft",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Graveyard Bone 2",
             "item_count": 1
           }
         ],
@@ -2069,12 +2136,13 @@
         ]
       },
       {
-        "name": "Graveyard Bone 3",
+        "name": "GotP: Upper west shaft",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Graveyard Bone 3",
             "item_count": 1
           }
         ],
@@ -2093,12 +2161,13 @@
         ]
       },
       {
-        "name": "Graveyard HP+",
+        "name": "GotP: Lady of the Six Sorrows",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Graveyard HP+",
             "item_count": 1
           }
         ],
@@ -2117,12 +2186,13 @@
         ]
       },
       {
-        "name": "Graveyard MP+",
+        "name": "GotP: Oil of the Pilgrims",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Graveyard MP+",
             "item_count": 1
           }
         ],
@@ -2141,12 +2211,13 @@
         ]
       },
       {
-        "name": "Tentudia's Skeletal Remains",
+        "name": "GA: End of blood bridge",
         "access_rules": [
           "blood, tongues"
         ],
         "sections": [
           {
+            "name": "Tentudia's Skeletal Remains",
             "item_count": 1
           }
         ],
@@ -2197,12 +2268,13 @@
         ]
       },
       {
-        "name": "Graveyard Rosary 3",
+        "name": "GotP: Center shaft ledge",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Graveyard Rosary 3",
             "item_count": 1
           }
         ],
@@ -2221,12 +2293,13 @@
         ]
       },
       {
-        "name": "Graveyard Rosary 1",
+        "name": "GotP: Lower west shaft",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Graveyard Rosary 1",
             "item_count": 1
           }
         ],
@@ -2245,12 +2318,13 @@
         ]
       },
       {
-        "name": "Graveyard Rosary Knot",
+        "name": "GotP: Elevator shaft ledge",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Graveyard Rosary Knot",
             "item_count": 1
           }
         ],
@@ -2269,37 +2343,14 @@
         ]
       },
       {
-        "name": "Graveyard Bile Flask",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 4131,
-            "y": 2106
-          },
-          {
-            "map": "graveyard",
-            "x": 770,
-            "y": 1380
-          }
-
-        ]
-      },
-      {
-        "name": "Wasteland Bone 1",
+        "name": "WotBC: Hidden alcove",
         "access_rules": [
           "open",
           "toggle"
         ],
         "sections": [
           {
+            "name": "Wasteland Bone 1",
             "item_count": 1
 
           }
@@ -2319,13 +2370,14 @@
         ]
       },
       {
-        "name": "Wasteland Bone 2",
+        "name": "WotBC: Outside ledge",
         "access_rules": [
           "open",
           "toggle"
         ],
         "sections": [
           {
+            "name": "Wasteland Bone 2",
             "item_count": 1
 
           }
@@ -2385,7 +2437,7 @@
 
           },
           {
-
+            "name": "Heart statue",
             "item_count": 1
 
           }
@@ -2405,13 +2457,14 @@
         ]
       },
       {
-        "name": "Knock down some trees for Redento",
+        "name": "WotBC: 3rd meeting with Redento",
         "access_rules": [
           "open",
           "toggle"
         ],
         "sections": [
           {
+            "name": "Knock down some trees for Redento",
             "access_rules": [
               "redento:2",
               "toggle"
@@ -2435,14 +2488,14 @@
         ]
       },
       {
-        "name": "Tentudia's Carnal Remains",
+        "name": "WotBC: Under broken bridge",
         "access_rules": [
           "blood",
           "toggle"
         ],
         "sections": [
           {
-
+            "name": "Tentudia's Carnal Remains",
             "item_count": 1
 
           }
@@ -2467,6 +2520,10 @@
           "immaculate_bead"
         ],
         "sections": [
+          {
+            "name": "free check",
+            "item_count": 1
+          },
           {
             "name": "BREAK IT",
             "item_count": 1
@@ -2513,12 +2570,13 @@
         ]
       },
       {
-        "name": "Mercy Dreams Bone 1",
+        "name": "MD: First area hidden wall",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Mercy Dreams Bone 1",
             "item_count": 1
           }
         ],
@@ -2537,12 +2595,13 @@
         ]
       },
       {
-        "name": "Mercy Dreams Bone 2",
+        "name": "MD: Second area ledge",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Mercy Dreams Bone 2",
             "item_count": 1
           }
         ],
@@ -2561,12 +2620,14 @@
         ]
       },
       {
-        "name": "Mercy Dreams Bone 3",
+        "name": "MD: Behind gate to TSC",
         "access_rules": [
           "open"
         ],
         "sections": [
+          
           {
+            "name": "Mercy Dreams Bone 3",
             "item_count": 1
           }
         ],
@@ -2585,12 +2646,13 @@
         ]
       },
       {
-        "name": "Mercy Dreams Bone 4",
+        "name": "MD: Sliding challenge",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Mercy Dreams Bone 4",
             "item_count": 1
           }
         ],
@@ -2667,12 +2729,13 @@
         ]
       },
       {
-        "name": "Mercy Dreams Prayer",
+        "name": "MD: Second area trapped chest",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Mercy Dreams Prayer",
             "item_count": 1
           }
         ],
@@ -2691,12 +2754,13 @@
         ]
       },
       {
-        "name": "Red Candle #1",
+        "name": "MD: Red candle",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Red Candle #1",
             "item_count": 1
           }
         ],
@@ -2770,13 +2834,14 @@
         ]
       },
       {
-        "name": "Wound of Attrition Check",
+        "name": "MD: Visage of Attrition",
         "access_rules": [
           "open"
         ],
         "sections": [
 
           {
+            "name": "More like Ten PieDEAD",
             "item_count": 1
           }
         ],
@@ -2795,13 +2860,14 @@
         ]
       },
       {
-        "name": "Mercy Bile Flask",
+        "name": "MD: Third area hidden room",
         "access_rules": [
           "open"
         ],
         "sections": [
 
           {
+            "name": "Mercy Bile Flask",
             "item_count": 1
           }
         ],
@@ -2845,12 +2911,13 @@
         ]
       },
       {
-        "name": "Jondo Rosary",
+        "name": "Jondo: Upper west tree root",
         "access_rules": [
           "tongues"
         ],
         "sections": [
           {
+            "name": "Jondo Rosary",
             "item_count": 1
           }
         ],
@@ -2944,12 +3011,13 @@
         ]
       },
       {
-        "name": "Jondo Heart",
+        "name": "Jondo: Spike tunnel statue",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Jondo Heart",
             "item_count": 1
           }
         ],
@@ -2968,12 +3036,13 @@
         ]
       },
       {
-        "name": "Jondo Quicksilver",
+        "name": "Jondo: Spike tunnel cave",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Jondo Quicksilver",
             "item_count": 1
           }
         ],
@@ -2992,12 +3061,13 @@
         ]
       },
       {
-        "name": "Jondo Rosary Knot",
+        "name": "Jondo: Upper west bell puzzle",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Jondo Rosary Knot",
             "item_count": 1
           }
         ],
@@ -3091,12 +3161,13 @@
         ]
       },
       {
-        "name": "Jondo Bone 1",
+        "name": "Jondo: Upper east ledge",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Jondo Bone 1",
             "item_count": 1
           }
         ],
@@ -3115,12 +3186,13 @@
         ]
       },
       {
-        "name": "Jondo Bone 2",
+        "name": "Jondo: Lower west lift alcove",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Jondo Bone 2",
             "item_count": 1
           }
         ],
@@ -3139,12 +3211,13 @@
         ]
       },
       {
-        "name": "Jondo Bone 3",
+        "name": "Jondo: Lower east under chargers",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Jondo Bone 3",
             "item_count": 1
           }
         ],
@@ -3163,12 +3236,13 @@
         ]
       },
       {
-        "name": "Bouquet of Rosemary",
+        "name": "Jondo: Lower east bell trap",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Bouquet of Rosemary",
             "item_count": 1
           }
         ],
@@ -3188,12 +3262,14 @@
       },
 
       {
-        "name": "Jondo Bile Flask",
+        "name": "Jondo: Lower west bell alcove",
+
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Jondo Bile Flask",
             "item_count": 1
           }
         ],
@@ -3212,12 +3288,13 @@
         ]
       },
       {
-        "name": "Echoes Rosary 1",
+        "name": "EoS: Lantern jump near MotED",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Echoes Rosary 1",
             "item_count": 1
           }
         ],
@@ -3236,12 +3313,13 @@
         ]
       },
       {
-        "name": "Echoes Rosary 2",
+        "name": "EoS: Lantern jump near elevator",
         "access_rules": [
           "blood"
         ],
         "sections": [
           {
+            "name": "Echoes Rosary 2",
             "item_count": 1
           }
         ],
@@ -3339,12 +3417,13 @@
         ]
       },
       {
-        "name": "Cistern Bone 1",
+        "name": "DC: Shortcut to WotBC",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Cistern Bone 1",
             "item_count": 1
           }
         ],
@@ -3363,12 +3442,13 @@
         ]
       },
       {
-        "name": "Cistern Bone 2",
+        "name": "DC: Behind sewage drips",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Cistern Bone 2",
             "item_count": 1
           }
         ],
@@ -3387,12 +3467,13 @@
         ]
       },
       {
-        "name": "Cistern Bone 3",
+        "name": "DC: High ledge near elevator shaft",
         "access_rules": [
           "lung, nail"
         ],
         "sections": [
           {
+            "name": "Cistern Bone 3",
             "item_count": 1
           }
         ],
@@ -3411,9 +3492,9 @@
         ]
       },
       {
-        "name": "Cistern cherub 1",
+        "name": "Cistern Cherub 1",
         "access_rules": [
-          "open"
+          "nail", "$pillar"
         ],
         "sections": [
           {
@@ -3437,7 +3518,7 @@
         ]
       },
       {
-        "name": "Cistern cherub 2",
+        "name": "Cistern Cherub 2",
         "access_rules": [
           "open"
         ],
@@ -3463,7 +3544,7 @@
         ]
       },
       {
-        "name": "Cistern cherub 3",
+        "name": "Cistern Cherub 3",
         "access_rules": [
           "open"
         ],
@@ -3489,7 +3570,7 @@
         ]
       },
       {
-        "name": "Cistern cherub 4",
+        "name": "Cistern Cherub 4",
         "access_rules": [
           "lung, nail"
         ],
@@ -3515,12 +3596,13 @@
         ]
       },
       {
-        "name": "Black Grieving Veil",
+        "name": "DC: Behind gate in miasma room",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Black Grieving Veil",
             "item_count": 1
           }
 
@@ -3540,12 +3622,13 @@
         ]
       },
       {
-        "name": "Cistern MP+",
+        "name": "DC: Oil of the Pilgrims",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Cistern MP+",
             "item_count": 1
           }
 
@@ -3565,12 +3648,13 @@
         ]
       },
       {
-        "name": "Cistern HP+ 1",
+        "name": "DC: Lady of the Six Sorrows, from MD",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Cistern HP+ 1",
             "item_count": 1
           }
 
@@ -3590,12 +3674,13 @@
         ]
       },
       {
-        "name": "Cistern Bile Flask",
+        "name": "DC: Lower east tunnel chest",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Cistern Bile Flask",
             "item_count": 1
           }
 
@@ -3615,13 +3700,14 @@
         ]
       },
       {
-        "name": "Cistern Prayer",
+        "name": "DC: Upper east tunnel chest",
         "access_rules": [
           "linen",
           "nail"
         ],
         "sections": [
           {
+            "name": "Cistern Prayer",
             "item_count": 1
           }
 
@@ -3641,12 +3727,13 @@
         ]
       },
       {
-        "name": "Severed Hand Check",
+        "name": "DC: Hidden alcove near fountain",
         "access_rules": [
           "nail"
         ],
         "sections": [
           {
+            "name": "Severed Hand Check",
             "item_count": 1
           }
 
@@ -3700,12 +3787,13 @@
         ]
       },
       {
-        "name": "Grievance Rosary Knot",
+        "name": "GA: Lower west ledge",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Grievance Rosary Knot",
             "item_count": 1
           }
         ],
@@ -3759,6 +3847,7 @@
             "item_count": 1
           },
           {
+            "name": "Lung",
             "item_count": 1
           }
         ],
@@ -3777,12 +3866,13 @@
         ]
       },
       {
-        "name": "Grievance Bone",
+        "name": "GA: Miasma room floor",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Grievance Bone",
             "item_count": 1
           }
         ],
@@ -3810,11 +3900,12 @@
             "name": "FREE HIM",
             "item_count": 1,
             "access_rules": [
-              "pillar"
+              "$pillar"
 
             ]
           },
           {
+            "name": "Melted Coins",
             "item_count": 1
           }
         ],
@@ -3839,6 +3930,7 @@
         ],
         "sections": [
           {
+            "name": "Grievance MP+",
             "item_count": 1
           }
         ],
@@ -3915,13 +4007,38 @@
       },
 
       {
-        "name": "Tres Angustias Reward",
+        "name": "Tres Angustias",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
             "hosted_item": "boss_tres",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 3744,
+            "y": 6078
+          },
+          {
+            "map": "grievance",
+            "x": 1616,
+            "y": 1378
+          }
+
+        ]
+      },
+      {
+        "name": "GA: Visage of Contrition",
+        "access_rules": [
+          "open"
+        ],
+        "sections": [
+          {
+            "name":"aw nice good job",
             "item_count": 1
           }
         ],
@@ -3998,12 +4115,13 @@
             ]
           },
           {
-            "name": "Cistern Bone 4",
+            "name": "DC: Elevator shaft ledge",
             "access_rules": [
               "open"
             ],
             "sections": [
               {
+                "name": "Cistern Bone 4",
                 "item_count": 1
               }
             ],
@@ -4028,6 +4146,7 @@
             ],
             "sections": [
               {
+                "name": "Cistern HP+ 2",
                 "item_count": 1
               }
 
@@ -4061,10 +4180,11 @@
     "children": [
 
       {
-        "name": "Hall Quicksilver Check",
+        "name": "HotD: Mirror room",
         "access_rules": [ "open" ],
         "sections": [
           {
+            "name": "Hall Quicksilver Check",
             "item_count": 1
           }
 
@@ -4088,6 +4208,7 @@
         "access_rules": [ "verses:4" ],
         "sections": [
           {
+            "name": "Also the last",
             "hosted_item": "boss_laudes",
             "item_count": 1
           }
@@ -4106,10 +4227,11 @@
         ]
       },
       {
-        "name": "Bridge Heart",
+        "name": "BotTC: Inside giant statue",
         "access_rules": [ "boss_laudes" ],
         "sections": [
           {
+            "name": "Bridge Heart",
             "item_count": 1
           }
 
@@ -4143,12 +4265,12 @@
           {
             "map": "full",
             "x": 7388,
-            "y": 3132
+            "y": 3066
           },
           {
             "map": "patio",
-            "x": 1098,
-            "y": 1029
+            "x": 780,
+            "y": 975
           }
         ]
       },
@@ -4177,10 +4299,11 @@
         ]
       },
       {
-        "name": "Patio Bone 1",
+        "name": "PotSS: First area ledge",
         "access_rules": [ "open" ],
         "sections": [
           {
+            "name": "Patio Bone 1",
             "item_count": 1
           }
 
@@ -4209,6 +4332,7 @@
           },
           {
             "name": "Olive Seeds",
+            "access_rules": ["tongues"],
             "item_count": 1
           }
 
@@ -4228,7 +4352,7 @@
         ]
       },
       {
-        "name": "Patio Quicksilver",
+        "name": "PotSS: Climb to WotHP",
         "access_rules": [ "blood, tongues", "key_scribe, boss_bishop" ],
         "sections": [
           {
@@ -4250,13 +4374,14 @@
         ]
       },
       {
-        "name": "Kill that big freak for Redento",
+        "name": "PotSS: 4th meeting with Redento",
         "access_rules": [
           "redento:3",
           "toggle"
         ],
         "sections": [
           {
+            "name": "Kill that big freak for Redento",
             "item_count": 1,
             "hosted_item": "redento"
           }
@@ -4276,12 +4401,13 @@
         ]
       },
       {
-        "name": "Amanecida of the Chiselled Steel",
+        "name": "PotSS: Amanecida of the Chiselled Steel",
         "access_rules": [
           "openama3"
         ],
         "sections": [
           {
+            "name": "PotSS: Amanecida of the Chiselled Steel",
             "item_count": 1
           }
         ],
@@ -4299,10 +4425,11 @@
         ]
       },
       {
-        "name": "Patio Rosary",
+        "name": "PotSS: Second area ledge",
         "access_rules": [ "$speed, throw_blood", "tongues" ],
         "sections": [
           {
+            "name": "Patio Rosary",
             "item_count": 1
           }
 
@@ -4370,10 +4497,11 @@
         ]
       },
       {
-        "name": "Equip all three toe rosaries and let Redento rest",
+        "name": "MoM: Final meeting with Redento",
         "access_rules": [ "redento:4, toes:3" ],
         "sections": [
           {
+            "name": "Equip all three toe rosaries and let Redento rest",
             "item_count": 1
           },
           {
@@ -4479,12 +4607,13 @@
         ]
       },
       {
-        "name": "Mothers Heart",
+        "name": "MoM: Giant chandelier statue",
         "access_rules": [
           "blood"
         ],
         "sections": [
           {
+            "name": "Mothers Heart",
             "item_count": 1
           }
         ],
@@ -4503,10 +4632,11 @@
         ]
       },
       {
-        "name": "Mothers Bone 1",
+        "name": "MoM: Upper west floor",
         "access_rules": [ "open" ],
         "sections": [
           {
+            "name": "Mothers Bone 1",
             "item_count": 1
           }
 
@@ -4526,10 +4656,11 @@
         ]
       },
       {
-        "name": "Mothers Bone 2",
+        "name": "MoM: Upper center floor",
         "access_rules": [ "open" ],
         "sections": [
           {
+            "name": "Mothers Bone 2",
             "item_count": 1
           }
 
@@ -4549,10 +4680,11 @@
         ]
       },
       {
-        "name": "Mothers Bone 3",
+        "name": "MoM: Outside Cleofas' room",
         "access_rules": [ "open" ],
         "sections": [
           {
+            "name": "Mothers Bone 3",
             "item_count": 1
           }
 
@@ -4572,10 +4704,11 @@
         ]
       },
       {
-        "name": "Mothers Bone 4",
-        "access_rules": [ "blood", "$speed" ],
+        "name": "MoM: East chandelier platform",
+        "access_rules": [ "blood"],
         "sections": [
           {
+            "name": "Mothers Bone 4",
             "item_count": 1
           }
 
@@ -4595,10 +4728,11 @@
         ]
       },
       {
-        "name": "Mothers MP+",
+        "name": "MoM: Oil of the Pilgrims",
         "access_rules": [ "open" ],
         "sections": [
           {
+            "name": "Mothers MP+",
             "item_count": 1
           }
 
@@ -4618,10 +4752,11 @@
         ]
       },
       {
-        "name": "Mothers Rosary",
+        "name": "MoM: Upper east ledge",
         "access_rules": [ "blood" ],
         "sections": [
           {
+            "name": "Mothers Rosary",
             "item_count": 1
           }
 
@@ -4641,10 +4776,11 @@
         ]
       },
       {
-        "name": "Melquiades Check",
+        "name": "MoM: Melquiades, The Exhumed Archbishop",
         "access_rules": [ "open" ],
         "sections": [
           {
+            "name": "catch these hands",
             "hosted_item": "boss_bishop",
             "item_count": 1
           }
@@ -4665,10 +4801,11 @@
         ]
       },
       {
-        "name": "Deformed Mask of Orestes",
+        "name": "MoM: Mask room",
         "access_rules": [ "boss_bishop" ],
         "sections": [
           {
+            "name": "Deformed Mask of Orestes",
             "item_count": 1
           }
 
@@ -4741,10 +4878,11 @@
         ]
       },
       {
-        "name": "Amanecida of the Molten Thorn",
+        "name": "WotHP: Amanecida of the Molten Thorn",
         "access_rules": [ "openama4" ],
         "sections": [
           {
+            "name": "Amanecida of the Molten Thorn",
             "item_count": 1
           }
 
@@ -4764,7 +4902,7 @@
         ]
       },
       {
-        "name": "Prohibitions Rosary 1",
+        "name": "WotHP: Upper east room, lift puzzle",
         "access_rules": [ "open" ],
         "sections": [
           {
@@ -4788,13 +4926,15 @@
         ]
       },
       {
-        "name": "You'll have to save and quit if you dont have Key of the Secular",
+        "name": "WotHP: Upper east room, center cell floor",
         "access_rules": [ "open" ],
         "sections": [
           {
+            "name": "Ledge check",
             "item_count": 1
           },
           {
+            "name": "You'll have to save and quit if you dont have Key of the Secular",
             "item_count": 1
           }
 
@@ -4814,7 +4954,7 @@
         ]
       },
       {
-        "name": "Prohibitions Bone 1",
+        "name": "WotHP: Lower east room, hidden ledge",
         "access_rules": [ "open" ],
         "sections": [
           {
@@ -4840,7 +4980,7 @@
         "access_rules": [ "open" ],
         "sections": [
           {
-            "name": "Prison Rosary 2",
+            "name": "Outside the cell",
             "item_count": 1
           },
           {
@@ -4917,7 +5057,7 @@
         ]
       },
       {
-        "name": "Library Bile Flask",
+        "name": "LotNW: Hidden floor",
         "access_rules": [
           "open"
         ],
@@ -4942,12 +5082,13 @@
         ]
       },
       {
-        "name": "Library MP+",
+        "name": "LotNW: Oil of the Pilgrims",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Library MP+",
             "item_count": 1
           }
         ],
@@ -4966,12 +5107,13 @@
         ]
       },
       {
-        "name": "Library HP+",
+        "name": "LotNW: Lady of the Six Sorrows",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Library HP+",
             "item_count": 1
           }
         ],
@@ -4990,7 +5132,7 @@
         ]
       },
       {
-        "name": "Bone Books Room",
+        "name": "LotNW: Bone puzzle",
         "access_rules": [
           "open"
         ],
@@ -5015,12 +5157,13 @@
         ]
       },
       {
-        "name": "Library Prayer",
+        "name": "LotNW: Platform puzzle chest",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Library Prayer",
             "item_count": 1
           }
         ],
@@ -5064,7 +5207,7 @@
         ]
       },
       {
-        "name": "Library cherub 1",
+        "name": "Library Cherub 1",
         "access_rules": [
           "open"
         ],
@@ -5089,7 +5232,7 @@
         ]
       },
       {
-        "name": "Library cherub 2",
+        "name": "Library Cherub 2",
         "access_rules": [
           "open"
         ],
@@ -5139,12 +5282,13 @@
         ]
       },
       {
-        "name": "Library Rosary 1",
+        "name": "LotNW: Lowest west center ledge",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Library Rosary 1",
             "item_count": 1
           }
         ],
@@ -5163,12 +5307,13 @@
         ]
       },
       {
-        "name": "Library Rosary 2",
+        "name": "LotNW: Miasma hallway chest",
         "access_rules": [
-          "tongues, blood"
+          "tongues, blood, lung"
         ],
         "sections": [
           {
+            "name": "Library Rosary 2",
             "item_count": 1
           }
         ],
@@ -5212,12 +5357,13 @@
         ]
       },
       {
-        "name": "Library Bone 1",
+        "name": "LotNW: Root ceiling platform",
         "access_rules": [
           "tongues, blood"
         ],
         "sections": [
           {
+            "name": "Library Bone 1",
             "item_count": 1
           }
         ],
@@ -5236,12 +5382,13 @@
         ]
       },
       {
-        "name": "Library Bone 2",
+        "name": "LotNW: Platform room ledge",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Library Bone 2",
             "item_count": 1
           }
         ],
@@ -5260,12 +5407,13 @@
         ]
       },
       {
-        "name": "Library Bone 3",
+        "name": "LotNW: Lowest west upper ledge",
         "access_rules": [
           "blood"
         ],
         "sections": [
           {
+            "name": "Library Bone 3",
             "item_count": 1
           }
         ],
@@ -5351,12 +5499,13 @@
         ]
       },
       {
-        "name": "Canvases Quicksilver",
+        "name": "TSC: Swinging blade tunnel",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Canvases Quicksilver",
             "item_count": 1
           }
         ],
@@ -5375,12 +5524,12 @@
         ]
       },
       {
-        "name": "Sooty Garlic",
+        "name": "TSC: Painting ladder ledge",
         "access_rules": [
           "open"
         ],
         "sections": [
-          {
+          {"name": "Sooty Garlic",
             "item_count": 1
           }
         ],
@@ -5399,12 +5548,13 @@
         ]
       },
       {
-        "name": "Canvases Bone",
+        "name": "TSC: Under elevator shaft",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Canvases Bone",
             "item_count": 1
           }
         ],
@@ -5454,18 +5604,18 @@
         ],
         "sections": [
           {
-            "name": "20 Cherub Rewards",
+            "name": "20 Cherub Reward",
             "item_count": 1,
             "access_rules": [
-              "cherubs:20"
+              "Cherubs:20"
 
             ]
           },
           {
-            "name": "38 Cherub Rewards",
+            "name": "38 Cherub Reward",
             "item_count": 1,
             "access_rules": [
-              "cherubs:38"
+              "Cherubs:38"
 
             ]
           }
@@ -5485,12 +5635,13 @@
         ]
       },
       {
-        "name": "Defeat Exposito",
+        "name": "TSC: Exposito, Scion of Abjuration",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Defeat Exposito",
             "item_count": 1,
             "hosted_item": "boss_exposito"
           }
@@ -5503,19 +5654,20 @@
           },
           {
             "map": "canvas",
-            "x": 1503,
+            "x": 2076,
             "y": 669
           }
 
         ]
       },
       {
-        "name": "Embossed Mask of Crescente",
+        "name": "LotNW: Mask room",
         "access_rules": [
           "boss_exposito, blood, tongues"
         ],
         "sections": [
           {
+            "name": "Embossed Mask of Crescente",
             "item_count": 1
           }
         ],
@@ -5534,12 +5686,13 @@
         ]
       },
       {
-        "name": "Red Candle #3",
+        "name": "LotNW: Red candle",
         "access_rules": [
           "red_wax, boss_exposito"
         ],
         "sections": [
           {
+            "name": "Red Candle #3",
             "item_count": 1
           }
         ],
@@ -5559,12 +5712,13 @@
       },
 
       {
-        "name": "Mourning Prayer East",
+        "name": "MaH: Upper east chest",
         "access_rules": [
           "tongues"
         ],
         "sections": [
           {
+            "name": "Mourning Prayer East",
             "item_count": 1
           }
         ],
@@ -5583,12 +5737,13 @@
         ]
       },
       {
-        "name": "Sierpes",
+        "name": "MaH: Sierpes",
         "access_rules": [
           "tongues"
         ],
         "sections": [
           {
+            "name":"Double Pr-eye-zes",
             "item_count": 1
           }
         ],
@@ -5649,12 +5804,13 @@
             ]
           },
           {
-            "name": "Mark of the First Refuge",
+            "name": "AR: First soldier fight",
             "access_rules": [
               "open"
             ],
             "sections": [
               {
+                "name": "Mark of the First Refuge",
                 "item_count": 1
               }
             ],
@@ -5673,12 +5829,13 @@
             ]
           },
           {
-            "name": "Mark of the Second Refuge",
+            "name": "AR: Second soldier fight",
             "access_rules": [
               "masks:1"
             ],
             "sections": [
               {
+                "name": "Mark of the Second Refuge",
                 "item_count": 1
               }
             ],
@@ -5697,12 +5854,13 @@
             ]
           },
           {
-            "name": "Mark of the Third Refuge",
+            "name": "AR: Third soldier fight",
             "access_rules": [
               "masks:2"
             ],
             "sections": [
               {
+                "name": "Mark of the Third Refuge",
                 "item_count": 1
               }
             ],
@@ -5721,12 +5879,13 @@
             ]
           },
           {
-            "name": "Archcathedral Heart",
+            "name": "AR: Statue near MoM",
             "access_rules": [
               "open"
             ],
             "sections": [
               {
+                "name": "Archcathedral Heart",
                 "item_count": 1
               }
             ],
@@ -5745,12 +5904,13 @@
             ]
           },
           {
-            "name": "Archcathedral HP+",
+            "name": "AR: Lady of the Six Sorrows",
             "access_rules": [
               "blood, tongues, lung"
             ],
             "sections": [
               {
+                "name": "Archcathedral HP+",
                 "item_count": 1
               }
             ],
@@ -5769,12 +5929,13 @@
             ]
           },
           {
-            "name": "Archcathedral Bone 1",
+            "name": "AR: Upper west shaft ledge",
             "access_rules": [
               "masks:1, linen"
             ],
             "sections": [
               {
+                "name": "Archcathedral Bone 1",
                 "item_count": 1
               }
             ],
@@ -5793,13 +5954,14 @@
             ]
           },
           {
-            "name": "Archcathedral Bone 2",
+            "name": "AR: Upper east shaft ledge",
             "access_rules": [
               "masks:1, blood, tongues, lung",
               "masks:1, blood, tongues, tiento"
             ],
             "sections": [
               {
+                "name": "Archcathedral Bone 2",
                 "item_count": 1
               }
             ],
@@ -5818,7 +5980,7 @@
             ]
           },
           {
-            "name": "Archcathedral Cherub",
+            "name": "AR: Upper west shaft Child of Moonlight",
             "access_rules": [
               "masks:1"
             ],
@@ -5843,12 +6005,13 @@
             ]
           },
           {
-            "name": "Archcathedral Prayer",
+            "name": "AR: Upper west shaft chest",
             "access_rules": [
               "masks:2, linen, tongues"
             ],
             "sections": [
               {
+                "name": "Archcathedral Prayer",
                 "item_count": 1
               }
             ],
@@ -5903,6 +6066,31 @@
                 "map": "rooftops",
                 "x": 1590,
                 "y": 426
+              }
+            ]
+          },
+          {
+            "name": "His Holiness Escribar ",
+            "access_rules": [
+              "boss_crisanta"
+            ],
+            "sections": [
+              {
+                "name": "Beat the game! Finally!!!",
+                "item_count": 1
+              }
+              
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 10900,
+                "y": 696
+              },
+              {
+                "map": "rooftops",
+                "x": 2127,
+                "y": 411
               }
             ]
           },
@@ -5998,10 +6186,12 @@
 
             "children": [
               {
-                "name": "Prohibitions Bile Flask",
+                
+                "name": "WotHP: Upper east room, center gold cell",
                 "access_rules": [ "open" ],
                 "sections": [
                   {
+                    "name": "Prohibitions Bile Flask",
                     "item_count": 1
                   }
 
@@ -6021,7 +6211,7 @@
                 ]
               },
               {
-                "name": "Prohibitions Bone 2",
+                "name": "WotHP: Lower west room, bottom gold cell",
                 "access_rules": [ "lung, blood, tongues" ],
                 "sections": [
                   {
@@ -6045,10 +6235,11 @@
                 ]
               },
               {
-                "name": "Prohibitions Bone 3",
+                "name": "WotHP: Upper west room, top silver cell",
                 "access_rules": [ "open" ],
                 "sections": [
                   {
+                    "name": "Prohibitions Bone 3",
                     "item_count": 1
                   }
 
@@ -6102,11 +6293,11 @@
                 ]
               },
               {
-                "name": "Scribe Key Check",
+                "name": "WotHP: Lower east room, top bronze cell",
                 "access_rules": [ "open" ],
                 "sections": [
                   {
-
+                    "name": "Scribe key check",
                     "item_count": 1
                   }
 
@@ -6136,10 +6327,11 @@
 
             "children": [
               {
-                "name": "Prohibitions Bone 4",
+                "name": "WotHP: Upper east room, top silver cell",
                 "access_rules": [ "open" ],
                 "sections": [
                   {
+                    "name": "Prohibitions Bone 4",
                     "item_count": 1
                   }
 
@@ -6159,10 +6351,11 @@
                 ]
               },
               {
-                "name": "Prohibitions Bone 4",
+                "name": "WotHP: Upper east room, top silver cell",
                 "access_rules": [ "open" ],
                 "sections": [
                   {
+                    "name": "Prohibitions Bone 5",
                     "item_count": 1
                   }
 
@@ -6206,7 +6399,7 @@
                 ]
               },
               {
-                "name": "Prohibitions MP+",
+                "name": "WotHP: Oil of the Pilgrims",
                 "access_rules": [ "open" ],
                 "sections": [
                   {
