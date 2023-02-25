@@ -46,3 +46,5 @@ Add more prayers
 Update Cherub prayer logic
 
 Change all location names to match checks in Archipelago for ease of use
+
+Add UAT tracking for people who aren't into Archipelago
