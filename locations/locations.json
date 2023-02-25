@@ -1175,13 +1175,14 @@
         ]
       },
       {
-        "name": "Get the platforms moving for Redento",
+        "name": "MotED: 1st meeting with Redento",
         "access_rules": [
           "open",
           "toggle"
         ],
         "sections": [
           {
+            "name": "Get the platforms moving for Redento",
             "item_count": 1,
             "hosted_item": "redento"
           }
@@ -1291,6 +1292,7 @@
         ],
         "sections": [
           {
+            "name": "filler up",
             "item_count": 1,
             "hosted_item": "thimble"
           }
@@ -1322,7 +1324,7 @@
             ]
           },
           {
-            "name": "Trade Filled Thimble",
+            "name": "Trade Filled Thimble, check is in his cave to the west",
             "item_count": 1,
             "hosted_item": "opencave",
             "access_rules": [
@@ -1571,12 +1573,13 @@
         ]
       },
       {
-        "name": "Charred Visage Check",
+        "name": "CoOLotCV: Our Lady of the Charred Visage",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Charred Visage Check",
             "item_count": 1,
             "hosted_item": "boss_visage"
           }
@@ -1646,12 +1649,13 @@
         ]
       },
       {
-        "name": "Convent Bone 1",
+        "name": "CoOLotCV: Center enemy lineup",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Convent Bone 1",
             "item_count": 1
           }
         ],
@@ -1695,12 +1699,13 @@
         ]
       },
       {
-        "name": "Convent Rosary",
+        "name": "CoOLotCV: Center miasma room",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "Convent Rosary",
             "item_count": 1
           }
         ],
@@ -1719,12 +1724,13 @@
         ]
       },
       {
-        "name": "Convent Bone 2",
+        "name": "CoOLotCV: Snowy window ledge",
         "access_rules": [
-          "blood"
+          "open"
         ],
         "sections": [
           {
+            "name": "Convent Bone 2",
             "item_count": 1
           }
         ],
@@ -2808,13 +2814,14 @@
         ]
       },
       {
-        "name": "Ten Piedad Check",
+        "name": "MD: Ten Piedad",
         "access_rules": [
           "open"
         ],
         "sections": [
 
           {
+            "name": "half man part party animal",
             "hosted_item": "boss_ten",
             "item_count": 1
           }
@@ -4007,12 +4014,13 @@
       },
 
       {
-        "name": "Tres Angustias",
+        "name": "GA: Tres Angustias",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
+            "name": "woah triplets eyes emoji",
             "hosted_item": "boss_tres",
             "item_count": 1
           }
@@ -5641,7 +5649,7 @@
         ],
         "sections": [
           {
-            "name": "Defeat Exposito",
+            "name": "will SOMEbody SHUT that BABY UP",
             "item_count": 1,
             "hosted_item": "boss_exposito"
           }
