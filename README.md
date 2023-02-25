@@ -1,4 +1,4 @@
-# Blasphemous Randomizer Map Tracker by Sassyvania
+# Blasphemous Randomizer Map Tracker by Sassyvania and ViviMayoi
 
 Blasphemous Randomizer
 https://github.com/BrandenEK/Blasphemous-Randomizer
@@ -22,15 +22,20 @@ Unzip into PopTracker's "packs" folder. That's it! On macOS, you'll find the pac
 
 ## Notes
 1) Jibrael quest is included in the current files, but isn't in a release yet.
-1) Quests! There's a few checks on the map that don't actually give you an in game item, but add a hidden item to the tracker inventory to unlock the next step of a quest. Right now this includes Cleofas, Esdras and his Sister, the Miriam crossover event, and Redento (although the last two are in the item tracker).
+2) Quests! There's a few checks on the map that don't actually give you an in game item, but add a hidden item to the tracker inventory to unlock the next step of a quest. Right now this includes Cleofas, Esdras and his Sister, the Miriam crossover event, and Redento (although the last two are in the item tracker).
+3a) Archipelago Auto Tracking: A lot of check names have been changed to reflect the AP location descriptions, and because it requires two name fields to properly auto-check. Once location mapping is finished, we'll make another pass to make them all match up. Main goal is usability for now.
+3b) Some locations and checks simply can't be auto-tracked, due to their nature or simply not being checks in the game. So keep in mind:
+    Confessor Dungeons and Amanecidas rewards are progressive. First one you beat gives you first rewards, second gives you second, etc. There's no way to auto track these so you'll have to do them yourself.
+    You'll have to manually check off the Jondo statue and bell checks to open the grievance ascends checks.
+    Same goes with Jibrael's quest start and four checks across the map to open Amanecida fights.
+    You'll have to check off Redento quests manually, as they either give no item or host a redento check to keep you on your way
+    Miriam gate completeion isn't checked in AP, just completion of the quest.
+    No way to automatically check Chalice of Inverted Verses fill status.
 
 ## To-Do
 
-Archipelago autotracking for Locations
-
-Add Mea Culpa shrine purchase checks
-
 Add more prayers 
 
-Update cherub prayer logic
+Update Cherub prayer logic
 
+Change all location names to match checks in Archipelago for ease of use
