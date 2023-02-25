@@ -152,6 +152,52 @@ function onLocation(location_id, location_name)
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
     end
+    if location_name == "BotSS: Warden of the Silent Sorrow" then
+        Tracker:FindObjectForCode("boss_warden").Active = true
+    end
+    if location_name == "AR: Crisanta of the Wrapped Agony" then
+        Tracker:FindObjectForCode("boss_crisanta").Active = true
+    end
+    if location_name == "BotTC: Esdras, of the Anointed Legion" then
+        Tracker:FindObjectForCode("boss_esdras").Active = true
+    end
+    if location_name == "HotD: Laudes, the First of the Amanecidas" then
+        Tracker:FindObjectForCode("boss_laudes").Active = true
+    end
+    if location_name == "CoOLotCV: Fountain of burning oil" then
+        Tracker:FindObjectForCode("thimble").Active = true
+    end
+    if location_name == "CoOLotCV: Our Lady of the Charred Visage" then
+        Tracker:FindObjectForCode("boss_visage").Active = true
+    end
+    if location_name == "GA: Tres Angustias" then
+        Tracker:FindObjectForCode("boss_tres").Active = true
+    end
+    if location_name == "LotNW: Silence for Diosdado" then
+        Tracker:FindObjectForCode("loudghost").Active = true
+    end
+    if location_name == "MD: Ten Piedad" then
+        Tracker:FindObjectForCode("boss_ten").Active = true
+    end
+    if location_name == "MoM: Melquiades, The Exhumed Archbishop" then
+        Tracker:FindObjectForCode("boss_bishop").Active = true
+    end
+    if location_name == "MotED: 1st meeting with Redento" then
+        Tracker:FindObjectForCode("redento").Active = true
+    end
+    if location_name == "@PotSS: 4th meeting with Redento" then
+        Tracker:FindObjectForCode("redento").Active = true
+    end
+    if location_name == "TSC: Exposito, Scion of Abjuration" then
+        Tracker:FindObjectForCode("boss_exposito").Active = true
+    end
+    if location_name == "WotHP: Quirce, Returned By The Flames" then
+        Tracker:FindObjectForCode("boss_quirce").Active = true
+    end
+    if location_name == "WotBC: 3rd meeting with Redento" then
+        Tracker:FindObjectForCode("redento").Active = true
+    end
+
 end
 
 -- called when a locations is scouted
