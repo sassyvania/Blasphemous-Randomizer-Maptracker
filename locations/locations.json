@@ -1601,7 +1601,7 @@
       {
         "name": "Visage of Compunction",
         "access_rules": [
-          "open"
+          "boss_visage"
         ],
         "sections": [
           {
@@ -2625,32 +2625,7 @@
 
         ]
       },
-      {
-        "name": "MD: Behind gate to TSC",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          
-          {
-            "name": "Mercy Dreams Bone 3",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 7070,
-            "y": 4668
-          },
-          {
-            "map": "mercy",
-            "x": 1497,
-            "y": 1533
-          }
-
-        ]
-      },
+      
       {
         "name": "MD: Sliding challenge",
         "access_rules": [
@@ -2784,35 +2759,7 @@
 
         ]
       },
-      {
-        "name": "Blue Candle Room",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "name": "FREE HIM",
-            "item_count": 1
-          },
-          {
-            "name": "Blue Candle",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 7203,
-            "y": 4671
-          },
-          {
-            "map": "mercy",
-            "x": 1620,
-            "y": 1533
-          }
-
-        ]
-      },
+      
       {
         "name": "MD: Ten Piedad",
         "access_rules": [
@@ -2993,7 +2940,7 @@
         ]
       },
       {
-        "name": "Jondo Cherub 3",
+        "name": "Jondo: Spike tunnel Child of Moonlight",
         "access_rules": [
           "open"
         ],
@@ -3322,7 +3269,7 @@
       {
         "name": "EoS: Lantern jump near elevator",
         "access_rules": [
-          "blood"
+          "open"
         ],
         "sections": [
           {
@@ -3344,6 +3291,381 @@
 
         ]
       },
+      
+      
+  {
+    "name": "Grievance Ascends",
+    "access_rules": [
+      "bell"
+    ],
+
+    "children": [
+      {
+        "name": "Grievance Ascends Confessor",
+        "access_rules": [
+          "immaculate_bead"
+        ],
+        "sections": [
+          {
+            "name": "BREAK IT",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 2851,
+            "y": 5304
+          },
+          {
+            "map": "grievance",
+            "x": 724,
+            "y": 620
+          }
+
+        ]
+      },
+      {
+        "name": "GA: Lower west ledge",
+        "access_rules": [
+          "open"
+        ],
+        "sections": [
+          {
+            "name": "Grievance Rosary Knot",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 2724,
+            "y": 5820
+          },
+          {
+            "map": "grievance",
+            "x": 588,
+            "y": 1108
+          }
+
+        ]
+      },
+      {
+        "name": "Grievance Miriam Gate",
+        "access_rules": [
+          "miriam:1"
+        ],
+        "sections": [
+          {
+            "item_count": 1,
+            "hosted_item": "miriam"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 3108,
+            "y": 5697
+          },
+          {
+            "map": "grievance",
+            "x": 980,
+            "y": 992
+          }
+
+        ]
+      },
+      {
+        "name": "Lung and Cherub",
+        "access_rules": [
+          "open"
+        ],
+        "sections": [
+          {
+            "name": "FREE HIM",
+            "item_count": 1
+          },
+          {
+            "name": "Lung",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 3231,
+            "y": 5184
+          },
+          {
+            "map": "grievance",
+            "x": 1104,
+            "y": 488
+          }
+
+        ]
+      },
+      {
+        "name": "GA: Miasma room floor",
+        "access_rules": [
+          "open"
+        ],
+        "sections": [
+          {
+            "name": "Grievance Bone",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 3237,
+            "y": 5562
+          },
+          {
+            "map": "grievance",
+            "x": 1108,
+            "y": 848
+          }
+
+        ]
+      },
+      {
+        "name": "Melted Coins and Cherub",
+        "access_rules": [
+          "blood"
+        ],
+        "sections": [
+          {
+            "name": "FREE HIM",
+            "item_count": 1,
+            "access_rules": [
+              "$pillar"
+
+            ]
+          },
+          {
+            "name": "Melted Coins",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 3744,
+            "y": 5691
+          },
+          {
+            "map": "grievance",
+            "x": 1596,
+            "y": 992
+          }
+
+        ]
+      },
+      {
+        "name": "Grievance MP+",
+        "access_rules": [
+          "blood"
+        ],
+        "sections": [
+          {
+            "name": "Grievance MP+",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 3108,
+            "y": 6072
+          },
+          {
+            "map": "grievance",
+            "x": 976,
+            "y": 1380
+          }
+
+        ]
+      },
+      {
+        "name": "Altasgracias",
+        "access_rules": [
+          "scorned:3"
+        ],
+        "sections": [
+          {
+            "name": "Leave the three offerings",
+            "item_count": 1
+          },
+          {
+            "name": "Come back once the egg is hatched",
+            "access_rules": [ "egg_hatched" ],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 2853,
+            "y": 6462
+          },
+          {
+            "map": "grievance",
+            "x": 724,
+            "y": 1756
+          }
+
+        ]
+      },
+
+      {
+        "name": "Grievance Cherub 3",
+        "access_rules": [
+          "tongues",
+          "ruby"
+        ],
+        "sections": [
+          {
+            "name": "FREE HIM",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 3234,
+            "y": 6333
+          },
+          {
+            "map": "grievance",
+            "x": 1100,
+            "y": 1632
+          }
+
+        ]
+      },
+
+      {
+        "name": "GA: Tres Angustias",
+        "access_rules": [
+          "open"
+        ],
+        "sections": [
+          {
+            "name": "woah triplets eyes emoji",
+            "hosted_item": "boss_tres",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 3744,
+            "y": 6078
+          },
+          {
+            "map": "grievance",
+            "x": 1616,
+            "y": 1378
+          }
+
+        ]
+      },
+      {
+        "name": "GA: Visage of Contrition",
+        "access_rules": [
+          "open"
+        ],
+        "sections": [
+          {
+            "name":"aw nice good job",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 3939,
+            "y": 6078
+          },
+          {
+            "map": "grievance",
+            "x": 1800,
+            "y": 1378
+          }
+
+        ]
+      },
+      
+      {
+        "name": "Cistern Elevator",
+        "access_rules": [
+          "boss_tres"
+        ],
+        "children": [
+          {
+            "name": "Cistern Cherub 6",
+            "access_rules": [
+              "open"
+            ],
+            "sections": [
+              {
+                "name": "FREE HIM",
+                "item_count": 1
+              }
+
+            ],
+            "map_locations": [
+              {
+                "map": "cistern",
+                "x": 1436,
+                "y": 759
+              },
+              {
+                "map": "full",
+                "x": 4389,
+                "y": 3771
+              }
+
+            ]
+          },
+          
+          {
+            "name": "@DC: Lady of the Six Sorrows, elevator shaft",
+            "access_rules": [
+              "open"
+            ],
+            "sections": [
+              {
+                "name": "Cistern HP+ 2",
+                "item_count": 1
+              }
+
+            ],
+            "map_locations": [
+              {
+                "map": "full",
+                "x": 4378,
+                "y": 6072
+              },
+              {
+                "map": "cistern",
+                "x": 1435,
+                "y": 3063
+              }
+
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cistern Checks",
+    "access_rules": [
+      "boss_ten","linen","blood, tirana"],
+    "children": 
+    [
       {
         "name": "Mea Culpa Shrine #7",
         "access_rules": [
@@ -3758,311 +4080,6 @@
           }
 
         ]
-      }
-    ]
-  },
-  {
-    "name": "Grievance Ascends",
-    "access_rules": [
-      "bell"
-    ],
-
-    "children": [
-      {
-        "name": "Grievance Ascends Confessor",
-        "access_rules": [
-          "immaculate_bead"
-        ],
-        "sections": [
-          {
-            "name": "BREAK IT",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 2851,
-            "y": 5304
-          },
-          {
-            "map": "grievance",
-            "x": 724,
-            "y": 620
-          }
-
-        ]
-      },
-      {
-        "name": "GA: Lower west ledge",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "name": "Grievance Rosary Knot",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 2724,
-            "y": 5820
-          },
-          {
-            "map": "grievance",
-            "x": 588,
-            "y": 1108
-          }
-
-        ]
-      },
-      {
-        "name": "Grievance Miriam Gate",
-        "access_rules": [
-          "miriam:1"
-        ],
-        "sections": [
-          {
-            "item_count": 1,
-            "hosted_item": "miriam"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 3108,
-            "y": 5697
-          },
-          {
-            "map": "grievance",
-            "x": 980,
-            "y": 992
-          }
-
-        ]
-      },
-      {
-        "name": "Lung and Cherub",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "name": "FREE HIM",
-            "item_count": 1
-          },
-          {
-            "name": "Lung",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 3231,
-            "y": 5184
-          },
-          {
-            "map": "grievance",
-            "x": 1104,
-            "y": 488
-          }
-
-        ]
-      },
-      {
-        "name": "GA: Miasma room floor",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "name": "Grievance Bone",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 3237,
-            "y": 5562
-          },
-          {
-            "map": "grievance",
-            "x": 1108,
-            "y": 848
-          }
-
-        ]
-      },
-      {
-        "name": "Melted Coins and Cherub",
-        "access_rules": [
-          "blood"
-        ],
-        "sections": [
-          {
-            "name": "FREE HIM",
-            "item_count": 1,
-            "access_rules": [
-              "$pillar"
-
-            ]
-          },
-          {
-            "name": "Melted Coins",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 3744,
-            "y": 5691
-          },
-          {
-            "map": "grievance",
-            "x": 1596,
-            "y": 992
-          }
-
-        ]
-      },
-      {
-        "name": "Grievance MP+",
-        "access_rules": [
-          "blood"
-        ],
-        "sections": [
-          {
-            "name": "Grievance MP+",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 3108,
-            "y": 6072
-          },
-          {
-            "map": "grievance",
-            "x": 976,
-            "y": 1380
-          }
-
-        ]
-      },
-      {
-        "name": "Altasgracias",
-        "access_rules": [
-          "scorned:3"
-        ],
-        "sections": [
-          {
-            "name": "Leave the three offerings",
-            "item_count": 1
-          },
-          {
-            "name": "Come back once the egg is hatched",
-            "access_rules": [ "egg_hatched" ],
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 2853,
-            "y": 6462
-          },
-          {
-            "map": "grievance",
-            "x": 724,
-            "y": 1756
-          }
-
-        ]
-      },
-
-      {
-        "name": "Grievance Cherub 3",
-        "access_rules": [
-          "tongues",
-          "ruby"
-        ],
-        "sections": [
-          {
-            "name": "FREE HIM",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 3234,
-            "y": 6333
-          },
-          {
-            "map": "grievance",
-            "x": 1100,
-            "y": 1632
-          }
-
-        ]
-      },
-
-      {
-        "name": "GA: Tres Angustias",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "name": "woah triplets eyes emoji",
-            "hosted_item": "boss_tres",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 3744,
-            "y": 6078
-          },
-          {
-            "map": "grievance",
-            "x": 1616,
-            "y": 1378
-          }
-
-        ]
-      },
-      {
-        "name": "GA: Visage of Contrition",
-        "access_rules": [
-          "open"
-        ],
-        "sections": [
-          {
-            "name":"aw nice good job",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 3939,
-            "y": 6078
-          },
-          {
-            "map": "grievance",
-            "x": 1800,
-            "y": 1378
-          }
-
-        ]
       },
       {
         "name": "Cistern Cherub 5",
@@ -4091,90 +4108,32 @@
         ]
       },
       {
-        "name": "Cistern Elevator",
+        "name": "DC: Elevator shaft ledge",
         "access_rules": [
-          "boss_tres"
+          "linen"
         ],
-        "children": [
+        "sections": [
           {
-            "name": "Cistern Cherub 6",
-            "access_rules": [
-              "open"
-            ],
-            "sections": [
-              {
-                "name": "FREE HIM",
-                "item_count": 1
-              }
-
-            ],
-            "map_locations": [
-              {
-                "map": "cistern",
-                "x": 1436,
-                "y": 759
-              },
-              {
-                "map": "full",
-                "x": 4389,
-                "y": 3771
-              }
-
-            ]
-          },
-          {
-            "name": "DC: Elevator shaft ledge",
-            "access_rules": [
-              "open"
-            ],
-            "sections": [
-              {
-                "name": "Cistern Bone 4",
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "full",
-                "x": 4278,
-                "y": 6002
-              },
-              {
-                "map": "cistern",
-                "x": 1320,
-                "y": 3004
-              }
-
-            ]
-          },
-          {
-            "name": "Cistern HP+ 2",
-            "access_rules": [
-              "open"
-            ],
-            "sections": [
-              {
-                "name": "Cistern HP+ 2",
-                "item_count": 1
-              }
-
-            ],
-            "map_locations": [
-              {
-                "map": "full",
-                "x": 4378,
-                "y": 6072
-              },
-              {
-                "map": "cistern",
-                "x": 1435,
-                "y": 3063
-              }
-
-            ]
+            "name": "Cistern Bone 4",
+            "item_count": 1
           }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 4278,
+            "y": 6002
+          },
+          {
+            "map": "cistern",
+            "x": 1320,
+            "y": 3004
+          }
+
         ]
       }
+    ]
+  } 
     ]
   },
   {
@@ -4209,6 +4168,61 @@
             "x": 1158,
             "y": 582
           }
+        ]
+      },
+      {
+        "name": "MD: Behind gate to TSC",
+        "access_rules": [
+          "open"
+        ],
+        "sections": [
+          
+          {
+            "name": "Mercy Dreams Bone 3",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 7070,
+            "y": 4668
+          },
+          {
+            "map": "mercy",
+            "x": 1497,
+            "y": 1533
+          }
+
+        ]
+      },
+      {
+        "name": "Blue Candle Room",
+        "access_rules": [
+          "open"
+        ],
+        "sections": [
+          {
+            "name": "FREE HIM",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Candle",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 7203,
+            "y": 4671
+          },
+          {
+            "map": "mercy",
+            "x": 1620,
+            "y": 1533
+          }
+
         ]
       },
       {
