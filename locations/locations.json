@@ -1348,7 +1348,7 @@
         ]
       },
       {
-        "name": "Wither Bone 1",
+        "name": "WOTW: Below Prie Dieu",
         "access_rules": [ "open" ],
         "sections": [
           {
@@ -1444,7 +1444,7 @@
         ]
       },
       {
-        "name": "WOTW: Death runr",
+        "name": "WOTW: Death run",
         "access_rules": [ "open" ],
         "sections": [
           {
@@ -1554,7 +1554,7 @@
         ],
         "sections": [
           {
-            "name": "Frozen Tomb",
+            "name": "Leave the flowers",
             "item_count": 1
           }
 
