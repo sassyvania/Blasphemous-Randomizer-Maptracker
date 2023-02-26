@@ -26,7 +26,7 @@
     ]
   },
   {
-    "name": "Brotherhood Cherub",
+    "name": "BotSS: Starting room Child of Moonlight",
     "access_rules": [
       "blood, tongues",
       "blood, linen"
@@ -499,7 +499,7 @@
       },
       
       {
-        "name": "Elder Brother's Room",
+        "name": "BotSS: Chamber of the Eldest Brother",
         "access_rules": [
           "key_brother"
         ],
@@ -4876,8 +4876,8 @@
         ]
       },
       {
-        "name": "Prohibitions Cherub 1",
-        "access_rules": [ "open" ],
+        "name": "WotHP: Outside Child of Moonlight",
+        "access_rules": [ "key_scribe, key_inquisitor" ],
         "sections": [
           {
             "name": "FREE HIM",
@@ -6233,6 +6233,31 @@
                 ]
               },
               {
+                
+                "name": "WotHP: Upper west room, center gold cell",
+                "access_rules": [ "open" ],
+                "sections": [
+                  {
+                    "name": "Another bone check idk",
+                    "item_count": 1
+                  }
+
+
+                ],
+                "map_locations": [
+                  {
+                    "map": "full",
+                    "x": 7560,
+                    "y": 2040
+                  },
+                  {
+                    "map": "prison",
+                    "x": 710,
+                    "y": 543
+                  }
+                ]
+              },
+              {
                 "name": "WotHP: Lower west room, bottom gold cell",
                 "access_rules": [ "lung, blood, tongues" ],
                 "sections": [
@@ -6255,31 +6280,9 @@
                     "y": 882
                   }
                 ]
-              },
-              {
-                "name": "WotHP: Upper west room, top silver cell",
-                "access_rules": [ "open" ],
-                "sections": [
-                  {
-                    "name": "Prohibitions Bone 3",
-                    "item_count": 1
-                  }
-
-
-                ],
-                "map_locations": [
-                  {
-                    "map": "full",
-                    "x": 7560,
-                    "y": 2040
-                  },
-                  {
-                    "map": "prison",
-                    "x": 710,
-                    "y": 543
-                  }
-                ]
               }
+              
+              
 
             ]
           },
@@ -6291,7 +6294,7 @@
 
             "children": [
               {
-                "name": "Prohibitions Cherub 2",
+                "name": "WotHP: Upper east room, top bronze cell",
                 "access_rules": [ "open" ],
                 "sections": [
                   {
@@ -6373,7 +6376,7 @@
                 ]
               },
               {
-                "name": "WotHP: Upper east room, top silver cell",
+                "name": "WotHP: Lower east room, top silver cell",
                 "access_rules": [ "open" ],
                 "sections": [
                   {
@@ -6386,8 +6389,8 @@
                 "map_locations": [
                   {
                     "map": "full",
-                    "x": 8132,
-                    "y": 1966
+                    "x": 8230,
+                    "y": 2220
                   },
                   {
                     "map": "prison",
@@ -6397,7 +6400,7 @@
                 ]
               },
               {
-                "name": "Prohibitions Cherub 3",
+                "name": "Lower east room, bottom silver cell",
                 "access_rules": [ "open" ],
                 "sections": [
                   {
@@ -6459,6 +6462,7 @@
                   },
                   {
                     "name": "Come back for the check after you beat Quirce",
+                    "access_rules": ["boss_quirce"],
                     "item_count": 1
                   }
                 ],
