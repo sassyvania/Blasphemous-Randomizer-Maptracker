@@ -40,7 +40,7 @@ LOCATION_MAPPING = {
     [1909033] = {"@Warden of the Ossuary/40 Bones Reward"},
     [1909034] = {"@Warden of the Ossuary/44 Bones Reward"},
     --miriam
-    [1909035] = {"@Miriam/Finiah all five challenge rooms to send her home"},
+    [1909035] = {"@Miriam/Finish all five challenge rooms to send her home"},
     -- rooftops
     [1909036] = {"@AR: First soldier fight/Mark of the First Refuge"},
     [1909037] = {"@AR: Second soldier fight/Mark of the Second Refuge"},
@@ -78,7 +78,7 @@ LOCATION_MAPPING = {
     [1909064] = {"@Convent Heart/Possible damage run"},
     [1909065] = {"@CoOLotCV: Lady of the Six Sorrows/Convent HP+"},
     [1909066] = {"@Mea Culpa Shrine #3/free check"},
-    [1909067] = {"@CoOLotCV: Red candle/Red Candle #2"},
+    [1909067] = {"@CoOLotCV: Red candle/Red Candle in the Convent"},
     [1909068] = {"@CoOLotCV: Blue candle/Blue Candle #1"},
     [1909069] = {"@CoOLotCV: Outside pathway/Convent Rosary 2"},
     [1909070] = {"@Hot Oil Basin/filler up"},
@@ -140,8 +140,8 @@ LOCATION_MAPPING = {
     [1909123] = {"@Melted Coins and Cherub/Melted Coins"},
     [1909124] = {"@Melted Coins and Cherub/FREE HIM"},
     [1909125] = {"@Grievance Cherub 3/FREE HIM"},
-    [1909126] = {"@Grievance Cherub 3/Leave the three offerings"},
-    [1909127] = {"@Grievance Cherub 3/Come back once the egg is hatched"},
+    [1909126] = {"@Altasgracias/Leave the three offerings"},
+    [1909127] = {"@Altasgracias/Come back once the egg is hatched"},
     [1909128] = {"@GA: Tres Angustias/woah triplets eyes emoji"},
     [1909129] = {"@GA: Visage of Contrition/aw nice good job"},
     -- jondo
@@ -161,8 +161,8 @@ LOCATION_MAPPING = {
     --mothers
     [1909145] = {"@The Fourth Visage/return his dang EYES"},
     --library
-    [1909146] = {"@LotNW: Platform room ledge/Library Bone 2"},
-    [1909147] = {"@Library Cherub 2/FREE HIM"},
+    [1909146] = {"@Library Cherub 2/FREE HIM"},
+    [1909147] = {"@LotNW: Platform room ledge/Library Bone 2"},
     [1909148] = {"@LotNW: Root ceiling platform/Library Bone 1"},
     [1909149] = {"@LotNW: Hidden floor/Smash the floor"},
     [1909150] = {"@LotNW: Miasma hallway chest/Library Rosary 2"},
@@ -175,8 +175,8 @@ LOCATION_MAPPING = {
     [1909157] = {"@LotNW: Oil of the Pilgrims/Library MP+"},
     [1909158] = {"@Library Cherub 3/FREE HIM"},
     [1909159] = {"@LotNW: Mask room/Embossed Mask of Crescente"},
-    [1909160] = {"@LotNW: Red candle/Red Candle #3"},
-    [1909161] = {"@LotNW: Mea Culpa Shine #4/free check"},
+    [1909160] = {"@LotNW: Mea Culpa Shine #4/free check"},
+    [1909161] = {"@LotNW: Red candle/Red Candle in the Library"},
     [1909162] = {"@Diosdado 1/Kill the ghost, go in, come out"},
     [1909163] = {"@Diosdado 2/Breakable left wall inside the door"},
     --mercy dreams
@@ -192,7 +192,7 @@ LOCATION_MAPPING = {
     [1909173] = {"@MD: Sliding challenge/Mercy Dreams Bone 4"},
     [1909174] = {"@MD: Ten Piedad/half man part party animal"},
     [1909175] = {"@MD: Visage of Attrition/More like Ten PieDEAD"},
-    [1909176] = {"@Blue Candle Room/Blue Candle"},
+    [1909176] = {"@Blue Candle Room/MD: Blue candle"},
     [1909177] = {"@Blue Candle Room/FREE HIM"},
     [1909178] = {"@MD: Behind gate to TSC/Mercy Dreams Bone 3"},
     --mothers
