@@ -65,7 +65,7 @@
     "codes": "bones"
   },
   {
-    "name": "Cherubs",
+    "name": "Children of Moonlight",
     "type": "consumable",
     "img": "images/items/cherub.png",
     "max_quantity": 38,
@@ -74,7 +74,7 @@
     "initial_quantity": 0,
     "overlay_background": "#000000",
     "overlay_font_size": 15,
-    "codes": "cherubs"
+    "codes": "Cherubs"
   },
 
   // Main Quest Items
@@ -141,6 +141,12 @@
     "overlay_background": "#000000",
     "overlay_font_size": 15,
     "codes": "eyes"
+  },
+  {
+    "name": "Holy Wound of Abnegation",
+    "type": "consumable",
+    "img": "images/items/eyes.png",
+    "codes": "fourthwound"
   },
 
   // Side Quest Items
@@ -336,16 +342,46 @@
 
   // Prayers
   {
+    "name": "Seguiriya to your Eyes like Stars",
+    "type": "toggle",
+    "img": "images/items/prayer_debla.png",
+    "codes": "seguiriya"
+  },
+  {
     "name": "Debla of the Lights",
     "type": "toggle",
     "img": "images/items/prayer_debla.png",
     "codes": "debla"
   },
   {
+    "name": "Saeta Dolorosa",
+    "type": "toggle",
+    "img": "images/items/prayer_debla.png",
+    "codes": "saeta"
+  },
+  {
+    "name": "Companillero to the Sons of the Aurora",
+    "type": "toggle",
+    "img": "images/items/prayer_debla.png",
+    "codes": "companillero"
+  },
+  {
     "name": "Lorquiana",
     "type": "toggle",
     "img": "images/items/prayer_lorquiana.png",
     "codes": "lorquiana"
+  },
+  {
+    "name": "Taranto to my Sister",
+    "type": "toggle",
+    "img": "images/items/prayer_taranto.png",
+    "codes": "taranto"
+  },
+  {
+    "name": "Solea of Excommunication",
+    "type": "toggle",
+    "img": "images/items/prayer_tiento.png",
+    "codes": "solea"
   },
   {
     "name": "Tiento to your Thorned Hairs",
@@ -360,10 +396,46 @@
     "codes": "tirana"
   },
   {
+    "name": "Cante Jondo of the Three Sisters",
+    "type": "toggle",
+    "img": "images/items/prayer_conte.png",
+    "codes": "cante"
+  },
+  {
     "name": "Verdiales of the Forsaken Hamlet",
     "type": "toggle",
     "img": "images/items/prayer_verdiales.png",
     "codes": "verdiales"
+  },
+  {
+    "name": "Romance to the Crimson Mist",
+    "type": "toggle",
+    "img": "images/items/prayer_verdiales.png",
+    "codes": "romance"
+  },
+  {
+    "name": "Zambra to the Resplendent Crown",
+    "type": "toggle",
+    "img": "images/items/prayer_verdiales.png",
+    "codes": "zambra"
+  },
+  {
+    "name": "Aubade of the Nameless Guardian",
+    "type": "toggle",
+    "img": "images/items/prayer_verdiales.png",
+    "codes": "aubade"
+  },
+  {
+    "name": "Cantina of the Blue Rose",
+    "type": "toggle",
+    "img": "images/items/prayer_cantina.png",
+    "codes": "cantina"
+  },
+  {
+    "name": "Mirabras of the Return to Port",
+    "type": "toggle",
+    "img": "images/items/prayer_verdiales.png",
+    "codes": "mirabras"
   },
   {
     "name": "Zarabanda of the Safe Haven",
@@ -588,6 +660,12 @@
     "codes": "savecleofas"
   },
   {
+    "name": "talkcleofas",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "talkcleofas"
+  },
+  {
     "name": "cleofas",
     "type": "toggle",
     "img": "images/items/none.png",
@@ -599,28 +677,23 @@
     "img": "images/items/none.png",
     "codes": "opencave"
   },
+  
   {
-    "name": "statue",
-    "type": "consumable",
+    "name": "statue1",
+    "type": "toggle",
     "img": "images/items/none.png",
-    "max_quantity": 2,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 0,
-    "overlay_background": "#000000",
-    "overlay_font_size": 15,
-    "codes": "statue"
+    "codes": "statue1"
+  },
+  {
+    "name": "statue2",
+    "type": "toggle",
+    "img": "images/items/none.png",
+    "codes": "statue2"
   },
   {
     "name": "bell",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/items/none.png",
-    "max_quantity": 2,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 0,
-    "overlay_background": "#000000",
-    "overlay_font_size": 15,
     "codes": "bell"
   },
   {
@@ -634,6 +707,18 @@
     "type": "toggle",
     "img": "images/items/none.png",
     "codes": "sparecrisanta"
+  },
+  {
+    "name": "Shrine Checks",
+    "type": "consumable",
+
+    "max_quantity": 7,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 15,
+    "codes": "shrine"
   },
 
   // Jibrael Hidden Items
