@@ -143,7 +143,7 @@
             "name": "Talk to Lvdovico after meeting Cleofas",
             "item_count": 1,
             "access_rules": [
-              "savesocorro"
+              "talkcleofas"
             ]
 
           }
@@ -162,6 +162,131 @@
           }
         ]
       },
+      {
+    "name": "Shrine Skill Shop",
+    "access_rules": [
+      "open"
+    ],
+    "sections": [
+      
+      { 
+        "access_rules": [ "shrine:1"],
+            "name": "Tier 1 Item 1",
+            "item_count": 1 },
+    { "access_rules": [ "shrine:1"],
+            "name": "Tier 1 Item 2",
+            "item_count": 1 },
+    { "access_rules": [ "shrine:1"],
+            "name": "Tier 1 Item 3",
+            "item_count": 1 },
+    { "access_rules": [ "shrine:1"],
+            "name": "Tier 1 Item 4",
+            "item_count": 1 },  
+    { "access_rules": [ "shrine:2"],
+            "name": "Tier 2 Item 1",
+            "item_count": 1 },
+    { "access_rules": [ "shrine:2"],
+            "name": "Tier 2 Item 2",
+            "item_count": 1 },
+    {  "access_rules": [ "shrine:2"],
+            "name": "Tier 2 Item 3",
+            "item_count": 1 },
+    {   "access_rules": [ "shrine:3"],
+            "name": "Tier 3 Item 1",
+            "item_count": 1 },
+    {   "access_rules": [ "shrine:3"],
+            "name": "Tier 3 Item 2",
+            "item_count": 1 },
+    {   "access_rules": [ "shrine:4"],
+            "name": "Tier 4 Item 1",
+            "item_count": 1 },
+    {   "access_rules": [ "shrine:4"],
+            "name": "Tier 4 Item 2",
+            "item_count": 1 },  
+    {   "access_rules": [ "shrine:5"],
+            "name": "Tier 5 Item 1",
+            "item_count": 1 }, 
+    {   "access_rules": [ "shrine:6"],
+            "name": "Tier 6 Item 2",
+            "item_count": 1 },
+    {   "access_rules": [ "shrine:7"],
+            "name": "Tier 7 Item 1",
+            "item_count": 1 }                                     
+    ],
+    "map_locations": [
+      {
+        "map": "full",
+        "x": 1440,
+        "y": 3755
+      },
+      {
+        "map": "brotherhood",
+        "x": 1226,
+        "y": 1060
+      },
+      {
+        "map": "full",
+        "x": 3990,
+        "y": 4680
+      },
+      {
+        "map": "cistern",
+        "x": 1040,
+        "y": 1656
+      },
+      {
+        "map": "full",
+        "x": 9390,
+        "y": 2491
+      },
+      {
+        "map": "mother",
+        "x": 1415,
+        "y": 633
+      },
+      {
+        "map": "full",
+        "x": 9140,
+        "y": 3512
+      },
+      {
+        "map": "library",
+        "x": 2000,
+        "y": 624
+      },
+      {
+        "map": "full",
+        "x": 10290,
+        "y": 1346
+      },
+      {
+        "map": "rooftops",
+        "x": 2060,
+        "y": 810
+      },
+      {
+        "map": "full",
+        "x": 4275,
+        "y": 444
+      },
+      {
+        "map": "convent",
+        "x": 1620,
+        "y": 447
+      },
+      {
+        "map": "full",
+        "x": 3865,
+        "y": 3384
+      },
+      {
+        "map": "albero",
+        "x": 530,
+        "y": 680
+      }
+
+    ]
+  },
       {
         "name": "The Church",
         "access_rules": [
@@ -248,7 +373,7 @@
         "sections": [
 
           {
-            "name": "Reveal Amanecida",
+            "name": "Reveal Graveyard Amanecida",
             "item_count": 1,
             "hosted_item": "openama1"
           }
@@ -275,7 +400,7 @@
         "sections": [
 
           {
-            "name": "Reveal Amanecida",
+            "name": "Reveal Jondo Amanecida",
             "item_count": 1,
             "hosted_item": "openama2"
           }
@@ -385,7 +510,7 @@
       
       {
         "name": "Brotherhood Maze Door",
-        "access_rules": [],
+        "access_rules": ["open"],
         "sections": [
           {
             "name": "Bone",
@@ -435,33 +560,22 @@
         "sections": [
           {
             "name": "free check",
+            "hosted_item": "shrine",
             "item_count": 1
-          },
-          {
-            "name": "Sword Shop 1",
-            "item_count": 1
-          },
-          {
-            "name": "Sword Shop 2",
-            "item_count": 1
-          },
-          {
-            "name": "Sword Shop 3",
-            "item_count": 1
-          }
+          }  
         ],
         "map_locations": [
           {
             "map": "full",
             "x": 1440,
-            "y": 3768
+            "y": 3780
           },
           {
             "map": "brotherhood",
             "x": 1226,
-            "y": 1073
+            "y": 1085
           }
-
+    
         ]
       },
       {
@@ -472,29 +586,22 @@
         "sections": [
           {
             "name": "free check",
-            "item_count": 1
-          },
-          {
-            "name": "Sword Shop 1",
-            "item_count": 1
-          },
-          {
-            "name": "Sword Shop 2",
+            "hosted_item": "shrine",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "full",
-            "x": 4260,
+            "x": 4245,
             "y": 444
           },
           {
             "map": "convent",
-            "x": 1604,
+            "x": 1590,
             "y": 447
           }
-
+    
         ]
       },
       
@@ -706,7 +813,7 @@
       },
       {
         "name": "Blessed Lord of the Salty Shores",
-        "access_rules": [],
+        "access_rules": ["open"],
         "sections": [
           {
             "name": "Trade Shroud",
@@ -754,32 +861,21 @@
         ],
         "sections": [
           { "name": "free check",
-            "item_count": 1
-          },
-          { "name": "Sword Shop 1",
-            "item_count": 1
-          },
-          { "name": "Sword Shop 2",
-            "item_count": 1
-          },
-          { "name": "Sword Shop 3",
-            "item_count": 1
-          },
-          { "name": "Sword Shop 4",
+            "hosted_item": "shrine",
             "item_count": 1
           }
-
+    
         ],
         "map_locations": [
           {
             "map": "full",
-            "x": 3872,
+            "x": 3885,
             "y": 3384
           },
           {
             "map": "albero",
             "x": 530,
-            "y": 699
+            "y": 710
           }
         ]
       },
@@ -811,7 +907,7 @@
       },
       {
         "name": "Tirso of the Wound Kissers",
-        "access_rules": [],
+        "access_rules": ["open"],
         "sections": [
           {
             "name": "Herb Trade 1",
@@ -865,7 +961,7 @@
             "name": "Defeat Exposito, Melquiades, and Quirce",
             "item_count": 1,
             "access_rules": [
-              "boss_quirce, boss_exposito, boss_bishop"
+              "boss_quirce, boss_exposito, boss_bishop, herbs:6"
 
             ]
           }
@@ -885,7 +981,7 @@
       },
       {
         "name": "Warden of the Ossuary",
-        "access_rules": [],
+        "access_rules": ["open"],
         "sections": [
           {
             "name": "Item Outside Door",
@@ -1060,7 +1156,7 @@
 
       {
         "name": "Proof of Humiliations",
-        "access_rules": [],
+        "access_rules": ["open"],
         "sections": [
           {
             "name": "Defeat Esdras",
@@ -1260,13 +1356,14 @@
         ]
       },
       {
-        "name": "Clove Check",
+        "name": "MotED: Blood platform alcove",
         "access_rules": [
           "blood",
           "toggle"
         ],
         "sections": [
           {
+            "name": "Clove Check",
             "item_count": 1
           }
 
@@ -1313,7 +1410,7 @@
       },
       {
         "name": "Gemino",
-        "access_rules": [],
+        "access_rules": ["open"],
         "sections": [
           {
             "name": "Gemino's gift",
@@ -1322,9 +1419,29 @@
               "open"
 
             ]
+          }
+          
+
+        ],
+        "map_locations": [
+          {
+            "map": "full",
+            "x": 5464,
+            "y": 2748
           },
           {
-            "name": "Trade Filled Thimble, check is in his cave to the west",
+            "map": "wither",
+            "x": 1383,
+            "y": 891
+          }
+        ]
+      },
+      {
+        "name": "Gemino's Hot Oil Rub",
+        "access_rules": ["open"],
+        "sections": [
+          {
+            "name": "Trade Filled Thimble, leave him and come back or pick up the same check in his cave",
             "item_count": 1,
             "hosted_item": "opencave",
             "access_rules": [
@@ -1337,12 +1454,22 @@
         "map_locations": [
           {
             "map": "full",
-            "x": 5416,
+            "x": 5380,
+            "y": 2748
+          },
+          {
+            "map": "full",
+            "x": 4924,
             "y": 2748
           },
           {
             "map": "wither",
-            "x": 1350,
+            "x": 1320,
+            "y": 891
+          },
+          {
+            "map": "wither",
+            "x": 855,
             "y": 891
           }
         ]
@@ -1373,7 +1500,7 @@
       },
       {
         "name": "WOTW: Underground ledge",
-        "access_rules": [ "open" ],
+        "access_rules": [ "linen, blood", "opencave, blood" ],
         "sections": [
           {
             "name": "Wither Bone 2",
@@ -1397,7 +1524,8 @@
       },
       {
         "name": "Wither Cherub 1",
-        "access_rules": [ "linen" ],
+        "access_rules": [ "linen, cante", "linen, throw_blood","linen, lorquiana", "linen, cantina",
+        "opencave, cante", "opencave, throw_blood","opencave, lorquiana", "opencave, cantina" ],
         "sections": [
           {
             "name": "fall from above with linen AND FREE HIM",
@@ -1522,11 +1650,8 @@
           "toggle"
         ],
         "sections": [
-          {
-            "name": "on the floor",
-            "item_count": 1
-          },
-          {
+        
+        {
             "name": "in his hand",
             "item_count": 1
           }
@@ -1755,7 +1880,7 @@
         ],
         "sections": [
           {
-            "name": "Red Candle #2",
+            "name": "Red Candle in the Convent",
             "item_count": 1
           }
         ],
@@ -1803,6 +1928,7 @@
         ],
         "sections": [
           {
+            "name": "Good luck!",
             "hosted_item": "miriam",
             "item_count": 1
           }
@@ -1824,7 +1950,7 @@
       {
         "name": "CoOLotCV: Mask room",
         "access_rules": [
-          "boss_esdras, key_peaks",
+          "boss_esdras, key_peaks, key_scribe",
           "toggle"
         ],
         "sections": [
@@ -1851,7 +1977,7 @@
       {
         "name": "CoOLotCV: Lady of the Six Sorrows",
         "access_rules": [
-          "boss_esdras, key_peaks",
+          "boss_esdras, key_peaks, key_scribe",
           "toggle"
         ],
         "sections": [
@@ -1974,13 +2100,13 @@
         "map_locations": [
           {
             "map": "full",
-            "x": 4269,
-            "y": 1086
+            "x": 4644,
+            "y": 1720
           },
           {
             "map": "graveyard",
-            "x": 900,
-            "y": 357
+            "x": 1278,
+            "y": 993
           }
 
         ]
@@ -1989,8 +2115,8 @@
         "name": "Graveyard Cherub 1",
         "access_rules": [
           "blood",
-          "ruby",
-          "linen"
+          
+          "linen", "$pillar"
         ],
         "sections": [
           {
@@ -2015,7 +2141,7 @@
       {
         "name": "Graveyard Cherub 2",
         "access_rules": [
-          "open"
+          "cante","$pillar","linen", "tirana"
         ],
         "sections": [
           {
@@ -2043,7 +2169,10 @@
           "blood",
           "ruby",
           "throw_blood",
-          "lorquiana"
+          "lorquiana",
+          "cante",
+          "cantina",
+          "$pillar"
         ],
         "sections": [
           {
@@ -2069,7 +2198,7 @@
         "name": "Graveyard Cherub 4",
         "access_rules": [
           "linen",
-          "verdiales"
+          "verdiales", "cante"
         ],
         "sections": [
           {
@@ -2439,7 +2568,7 @@
           {
             "name": "FREE HIM",
             "item_count": 1,
-            "access_rules": [ "linen", "ruby", "throw_blood", "lorquiana" ]
+            "access_rules": [ "linen", "ruby", "throw_blood", "lorquiana","cante" ]
 
           },
           {
@@ -2497,7 +2626,7 @@
         "name": "WotBC: Under broken bridge",
         "access_rules": [
           "blood",
-          "toggle"
+          "dawn"
         ],
         "sections": [
           {
@@ -3040,13 +3169,14 @@
         ]
       },
       {
-        "name": "Statue #1",
+        "name": "Jondo Statue #2",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
-            "hosted_item": "statue",
+            "name": "Break for GA access",
+            "hosted_item": "statue2",
             "item_count": 1
           }
         ],
@@ -3065,13 +3195,14 @@
         ]
       },
       {
-        "name": "Statue #2",
+        "name": "Jondo Statue #1",
         "access_rules": [
           "open"
         ],
         "sections": [
           {
-            "hosted_item": "statue",
+            "name": "Break for GA access",
+            "hosted_item": "statue1",
             "item_count": 1
           }
         ],
@@ -3090,12 +3221,13 @@
         ]
       },
       {
-        "name": "Break the statues, then ring the bell",
+        "name": "Jondo Bell for GA access",
         "access_rules": [
-          "statue:2"
+          "statue1, statue2"
         ],
         "sections": [
           {
+            "name": "ring for GA access",
             "hosted_item": "bell",
             "item_count": 1
           }
@@ -3357,6 +3489,7 @@
         ],
         "sections": [
           {
+            "name": "Good luck!",
             "item_count": 1,
             "hosted_item": "miriam"
           }
@@ -3382,6 +3515,7 @@
         ],
         "sections": [
           {
+            "access_rules": "open",
             "name": "FREE HIM",
             "item_count": 1
           },
@@ -3463,7 +3597,7 @@
         ]
       },
       {
-        "name": "Grievance MP+",
+        "name": "GA: Oil of the Pilgrims",
         "access_rules": [
           "blood"
         ],
@@ -3522,7 +3656,8 @@
         "name": "Grievance Cherub 3",
         "access_rules": [
           "tongues",
-          "ruby"
+          "$pillar",
+          ""
         ],
         "sections": [
           {
@@ -3631,7 +3766,7 @@
           },
           
           {
-            "name": "@DC: Lady of the Six Sorrows, elevator shaft",
+            "name": "DC: Lady of the Six Sorrows, elevator shaft",
             "access_rules": [
               "open"
             ],
@@ -3674,25 +3809,22 @@
         "sections": [
           {
             "name": "free check",
-            "item_count": 1
-          },
-          {
-            "name": "Sword Shop 1",
+            "hosted_item": "shrine",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "full",
-            "x": 4008,
+            "x": 4025,
             "y": 4680
           },
           {
             "map": "cistern",
-            "x": 1056,
+            "x": 1070,
             "y": 1656
           }
-
+    
         ]
       },
       {
@@ -3747,9 +3879,7 @@
       },
       {
         "name": "DC: Shortcut to WotBC",
-        "access_rules": [
-          "open"
-        ],
+        
         "sections": [
           {
             "name": "Cistern Bone 1",
@@ -4084,7 +4214,7 @@
       {
         "name": "Cistern Cherub 5",
         "access_rules": [
-          "open"
+          "blood, linen", "$pillar, lung, nail"
         ],
         "sections": [
           {
@@ -4203,11 +4333,13 @@
         ],
         "sections": [
           {
+            "access_rules": [ "$pillar", "tirana", "conte" ],
             "name": "FREE HIM",
             "item_count": 1
+
           },
           {
-            "name": "Blue Candle",
+            "name": "MD: Blue candle",
             "item_count": 1
           }
         ],
@@ -4550,6 +4682,12 @@
         "name": "Cleofas Quest",
         "sections": [
           {
+            "name": "Talk to Cleofas",
+            "hosted_item": "talkcleofas",
+            "item_count": 1
+         
+          },
+          {
             "name": "Give Socorro the Three Marks of the Refuge",
             "hosted_item": "savesocorro",
             "item_count": 1,
@@ -4581,7 +4719,7 @@
             "item_count": 1
           },
           {
-            "name": "Finiah all five challenge rooms to send her home",
+            "name": "Finish all five challenge rooms to send her home",
             "access_rules": [
               "miriam:6"
             ],
@@ -4610,6 +4748,7 @@
         ],
         "sections": [
           {
+            "name": "Good luck!",
             "item_count": 1,
             "hosted_item": "miriam"
           }
@@ -4854,30 +4993,27 @@
         "sections": [
           {
             "name": "free check",
-            "item_count": 1
-          },
-          {
-            "name": "Sword Shop 1",
+            "hosted_item": "shrine",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "full",
-            "x": 9375,
+            "x": 9360,
             "y": 2491
           },
           {
             "map": "mother",
-            "x": 1402,
+            "x": 1385,
             "y": 633
           }
-
+    
         ]
       },
       {
         "name": "WotHP: Outside Child of Moonlight",
-        "access_rules": [ "key_scribe, key_inquisitor" ],
+        "access_rules": [ "key_scribe, key_secular" ],
         "sections": [
           {
             "name": "FREE HIM",
@@ -4999,7 +5135,7 @@
       },
       {
         "name": "Jibby's cell",
-        "access_rules": [ "open" ],
+        "access_rules": [ "key_scribe" ],
         "sections": [
           {
             "name": "Outside the cell",
@@ -5181,7 +5317,7 @@
       {
         "name": "LotNW: Platform puzzle chest",
         "access_rules": [
-          "open"
+          "blood"
         ],
         "sections": [
           {
@@ -5360,6 +5496,7 @@
         ],
         "sections": [
           {
+            "name": "Good luck!",
             "hosted_item": "miriam",
             "item_count": 1
           }
@@ -5392,7 +5529,7 @@
         "map_locations": [
           {
             "map": "full",
-            "x": 8096,
+            "x": 8736,
             "y": 3264
           },
           {
@@ -5461,29 +5598,22 @@
         "sections": [
           {
             "name": "free check",
-            "item_count": 1
-          },
-          {
-            "name": "Sword Shop 1",
-            "item_count": 1
-          },
-          {
-            "name": "Sword Shop 2",
+            "hosted_item": "shrine",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "full",
-            "x": 9124,
+            "x": 9110,
             "y": 3512
           },
           {
             "map": "library",
-            "x": 1984,
+            "x": 1970,
             "y": 624
           }
-
+    
         ]
       },
 
@@ -5572,7 +5702,7 @@
       {
         "name": "TSC: Under elevator shaft",
         "access_rules": [
-          "open"
+          "linen"
         ],
         "sections": [
           {
@@ -5595,7 +5725,7 @@
         ]
       },
       {
-        "name": "Canvases Heart",
+        "name": "TSC: Candle wax puzzle",
         "access_rules": [
           "blue_wax_3, red_wax_3"
         ],
@@ -5714,7 +5844,7 @@
         ],
         "sections": [
           {
-            "name": "Red Candle #3",
+            "name": "Red Candle in the Library",
             "item_count": 1
           }
         ],
@@ -5928,7 +6058,7 @@
           {
             "name": "AR: Lady of the Six Sorrows",
             "access_rules": [
-              "blood, tongues, lung"
+              "blood, tongues, lung", "blood, tongues, tiento"
             ],
             "sections": [
               {
@@ -6125,30 +6255,22 @@
             "sections": [
               {
                 "name": "Unlock gate getting check below",
-                "item_count": 1
-              },
-              
-              {
-                "name": "Sword Shop 1",
-                "item_count": 1
-              },
-              {
-                "name": "Sword Shop 2",
+                "hosted_item": "shrine",
                 "item_count": 1
               }
             ],
             "map_locations": [
               {
                 "map": "full",
-                "x": 10276,
+                "x": 10260,
                 "y": 1346
               },
               {
                 "map": "rooftops",
-                "x": 2043,
+                "x": 2030,
                 "y": 810
               }
-
+        
             ]
           },
           {
@@ -6183,6 +6305,7 @@
             ],
             "sections": [
               {
+                "name": "Good luck!",
                 "hosted_item": "miriam",
                 "item_count": 1
               }
@@ -6437,8 +6560,8 @@
                 "map_locations": [
                   {
                     "map": "full",
-                    "x": 7458,
-                    "y": 2338
+                    "x": 7455,
+                    "y": 2238
                   },
                   {
                     "map": "prison",
