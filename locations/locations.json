@@ -4339,6 +4339,7 @@
 
           },
           {
+            "access_rules": ["blue_wax"],
             "name": "MD: Blue candle",
             "item_count": 1
           }
@@ -5013,7 +5014,7 @@
       },
       {
         "name": "WotHP: Outside Child of Moonlight",
-        "access_rules": [ "key_scribe, key_secular" ],
+        "access_rules": [ "key_scribe, key_secular, masks:1" ],
         "sections": [
           {
             "name": "FREE HIM",
@@ -5037,7 +5038,7 @@
       },
       {
         "name": "WotHP: Amanecida of the Molten Thorn",
-        "access_rules": [ "openama4" ],
+        "access_rules": [ "openama4, masks:1" ],
         "sections": [
           {
             "name": "Amanecida of the Molten Thorn",
@@ -5061,7 +5062,7 @@
       },
       {
         "name": "WotHP: Upper east room, lift puzzle",
-        "access_rules": [ "open" ],
+        "access_rules": [ "masks:1" ],
         "sections": [
           {
             "name": "Move the elevator 6 times",
@@ -5085,7 +5086,7 @@
       },
       {
         "name": "WotHP: Upper east room, center cell floor",
-        "access_rules": [ "open" ],
+        "access_rules": [ "masks:1" ],
         "sections": [
           {
             "name": "Ledge check",
@@ -5113,7 +5114,7 @@
       },
       {
         "name": "WotHP: Lower east room, hidden ledge",
-        "access_rules": [ "open" ],
+        "access_rules": [ "masks:1" ],
         "sections": [
           {
             "name": "Break the wall",
@@ -5135,7 +5136,7 @@
       },
       {
         "name": "Jibby's cell",
-        "access_rules": [ "key_scribe" ],
+        "access_rules": [ "key_scribe, masks:1" ],
         "sections": [
           {
             "name": "Outside the cell",
@@ -6276,7 +6277,7 @@
           {
             "name": "Wall of Prohibitions Confessor",
             "access_rules": [
-              "immaculate_bead, key_scribe"
+              "immaculate_bead, key_scribe, masks:1"
             ],
             "sections": [
               {
@@ -6326,14 +6327,14 @@
           {
             "name": "Prison Inquisitor",
             "access_rules": [
-              "key_inquisitor"
+              "key_inquisitor, masks:1"
             ],
 
             "children": [
               {
                 
                 "name": "WotHP: Upper east room, center gold cell",
-                "access_rules": [ "open" ],
+                "access_rules": [ "masks:1" ],
                 "sections": [
                   {
                     "name": "Prohibitions Bile Flask",
@@ -6358,7 +6359,7 @@
               {
                 
                 "name": "WotHP: Upper west room, center gold cell",
-                "access_rules": [ "open" ],
+                "access_rules": [ "masks:1" ],
                 "sections": [
                   {
                     "name": "Another bone check idk",
@@ -6382,7 +6383,7 @@
               },
               {
                 "name": "WotHP: Lower west room, bottom gold cell",
-                "access_rules": [ "lung, blood, tongues" ],
+                "access_rules": [ "lung, blood, tongues, masks:1" ],
                 "sections": [
                   {
                     "name": "Break the wall",
@@ -6412,13 +6413,13 @@
           {
             "name": "Prison Secular",
             "access_rules": [
-              "key_secular"
+              "key_secular, masks:1"
             ],
 
             "children": [
               {
                 "name": "WotHP: Upper east room, top bronze cell",
-                "access_rules": [ "open" ],
+                "access_rules": [ "masks:1" ],
                 "sections": [
                   {
                     "name": "FREE HIM",
@@ -6442,7 +6443,7 @@
               },
               {
                 "name": "WotHP: Lower east room, top bronze cell",
-                "access_rules": [ "open" ],
+                "access_rules": [ "masks:1" ],
                 "sections": [
                   {
                     "name": "Scribe key check",
@@ -6470,13 +6471,13 @@
           {
             "name": "Prison Scribe",
             "access_rules": [
-              "key_scribe"
+              "key_scribe, masks:1"
             ],
 
             "children": [
               {
                 "name": "WotHP: Upper east room, top silver cell",
-                "access_rules": [ "open" ],
+                "access_rules": [ "masks:1" ],
                 "sections": [
                   {
                     "name": "Prohibitions Bone 4",
@@ -6500,7 +6501,7 @@
               },
               {
                 "name": "WotHP: Lower east room, top silver cell",
-                "access_rules": [ "open" ],
+                "access_rules": [ "masks:1" ],
                 "sections": [
                   {
                     "name": "Prohibitions Bone 5",
@@ -6524,7 +6525,7 @@
               },
               {
                 "name": "Lower east room, bottom silver cell",
-                "access_rules": [ "open" ],
+                "access_rules": [ "masks:1" ],
                 "sections": [
                   {
                     "name": "FREE HIM",
@@ -6548,7 +6549,7 @@
               },
               {
                 "name": "WotHP: Oil of the Pilgrims",
-                "access_rules": [ "open" ],
+                "access_rules": [ "masks:1" ],
                 "sections": [
                   {
                     "name": "go up through scribe key door down and to the right from here, then break the wall",
@@ -6572,7 +6573,7 @@
               },
               {
                 "name": "Quirce Room",
-                "access_rules": [ "open" ],
+                "access_rules": [ "masks:1" ],
                 "sections": [
                   {
                     "name": "Defeat Quirce",
