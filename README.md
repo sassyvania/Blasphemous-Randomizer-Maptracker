@@ -12,7 +12,7 @@ First of all, I want to give a huge thank you to Demajen, whose tireless work on
 
 https://demajen.co.uk/
 
-And a hefty thank you to Damocles03, not just for making the randomizer, but for supplying me with a spreadsheet of the logic. 
+And a hefty thank you to Damocles03, not just for making the randomizer, but for supplying me with logic spreadsheets, item and location codes, just like, so much. 
 
 And also a big smoochy thank you to br00ty and j_im for helping me with my newbie baby codey questions!
 
@@ -20,31 +20,26 @@ And also a big smoochy thank you to br00ty and j_im for helping me with my newbi
 
 Unzip into PopTracker's "packs" folder. That's it! On macOS, you'll find the packs folder by right clicking on poptracker.app, clicking Show Package Contents, and navigating to `Contents > MacOS > Packs`.
 
+## Autotracking
+
+Autotracking is now supported for Universal Auto Tracking (UAT)! The Archipelago tracking has been removed because UAT covers way more ground and still works when connected to an archipelago game.
+
+To run with UAT: The UAT bridge is included in the Blasphemous Randomizer 1.4.2 and up. In Blasphemous, press "\" to open the console, and enter "randomizer autotracker on". It should automatically connect to the tracker, and the UAT text should turn green.
+
 ## Notes
-1) Jibrael quest is included in the current files, but isn't in a release yet.
-2) Quests! There's a few checks on the map that don't actually give you an in game item, but add a hidden item to the tracker inventory to unlock the next step of a quest. Right now this includes Cleofas, Esdras and his Sister, the Miriam crossover event, and Redento (although the last two are in the item tracker).
 
-3a) Archipelago Auto Tracking: A lot of check names have been changed to reflect the AP location descriptions, and because it requires two name fields to properly auto-check. Once location mapping is finished, we'll make another pass to make them all match up. Main goal is usability for now.
+1) Quests! These SHOULD be fully working in UAT, let me know if they're not!
 
-3b) Some locations and checks simply can't be auto-tracked, due to their nature or simply not being checks in the game. So keep in mind:
+No way to automatically check Chalice of Inverted Verses fill status, only aquiring the chalice is checked for.
 
-Confessor Dungeons and Amanecidas rewards are progressive. First one you beat gives you first rewards, second gives you second, etc. There's no way to auto track these so you'll have to do them yourself.
-    
-You'll have to manually check off the Jondo statue and bell checks to open the grievance ascends checks.
-Same goes with Jibrael's quest start and four checks across the map to open Amanecida fights.
-    
-You'll have to check off Redento quests manually, as they either give no item or host a redento check to keep you on your way
+2) All prayers are autotracked, as they can be used to break holes in the ground, but only the 9 prayers that work for other checks show up in the item list. 
 
-Miriam gate completeion isn't checked in AP, just completion of the quest.
-
-No way to automatically check Chalice of Inverted Verses fill status.
+3) Auto tracking and location names: A lot of check names have been changed to reflect the AP location descriptions to help new players find a check that may have been hinted at. Main goal was usability, eventually all names will be changed to reflect this.
 
 ## To-Do
 
-Add more prayers 
-
-Update Cherub prayer logic
-
 Change all location names to match checks in Archipelago for ease of use
 
-Add UAT tracking for people who aren't into Archipelago
+Add checks depending on which goal you're going for (the tracker will get you to Escribar, would eventually like to add goals for ending B and C with items needed)
+
+A lil quest tracker section built into the main overworld map :eyes emoji:
