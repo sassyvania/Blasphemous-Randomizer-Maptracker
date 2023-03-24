@@ -24,7 +24,7 @@ Unzip into PopTracker's "packs" folder. That's it! On macOS, you'll find the pac
 
 Autotracking is now supported for Universal Auto Tracking (UAT)! The Archipelago tracking has been removed because UAT covers way more ground and still works when connected to an archipelago game.
 
-To run with UAT: The UAT bridge is included in the Blasphemous Randomizer 1.4.2 and up. In Blasphemous, press "\" to open the console, and enter "randomizer autotracker on". It should automatically connect to the tracker, and the UAT text should turn green.
+To run with UAT: The UAT bridge is included in the Blasphemous Randomizer 1.4.2 and up. In Blasphemous, press \ to open the console, and enter "randomizer autotracker on". It should automatically connect to the tracker, and the UAT text should turn green.
 
 ## Notes
 
