@@ -2,23 +2,24 @@
 // it contains basic information about your pack
 // for more info on the manifest check: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#manifest
 {
-  "name": "Blasphemous Rando Tracker by Sassyvania and ViviMayoi",
+  "name": "Blasphemous Rando Map Tracker by Sassyvania and ViviMayoi",
   "game_name": "Blasphemous",
-  "package_version": "0.2.2",
+  "package_version": "0.3.1",
   "package_uid": "blasphemous_maptracker_sassyvania",
-  // "platform": "snes", //enables SNES memory autotracking interface - remove/change if not needed
+  "platform": "PC", 
   "author": "Sassyvania",
   "variants": {
     "standard": {
       "display_name": "Map Tracker",
       "flags": [
-       "ap" //enables AP autotracking interface - remove if not needed
+         "uat"
       ]
     },
     "var_itemsonly": {
      "display_name": "Items Only",
-     "flags": [
-      "ap" //enables AP autotracking interface - remove if not needed
+     "platform": "PC", 
+     "flags": [ "uat"
+ //enables AP autotracking interface - remove if not needed
      ]
     }
   }
