@@ -23,7 +23,7 @@ function has_more_then_n_consumable(n)
     return 0 -- 0 => no access
 end
 function canBreakHoles()
-    return (has("debla") or has("weight") or has("aubade") or has("mirabras") or has("cantina") or has("cante") or has("taranto") or has("solea") 
+    return (has("debla") or has ("charge_attack") or has("weight") or has("aubade") or has("mirabras") or has("cantina") or has("cante") or has("taranto") or has("solea") 
     or has("seguiriya") or has("saeta") or has("companillero") or has("companillero") or has("ruby") 
      or has("lorquiana") or has("zambra") or has("zarabanda") or has("romance") or has("tirana") or has("tiento") or has("lorquiana") 
      or has("verdiales"))
