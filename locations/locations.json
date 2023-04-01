@@ -28,8 +28,8 @@
   {
     "name": "BotSS: Starting room Child of Moonlight",
     "access_rules": [
-      "blood, tongues",
-      "blood, linen"
+      "blood, tongues", "blood, linen",
+      "$pillar, tongues"
     ],
     "sections": [
       {
@@ -455,7 +455,7 @@
 
             "item_count": 1,
             "access_rules": [
-              "scapular, boss_esdras"
+              "scapular"
             ]
           },
           {
@@ -2651,15 +2651,16 @@
       },
       {
         "name": "Graveyard Confessor",
-        "access_rules": [
-          "immaculate_bead"
-        ],
+        
         "sections": [
           {
             "name": "free check",
             "item_count": 1
           },
           {
+            "access_rules": [
+              "immaculate_bead"
+            ],
             "name": "BREAK IT",
             "item_count": 1
           }
@@ -6663,5 +6664,4 @@
 
     ]
   }
-
 ]
