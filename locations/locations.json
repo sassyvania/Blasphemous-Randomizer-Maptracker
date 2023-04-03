@@ -29,7 +29,7 @@
     "name": "BotSS: Starting room Child of Moonlight",
     "access_rules": [
       "blood, tongues", "blood, linen",
-      "$pillar, tongues"
+      "debla, tongues", "taranto", "ruby, tongues", "verdiales, tongues"
     ],
     "sections": [
       {
@@ -99,6 +99,43 @@
         "map": "brotherhood",
         "x": 716,
         "y": 305
+      }
+
+    ]
+  },
+  {
+    "name": "Hidden Brotherhood Church",
+    "access_rules": [
+      "blood"
+    ],
+    "sections": [
+      {
+        "name": "Bring Esdras the Incomplete Scapular",
+
+        "item_count": 1,
+        "access_rules": [
+          "scapular"
+        ]
+      },
+      {
+        "name": "Reward for sparing Crisanta",
+        "item_count": 1,
+        "access_rules": [
+          "sparecrisanta"
+
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "full",
+        "x": 480,
+        "y": 2872
+      },
+      {
+        "map": "brotherhood",
+        "x": 255,
+        "y": 177
       }
 
     ]
@@ -444,43 +481,7 @@
 
         ]
       },
-      {
-        "name": "Hidden Brotherhood Church",
-        "access_rules": [
-          "blood"
-        ],
-        "sections": [
-          {
-            "name": "Bring the Incomplete Scapular after defeating Esdras",
-
-            "item_count": 1,
-            "access_rules": [
-              "scapular"
-            ]
-          },
-          {
-            "name": "Reward for sparing Crisanta",
-            "item_count": 1,
-            "access_rules": [
-              "sparecrisanta"
-
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "full",
-            "x": 480,
-            "y": 2872
-          },
-          {
-            "map": "brotherhood",
-            "x": 255,
-            "y": 177
-          }
-
-        ]
-      },
+      
       {
         "name": "MaH: West chest",
         "access_rules": [
@@ -5893,7 +5894,7 @@
       {
         "name": "MaH: Sierpes",
         "access_rules": [
-          "tongues"
+          "tongues", "dawn", "nail"
         ],
         "sections": [
           {
