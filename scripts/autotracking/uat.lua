@@ -74,7 +74,9 @@ trackedToggles = {
         ["PENITENT_MET_CLEOFAS"] = "talkcleofas",
         ["SERENO_DLC2QUEST_FINISHED"] = "loudghost",
         ["SOCORRO_STATE_GONE"] = "savesocorro",
+        ["GEMINO_ENTRANCE_OPEN"] = "opencave",
         
+        ["CLEOFAS_JOINED_ORDER"] = "cleofas"
     }
     
     trackedConsumables = {
@@ -277,6 +279,7 @@ trackedToggles = {
         ["@HE101"] = "BotTC: Inside giant statue/Bridge Heart",
         ["@PR08"] = "Crisanta of the Wrapped Agony/Viridiana's Prayer",
         ["@SANTOS_AMANECIDA_LOCATION3_ACTIVATED"] = "The Once Forbidden Rooftops/Jibrael on the Rooftops",
+        ["@CLEOFAS_JOINED_ORDER"] = "The Once Forbidden Rooftops/Save Cleofas",
         ["@RMIRIAM_D06Z01S26"] = "Rooftops Miriam Gate/Good luck!",
         -- bridge
         ["@BS12"] = "Proof of Humiliations/Defeat Esdras",
@@ -293,7 +296,7 @@ trackedToggles = {
         ["CANDLE_BLUE_1_USED"] = "Brotherhood Maze Door/Blue Candle",
         ["@REDENTO_0207_DONE"] = "Brotherhood Maze Door/Clear a path for Redento",
         ["@PR203"] = "Brotherhood Prayer/This Blood Was Made For Walkin'",
-        ["@QI204"] = "Hidden Brotherhood Church/Bring the Incomplete Scapular after defeating Esdras",
+        ["@QI204"] = "Hidden Brotherhood Church/Bring Esdras the Incomplete Scapular",
         ["@QI301"] = "Hidden Brotherhood Church/Reward for sparing Crisanta",
         ["@BS13"] = "Defeat the Warden of the Silent Sorrow/Start the game",
         ["CONFESSOR_4_ARENACOMPLETED"] = "Brotherhood Confessor/BREAK IT",
