@@ -2173,7 +2173,8 @@
           "lorquiana",
           "cante",
           "cantina",
-          "$pillar"
+          "$pillar",
+          "aubade"
         ],
         "sections": [
           {
@@ -3575,7 +3576,7 @@
             "name": "FREE HIM",
             "item_count": 1,
             "access_rules": [
-              "$pillar"
+              "$pillar", "tirana"
 
             ]
           },
@@ -3659,7 +3660,7 @@
         "access_rules": [
           "tongues",
           "$pillar",
-          ""
+          "tirana"
         ],
         "sections": [
           {
@@ -3955,7 +3956,7 @@
       {
         "name": "Cistern Cherub 1",
         "access_rules": [
-          "nail", "$pillar"
+          "nail", "$pillar", "linen", "tirana"
         ],
         "sections": [
           {
@@ -4216,7 +4217,7 @@
       {
         "name": "Cistern Cherub 5",
         "access_rules": [
-          "blood, linen", "$pillar, lung, nail"
+          "blood, linen", "$pillar, lung, nail", "tirana, lung, nail"
         ],
         "sections": [
           {
@@ -4272,8 +4273,8 @@
     "name": "Post-Bridge",
     "access_rules": [
       "boss_esdras",
-      "blood, $speed, throw_blood",
-      "blood, $pillar"
+      "blood, dawn, throw_blood",
+      "blood, tirana"
     ],
 
     "children": [
