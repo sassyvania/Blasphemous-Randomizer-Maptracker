@@ -5117,7 +5117,7 @@
       },
       {
         "name": "WotHP: Lower east room, hidden ledge",
-        "access_rules": [ "masks:1" ],
+        "access_rules": [ "key_secular, masks:1" ],
         "sections": [
           {
             "name": "Break the wall",
@@ -5139,7 +5139,7 @@
       },
       {
         "name": "Jibby's cell",
-        "access_rules": [ "key_scribe, masks:1" ],
+        "access_rules": [ "key_secular, key_scribe, masks:1" ],
         "sections": [
           {
             "name": "Outside the cell",
@@ -6280,7 +6280,7 @@
           {
             "name": "Wall of Prohibitions Confessor",
             "access_rules": [
-              "immaculate_bead, key_scribe, masks:1"
+              "immaculate_bead, key_scribe, key_secular, masks:1"
             ],
             "sections": [
               {
@@ -6362,7 +6362,7 @@
               {
                 
                 "name": "WotHP: Upper west room, center gold cell",
-                "access_rules": [ "masks:1" ],
+                "access_rules": [ "key_secular, masks:1" ],
                 "sections": [
                   {
                     "name": "Another bone check idk",
@@ -6386,7 +6386,7 @@
               },
               {
                 "name": "WotHP: Lower west room, bottom gold cell",
-                "access_rules": [ "lung, blood, tongues, masks:1" ],
+                "access_rules": [ "key_secular, lung, blood, tongues, masks:1" ],
                 "sections": [
                   {
                     "name": "Break the wall",
@@ -6504,7 +6504,7 @@
               },
               {
                 "name": "WotHP: Lower east room, top silver cell",
-                "access_rules": [ "masks:1" ],
+                "access_rules": [ "key_secular, masks:1" ],
                 "sections": [
                   {
                     "name": "Prohibitions Bone 5",
@@ -6528,7 +6528,7 @@
               },
               {
                 "name": "Lower east room, bottom silver cell",
-                "access_rules": [ "masks:1" ],
+                "access_rules": [ "key_secular, masks:1" ],
                 "sections": [
                   {
                     "name": "FREE HIM",
@@ -6552,7 +6552,7 @@
               },
               {
                 "name": "WotHP: Oil of the Pilgrims",
-                "access_rules": [ "masks:1" ],
+                "access_rules": [ "key_secular, masks:1" ],
                 "sections": [
                   {
                     "name": "go up through scribe key door down and to the right from here, then break the wall",
@@ -6576,7 +6576,7 @@
               },
               {
                 "name": "Quirce Room",
-                "access_rules": [ "masks:1" ],
+                "access_rules": [ "key_secular, masks:1" ],
                 "sections": [
                   {
                     "name": "Defeat Quirce",
