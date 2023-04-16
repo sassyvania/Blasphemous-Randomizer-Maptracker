@@ -3772,7 +3772,7 @@
           {
             "name": "DC: Lady of the Six Sorrows, elevator shaft",
             "access_rules": [
-              "boss_tres", "linen"
+              "boss_tres", "linen, blood"
             ],
             "sections": [
               {
@@ -3835,8 +3835,10 @@
       {
         "name": "Chalice Quest",
         "access_rules": [
-          "lung, nail, tongues", "linen, tongues",
-          "$speed, throw_blood, expert",
+          "lung, nail, tongues", 
+          "lung, nail, dawn, expert",
+          "lung, nail, wheel, throw_blood, expert",
+          "linen, tongues",
           "linen, throw_blood, expert"
         ],
         "sections": [
@@ -4367,7 +4369,7 @@
       },
       {
         "name": "Laudes, First of the Amanecidas",
-        "access_rules": [ "verses:4, masks:1" ],
+        "access_rules": [ "verses:4" ],
         "sections": [
           {
             "name": "Also the last",
@@ -4874,7 +4876,7 @@
       },
       {
         "name": "MoM: East chandelier platform",
-        "access_rules": [ "blood"],
+        "access_rules": [ "blood", "dawn", "wheel, throw_blood"],
         "sections": [
           {
             "name": "Mothers Bone 4",
@@ -5426,7 +5428,7 @@
         "name": "Library Cherub 3",
         "access_rules": [
           "boss_exposito, blood, tongues",
-          "expert, boss_exposito, blood, dawn, throw_blood"
+          "expert, boss_exposito, blood, dawn, throw_blood, $pillar"
         ],
         "sections": [
           {
