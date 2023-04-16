@@ -769,5 +769,26 @@
         "inherit_codes": false
       }
     ]
+  },
+  // settings
+  {
+    "name": "Logic Settings",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 2,
+    "stages": [
+      {
+        "img": "images/items/logic_normal.png",
+        "codes": "normal"
+
+      },
+      {
+        "img": "images/items/logic_expert.png",
+        "codes": "expert"
+
+      }
+      
+    ]
+
   }
 ]
