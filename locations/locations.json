@@ -1550,7 +1550,7 @@
       },
       {
         "name": "Wither Cherub 2",
-        "access_rules": [ "tongues" ],
+        "access_rules": [ "tongues", "$pillar" ],
         "sections": [
           {
             "name": "FREE HIM",
@@ -1951,7 +1951,8 @@
       {
         "name": "CoOLotCV: Mask room",
         "access_rules": [
-          "boss_esdras, key_peaks, key_scribe",
+          "key_peaks, key_secular, key_scribe, masks:1",
+          
           "toggle"
         ],
         "sections": [
@@ -1978,7 +1979,7 @@
       {
         "name": "CoOLotCV: Lady of the Six Sorrows",
         "access_rules": [
-          "boss_esdras, key_peaks, key_scribe",
+          "key_peaks, key_secular, key_scribe, masks:1",
           "toggle"
         ],
         "sections": [
@@ -3738,13 +3739,13 @@
       {
         "name": "Cistern Elevator",
         "access_rules": [
-          "boss_tres"
+          "open"
         ],
         "children": [
           {
             "name": "Cistern Cherub 6",
             "access_rules": [
-              "open"
+              "boss_tres"
             ],
             "sections": [
               {
@@ -3771,7 +3772,7 @@
           {
             "name": "DC: Lady of the Six Sorrows, elevator shaft",
             "access_rules": [
-              "open"
+              "boss_tres", "linen"
             ],
             "sections": [
               {
@@ -3807,7 +3808,8 @@
       {
         "name": "Mea Culpa Shrine #7",
         "access_rules": [
-          "chalice_full, tongues"
+          "You're gonna need a full chalice to get in here",
+          "chalice"
         ],
         "sections": [
           {
@@ -3833,7 +3835,9 @@
       {
         "name": "Chalice Quest",
         "access_rules": [
-          "tongues"
+          "lung, nail, tongues", "linen, tongues",
+          "$speed, throw_blood, expert",
+          "linen, throw_blood, expert"
         ],
         "sections": [
           {
@@ -4217,7 +4221,7 @@
       {
         "name": "Cistern Cherub 5",
         "access_rules": [
-          "blood, linen", "$pillar, lung, nail", "tirana, lung, nail"
+          "blood, linen", "$pillar, lung, nail", "tirana, lung, nail", "boss_tres, linen"
         ],
         "sections": [
           {
@@ -4273,8 +4277,8 @@
     "name": "Post-Bridge",
     "access_rules": [
       "boss_esdras",
-      "blood, dawn, throw_blood",
-      "blood, tirana"
+      "blood, dawn, throw_blood, expert",
+      "blood, tirana, expert"
     ],
 
     "children": [
@@ -4363,7 +4367,7 @@
       },
       {
         "name": "Laudes, First of the Amanecidas",
-        "access_rules": [ "verses:4" ],
+        "access_rules": [ "verses:4, masks:1" ],
         "sections": [
           {
             "name": "Also the last",
@@ -4918,7 +4922,7 @@
       },
       {
         "name": "MoM: Upper east ledge",
-        "access_rules": [ "blood" ],
+        
         "sections": [
           {
             "name": "Mothers Rosary",
@@ -5421,7 +5425,8 @@
       {
         "name": "Library Cherub 3",
         "access_rules": [
-          "boss_exposito, blood, tongues"
+          "boss_exposito, blood, tongues",
+          "expert, boss_exposito, blood, dawn, throw_blood"
         ],
         "sections": [
           {
@@ -5496,7 +5501,7 @@
       {
         "name": "Library Miriam Gate",
         "access_rules": [
-          "tongues, blood, miriam:1"
+          "tongues, blood, lung, miriam:1"
         ],
         "sections": [
           {
@@ -5597,7 +5602,7 @@
       {
         "name": "Mea Culpa Shrine #4",
         "access_rules": [
-          "boss_exposito, blood, tongues"
+          "boss_exposito"
         ],
         "sections": [
           {
@@ -5819,7 +5824,7 @@
       {
         "name": "LotNW: Mask room",
         "access_rules": [
-          "boss_exposito, blood, tongues"
+          "boss_exposito"
         ],
         "sections": [
           {
@@ -6163,7 +6168,8 @@
           {
             "name": "AR: Upper west shaft chest",
             "access_rules": [
-              "masks:2, linen, tongues"
+              "masks:2, linen, tongues",
+              "masks:2, linen, throw_blood, expert"
             ],
             "sections": [
               {
@@ -6253,8 +6259,8 @@
           {
             "name": "Mea Culpa Shrine #6",
             "access_rules": [
-              "masks:2, blood, tongues, lung",
-              "masks:2, blood, tongues, tiento"
+              "masks:2, blood, lung",
+              "masks:2, blood, tiento"
             ],
             "sections": [
               {
@@ -6641,7 +6647,7 @@
       {
         "name": "Library Confessor",
         "access_rules": [
-          "immaculate_bead, blood, tongues"
+          "immaculate_bead, blood"
         ],
         "sections": [
           {
