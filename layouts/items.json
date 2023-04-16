@@ -35,7 +35,7 @@
         "rows": [
           [
 
-            "cherubs",
+            "Cherubs",
             "wounds",
             "masks",
             "bones"
@@ -72,16 +72,44 @@
             "key_brother",
             "key_peaks",
             "key_wood"
-          ],
+          ]
+        ]
+      },
+        {
+          "type": "itemgrid",
+          "h_alignment": "center",
+          "margin": "2,0,0,0",
+          "item_margin": "3,1",
+          "item_size": 44,
+          "rows": [
           [
 
             "debla",
             "tirana",
             "verdiales",
             "lorquiana",
-            "tiento",
-            "zarabanda"
+            "tiento"
+            
           ],
+          
+          [
+
+            
+            "taranto",
+            "cante",
+            "zarabanda",
+            "cantina",
+            "aubade"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "margin": "2,0,0,0",
+        "item_margin": "1,1",
+        "item_size": 41,
+        "rows": [
           [
             "red_wax",
             "blue_wax",
@@ -126,6 +154,19 @@
             "boss_bishop",
             "boss_exposito",
             "boss_quirce"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "margin": "2,0,0,0",
+        "item_margin": "5,1",
+        "item_size": 150,
+        "rows": [
+
+          [
+            "normal"
           ]
         ]
       }
