@@ -5538,7 +5538,7 @@
       {
         "name": "LotNW: Root ceiling platform",
         "access_rules": [
-          "tongues"
+          "tongues, blood"
         ],
         "sections": [
           {
