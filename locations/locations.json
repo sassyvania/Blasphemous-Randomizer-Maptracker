@@ -3005,7 +3005,8 @@
         "name": "Jondo: Upper west tree root",
         "access_rules": [
           "tongues",
-          "dawn"
+          "dawn",
+          "wheel, throw_blood, expert"
         ],
         "sections": [
           {
@@ -4505,7 +4506,7 @@
           },
           {
             "name": "Olive Seeds",
-            "access_rules": ["tongues", "dawn", "wheel, throw_blood"],
+            "access_rules": ["tongues", "dawn", "wheel, throw_blood, expert"],
             "item_count": 1
           }
 
