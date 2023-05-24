@@ -2574,7 +2574,7 @@
           {
             "name": "FREE HIM",
             "item_count": 1,
-            "access_rules": [ "ruby", "throw_blood", "lorquiana", "cante", "cantina", "aubade", "dawn, wheel" ]
+            "access_rules": [ "ruby", "throw_blood", "lorquiana", "cante", "cantina", "aubade", "dawn", "wheel" ]
 
           },
           {
