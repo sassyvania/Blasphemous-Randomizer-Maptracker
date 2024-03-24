@@ -1,4 +1,17 @@
 # Blasphemous Randomizer Map Tracker by Sassyvania and ViviMayoi
+This is no longer being supported. After working with the rando dev for months to get this pack up and running, an in-game map tracker was added to the rando, and auto tracking support was fully removed, neither of which were told to me directly. So I guess just use the in-game version and please stop submitting issues, I'm done working on this pack.
+
+
+
+
+
+
+
+
+
+
+
+
 
 Blasphemous Randomizer
 https://github.com/BrandenEK/Blasphemous-Randomizer
