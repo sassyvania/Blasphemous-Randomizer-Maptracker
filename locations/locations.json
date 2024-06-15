@@ -29,7 +29,7 @@
     "name": "BotSS: Starting room Child of Moonlight",
     "access_rules": [
       "blood, tongues", "blood, linen",
-      "debla, tongues", "taranto", "ruby, tongues", "verdiales, tongues"
+      "taranto", "tirana, tongues", "debla, tongues", "ruby, tongues", "verdiales, tongues"
     ],
     "sections": [
       {
@@ -52,14 +52,14 @@
     ]
   },
   {
-    "name": "Brotherhood Prayer",
+    "name": "BotSS: Outside Church",
     "access_rules": [
       "blood",
       "toggle"
     ],
     "sections": [
       {
-        "name": "This Blood Was Made For Walkin'",
+        "name": "Brotherhood Prayer",
         "item_count": 1
       }
 
@@ -485,7 +485,8 @@
       {
         "name": "MaH: West chest",
         "access_rules": [
-          "blood"
+          "blood",
+          "boss_esdras"
         ],
         "sections": [
           {
@@ -1525,8 +1526,8 @@
       },
       {
         "name": "Wither Cherub 1",
-        "access_rules": [ "linen, cante", "linen, throw_blood","linen, lorquiana", "linen, cantina",
-        "opencave, cante", "opencave, throw_blood","opencave, lorquiana", "opencave, cantina" ],
+        "access_rules": [ "linen, cante", "linen, throw_blood","linen, lorquiana", "linen, cantina", "linen, $pillar",
+        "opencave, cante", "opencave, throw_blood","opencave, lorquiana", "opencave, cantina", "opencave, $pillar"],
         "sections": [
           {
             "name": "fall from above with linen AND FREE HIM",
@@ -1800,7 +1801,7 @@
         ]
       },
       {
-        "name": "Convent Heart",
+        "name": "CoOLotCV: Lower west statue",
         "access_rules": [
           "lung"
         ],
@@ -1951,8 +1952,9 @@
       {
         "name": "CoOLotCV: Mask room",
         "access_rules": [
-          "key_peaks, key_secular, key_scribe, masks:1",
-          
+          "key_peaks, key_secular, key_scribe, masks:1, boss_esdras",
+          "key_peaks, key_secular, key_scribe, masks:1, blood, dawn, throw_blood, expert",
+          "key_peaks, key_secular, key_scribe, masks:1, blood, tirana, expert",
           "toggle"
         ],
         "sections": [
@@ -1979,7 +1981,9 @@
       {
         "name": "CoOLotCV: Lady of the Six Sorrows",
         "access_rules": [
-          "key_peaks, key_secular, key_scribe, masks:1",
+          "key_peaks, key_secular, key_scribe, masks:1, boss_esdras",
+          "key_peaks, key_secular, key_scribe, masks:1, blood, dawn, throw_blood, expert",
+          "key_peaks, key_secular, key_scribe, masks:1, blood, tirana, expert",
           "toggle"
         ],
         "sections": [
@@ -2117,8 +2121,8 @@
         "name": "Graveyard Cherub 1",
         "access_rules": [
           "blood",
-          
-          "linen", "$pillar"
+          "linen",
+          "$pillar"
         ],
         "sections": [
           {
@@ -2169,13 +2173,12 @@
         "name": "Graveyard Cherub 3",
         "access_rules": [
           "blood",
-          "ruby",
-          "throw_blood",
           "lorquiana",
           "cante",
           "cantina",
           "$pillar",
-          "aubade"
+          "aubade",
+          "verdiales"
         ],
         "sections": [
           {
@@ -2200,8 +2203,7 @@
       {
         "name": "Graveyard Cherub 4",
         "access_rules": [
-          "linen",
-          "verdiales", "cante"
+          "open"
         ],
         "sections": [
           {
@@ -2226,7 +2228,8 @@
       {
         "name": "Graveyard Bone 1",
         "access_rules": [
-          "$canBreakHoles"
+          "$canBreakHoles",
+          "blood"
         ],
         "sections": [
           {
@@ -2349,7 +2352,7 @@
         ]
       },
       {
-        "name": "GA: End of blood bridge",
+        "name": "GotP: Upper east shaft",
         "access_rules": [
           "blood, tongues"
         ],
@@ -2376,7 +2379,7 @@
       {
         "name": "It's such a specific jump you might wanna look it up tbh",
         "access_rules": [
-          "tongues"
+          "tongues, blood"
         ],
         "sections": [
           {
@@ -2571,7 +2574,7 @@
           {
             "name": "FREE HIM",
             "item_count": 1,
-            "access_rules": [ "linen", "ruby", "throw_blood", "lorquiana","cante" ]
+            "access_rules": [ "ruby", "throw_blood", "lorquiana", "cante", "cantina", "aubade", "dawn", "wheel" ]
 
           },
           {
@@ -2975,7 +2978,8 @@
       {
         "name": "Jondo Prayer",
         "access_rules": [
-          "tongues"
+          "tongues",
+          "linen"
         ],
         "sections": [
           {
@@ -3000,7 +3004,9 @@
       {
         "name": "Jondo: Upper west tree root",
         "access_rules": [
-          "tongues"
+          "tongues",
+          "dawn",
+          "wheel, throw_blood, expert"
         ],
         "sections": [
           {
@@ -3545,7 +3551,7 @@
       {
         "name": "GA: Miasma room floor",
         "access_rules": [
-          "open"
+          "[lung]"
         ],
         "sections": [
           {
@@ -3568,7 +3574,7 @@
         ]
       },
       {
-        "name": "Melted Coins and Cherub",
+        "name": "GA: End of blood bridge",
         "access_rules": [
           "blood"
         ],
@@ -3577,7 +3583,7 @@
             "name": "FREE HIM",
             "item_count": 1,
             "access_rules": [
-              "$pillar", "tirana"
+              "$pillar", "tirana", "cante", "verdiales", "throw_blood, aubade"
 
             ]
           },
@@ -3661,7 +3667,11 @@
         "access_rules": [
           "tongues",
           "$pillar",
-          "tirana"
+          "tirana",
+          "lorquiana",
+          "zarabanda",
+          "cante",
+          "aubade"
         ],
         "sections": [
           {
@@ -3713,7 +3723,7 @@
       {
         "name": "GA: Visage of Contrition",
         "access_rules": [
-          "open"
+          "boss_tres"
         ],
         "sections": [
           {
@@ -3802,7 +3812,7 @@
   {
     "name": "Cistern Checks",
     "access_rules": [
-      "boss_ten","linen","blood, tirana"],
+      "boss_ten","linen, [boss_ten]"],
     "children": 
     [
       {
@@ -3962,7 +3972,7 @@
       {
         "name": "Cistern Cherub 1",
         "access_rules": [
-          "nail", "$pillar", "linen", "tirana"
+          "nail", "$pillar", "linen", "tirana", "aubade", "cante", "throw_blood"
         ],
         "sections": [
           {
@@ -4223,7 +4233,7 @@
       {
         "name": "Cistern Cherub 5",
         "access_rules": [
-          "blood, linen", "$pillar, lung, nail", "tirana, lung, nail", "boss_tres, linen"
+          "blood, linen", "$pillar, lung, nail", "boss_tres, linen"
         ],
         "sections": [
           {
@@ -4249,7 +4259,7 @@
       {
         "name": "DC: Elevator shaft ledge",
         "access_rules": [
-          "linen"
+          "linen, blood", "boss_tres, linen"
         ],
         "sections": [
           {
@@ -4496,7 +4506,7 @@
           },
           {
             "name": "Olive Seeds",
-            "access_rules": ["tongues"],
+            "access_rules": ["tongues", "dawn", "wheel, throw_blood, expert"],
             "item_count": 1
           }
 
@@ -4517,7 +4527,7 @@
       },
       {
         "name": "PotSS: Climb to WotHP",
-        "access_rules": [ "blood, tongues", "key_scribe, boss_bishop" ],
+        "access_rules": [ "blood, tongues", "key_secular, boss_bishop, masks:1" ],
         "sections": [
           {
             "name": "Can also be grabbed from prison exit without relics",
@@ -4590,7 +4600,7 @@
       },
       {
         "name": "PotSS: Second area ledge",
-        "access_rules": [ "$speed, throw_blood", "tongues" ],
+        "access_rules": [ "wheel, throw_blood, expert", "tongues", "dawn" ],
         "sections": [
           {
             "name": "Patio Rosary",
@@ -4876,7 +4886,7 @@
       },
       {
         "name": "MoM: East chandelier platform",
-        "access_rules": [ "blood", "dawn", "wheel, throw_blood"],
+        "access_rules": [ "blood", "dawn", "wheel, throw_blood, expert"],
         "sections": [
           {
             "name": "Mothers Bone 4",
@@ -4924,7 +4934,7 @@
       },
       {
         "name": "MoM: Upper east ledge",
-        
+        "access_rules": [ "open" ],
         "sections": [
           {
             "name": "Mothers Rosary",
@@ -5176,7 +5186,7 @@
       {
         "name": "Diosdado 1",
         "access_rules": [
-          "blood"
+          "open"
         ],
         "sections": [
           {
@@ -5227,7 +5237,7 @@
       {
         "name": "LotNW: Hidden floor",
         "access_rules": [
-          "open"
+          "$canBreakHoles"
         ],
         "sections": [
           {
@@ -5579,7 +5589,7 @@
       {
         "name": "LotNW: Lowest west upper ledge",
         "access_rules": [
-          "blood"
+          "open"
         ],
         "sections": [
           {
@@ -5877,7 +5887,7 @@
       {
         "name": "MaH: Upper east chest",
         "access_rules": [
-          "tongues"
+          "tongues", "dawn, throw_blood, expert"
         ],
         "sections": [
           {
@@ -5902,7 +5912,7 @@
       {
         "name": "MaH: Sierpes",
         "access_rules": [
-          "tongues", "dawn", "nail"
+          "tongues", "dawn", "nail", "wheel, throw_blood, expert"
         ],
         "sections": [
           {
@@ -6069,7 +6079,7 @@
           {
             "name": "AR: Lady of the Six Sorrows",
             "access_rules": [
-              "blood, tongues, lung", "blood, tongues, tiento"
+              "blood, tongues, lung", "blood, tongues, [lung], tiento"
             ],
             "sections": [
               {
@@ -6094,7 +6104,7 @@
           {
             "name": "AR: Upper west shaft ledge",
             "access_rules": [
-              "masks:1, linen"
+              "open"
             ],
             "sections": [
               {
@@ -6120,7 +6130,7 @@
             "name": "AR: Upper east shaft ledge",
             "access_rules": [
               "masks:1, blood, tongues, lung",
-              "masks:1, blood, tongues, tiento"
+              "masks:1, blood, tongues, [lung], tiento"
             ],
             "sections": [
               {
@@ -6262,7 +6272,7 @@
             "name": "Mea Culpa Shrine #6",
             "access_rules": [
               "masks:2, blood, lung",
-              "masks:2, blood, tiento"
+              "masks:2, blood, [lung], tiento"
             ],
             "sections": [
               {
@@ -6415,10 +6425,7 @@
                     "y": 882
                   }
                 ]
-              }
-              
-              
-
+              }              
             ]
           },
           {
